@@ -11,7 +11,7 @@
 
 
 # Attention-Sink Applications in Model Compression
-|Paper|Author|Conference|
+|Paper|Conference|Author|
 |:---:|:---:|:---:|
 |[Prefixing Attention Sinks can Mitigate Activation Outliers for Large Language Model Quantization](https://arxiv.org/abs/2406.12016)|EMNLP2024|POSTECH|
 |[SinkQ: Accurate 2-bit KV Cache Quantization with Dynamic Sink Tracking](https://openreview.net/forum?id=bJ33TvbJW0)|ICLR submission||
@@ -27,7 +27,7 @@
 
 
 # Attention-Sink Applications in Enhancing Model Performance
-|Paper|Author|Conference|
+|Paper|Conference|Author|
 |:---:|:---:|:---:|
 |[Enhanced Structured State Space Models via Grouped FIR Filtering and Attention Sink Mechanisms](https://arxiv.org/abs/2408.00244)||University of Manchester|
 |[SinkLoRA: Enhanced Efficiency and Chat Capabilities for Long-Context Large Language Models](https://arxiv.org/abs/2406.05678)|||
@@ -36,8 +36,9 @@
 |[Mamba-R: Vision Mamba ALSO Needs Registers](Mamba-R: Vision Mamba ALSO Needs Registers)||Johns Hopkins University|
 |[Robustness Tokens: Towards Adversarial Robustness of Transformers](https://eccv.ecva.net/virtual/2024/poster/2297)|ECCV2024|University of Geneva|
 
+
 # Attention-Sink Application of Others
-|Paper|Author|Conference|
+|Paper|Conference|Author|
 |:---:|:---:|:---:|
 |[Zero-Shot RTL Code Generation with Attention Sink Augmented Large Language Models](https://arxiv.org/abs/2401.08683)||Ozyegin University|
 |[SEED-Story: Multimodal Long Story Generation with Large Language Model](https://arxiv.org/abs/2407.08683)|||
