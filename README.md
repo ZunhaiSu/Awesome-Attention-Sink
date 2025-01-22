@@ -35,7 +35,7 @@
 |[SinkLoRA: Enhanced Efficiency and Chat Capabilities for Long-Context Large Language Models](https://arxiv.org/abs/2406.05678)|||
 |[Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs](https://link.springer.com/chapter/10.1007/978-3-031-73010-8_8)|ECCV2024|Zhejiang University|
 |[VASparse: Towards Efficient Visual Hallucination Mitigation for Large Vision-Language Model via Visual-Aware Sparsification](https://arxiv.org/abs/2501.06553)||Peking University|
-|[Mamba-R: Vision Mamba ALSO Needs Registers](Mamba-R: Vision Mamba ALSO Needs Registers)||Johns Hopkins University|
+|[Mamba-R: Vision Mamba ALSO Needs Registers](https://arxiv.org/abs/2405.14858)||Johns Hopkins University|
 |[Robustness Tokens: Towards Adversarial Robustness of Transformers](https://eccv.ecva.net/virtual/2024/poster/2297)|ECCV2024|University of Geneva|
 
 
