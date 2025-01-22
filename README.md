@@ -23,6 +23,8 @@
 |[MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression](https://arxiv.org/abs/2406.14909)||Tsinghua University|
 |[Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters](https://arxiv.org/abs/2406.12335)|EMNLP2024|Nara Institute of Science and Technology|
 |[IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact](https://arxiv.org/abs/2403.01241)|ACL2024|Tsinghua University|
+|[DFRot: Achieving Outlier-Free and Massive Activation-Free for Rotated LLMs with Refined Rotation](https://arxiv.org/abs/2412.00648)|ICLR submission|Zhejiang University|
+
 
 # Attention-Sink Applications in Enhancing Model Performance
 |Paper|Author|Conference|
@@ -32,7 +34,7 @@
 |[Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs](https://link.springer.com/chapter/10.1007/978-3-031-73010-8_8)|ECCV2024|Zhejiang University|
 |[VASparse: Towards Efficient Visual Hallucination Mitigation for Large Vision-Language Model via Visual-Aware Sparsification](https://arxiv.org/abs/2501.06553)||Peking University|
 |[Mamba-R: Vision Mamba ALSO Needs Registers](Mamba-R: Vision Mamba ALSO Needs Registers)||Johns Hopkins University|
-
+|[Robustness Tokens: Towards Adversarial Robustness of Transformers](https://eccv.ecva.net/virtual/2024/poster/2297)|ECCV2024|University of Geneva|
 
 # Attention-Sink Application of Others
 |Paper|Author|Conference|
