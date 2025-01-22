@@ -8,6 +8,8 @@
 |[Active-Dormant Attention Heads: Mechanistically Demystifying Extreme-Token Phenomena in LLMs](https://arxiv.org/abs/2410.13835)|ICLR submission|UC Berkeley|
 |[Massive Activations in Large Language Models](https://arxiv.org/abs/2402.17762)|COLM2024|Carnegie Mellon University|
 |[Vision Transformers Need Registers](https://arxiv.org/abs/2309.16588)|ICLR2024|FAIR|
+|[Mitigating Quantization Errors Due to Activation Spikes in GLU-Based LLMs](https://arxiv.org/abs/2405.14428)|||
+
 
 
 # Attention-Sink Applications in Model Compression
@@ -28,6 +30,11 @@
 |[SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models](https://arxiv.org/abs/2405.06219)|COLM2024|Shanghai AI Laboratory|
 |[KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization](https://arxiv.org/abs/2401.18079)|NeurIPS2024|University of California, Berkeley|
 |[PrefixQuant: Static Quantization Beats Dynamic through Prefixed Outliers in LLMs](https://arxiv.org/abs/2410.05265)|ICLR submission|The University of Hong Kong|
+|[PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling](https://arxiv.org/abs/2406.02069)|ICLR submission|University of Wisconsin|
+|[ZipCache](https://arxiv.org/abs/2405.14256)|||
+|[LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models](https://aclanthology.org/2024.naacl-long.222/)|||
+
+
 
 # Attention-Sink Applications in Enhancing Model Performance
 |Paper|Conference|Author|
