@@ -13,6 +13,7 @@
 # Attention-Sink Applications in Model Compression
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
+|[A Survey on Large Language Model Acceleration based on KV Cache Management](https://arxiv.org/abs/2412.19442)|| The Hong Kong Polytechnic University|
 |[Prefixing Attention Sinks can Mitigate Activation Outliers for Large Language Model Quantization](https://arxiv.org/abs/2406.12016)|EMNLP2024|POSTECH|
 |[SinkQ: Accurate 2-bit KV Cache Quantization with Dynamic Sink Tracking](https://openreview.net/forum?id=bJ33TvbJW0)|ICLR submission||
 |[DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads](https://arxiv.org/abs/2410.10819)|ICLR submission|MIT|
