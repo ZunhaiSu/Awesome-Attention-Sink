@@ -24,7 +24,9 @@
 |[Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters](https://arxiv.org/abs/2406.12335)|EMNLP2024|Nara Institute of Science and Technology|
 |[IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact](https://arxiv.org/abs/2403.01241)|ACL2024|Tsinghua University|
 |[DFRot: Achieving Outlier-Free and Massive Activation-Free for Rotated LLMs with Refined Rotation](https://arxiv.org/abs/2412.00648)|ICLR submission|Zhejiang University|
-
+|[SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models](https://arxiv.org/abs/2405.06219)|COLM2024|Shanghai AI Laboratory|
+|[KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization](https://arxiv.org/abs/2401.18079)|NeurIPS2024|University of California, Berkeley|
+|[PrefixQuant: Static Quantization Beats Dynamic through Prefixed Outliers in LLMs](https://arxiv.org/abs/2410.05265)|ICLR submission|The University of Hong Kong|
 
 # Attention-Sink Applications in Enhancing Model Performance
 |Paper|Conference|Author|
