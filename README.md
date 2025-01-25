@@ -11,6 +11,8 @@
 |[Mitigating Quantization Errors Due to Activation Spikes in GLU-Based LLMs](https://arxiv.org/abs/2405.14428)|||
 |[Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing](https://arxiv.org/abs/2306.12929)|||
 |[Revealing the Dark Secrets of BERT](https://arxiv.org/abs/1908.08593)|||
+|[Understanding and Overcoming the Challenges of Efficient Transformer Quantization](https://arxiv.org/abs/2109.12948)|||
+[BERT Busters: Outlier Dimensions that Disrupt Transformers](https://arxiv.org/abs/2105.06990)|||
 
 
 # Attention-Sink Applications in Model Compression
@@ -26,9 +28,7 @@
 |[RazorAttention: Efficient KV Cache Compression Through Retrieval Heads](https://arxiv.org/pdf/2407.15891)||1Huawei Technologies Co., Ltd|
 |[MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression](https://arxiv.org/abs/2406.14909)||Tsinghua University|
 |[Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters](https://arxiv.org/abs/2406.12335)|EMNLP2024|Nara Institute of Science and Technology|
-
 |[DFRot: Achieving Outlier-Free and Massive Activation-Free for Rotated LLMs with Refined Rotation](https://arxiv.org/abs/2412.00648)|ICLR submission|Zhejiang University|
-
 |[PrefixQuant: Static Quantization Beats Dynamic through Prefixed Outliers in LLMs](https://arxiv.org/abs/2410.05265)|ICLR submission|The University of Hong Kong|
 |[PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling](https://arxiv.org/abs/2406.02069)|ICLR submission|University of Wisconsin|
 |[ZipCache](https://arxiv.org/abs/2405.14256)|||
