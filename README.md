@@ -9,7 +9,8 @@
 |[Massive Activations in Large Language Models](https://arxiv.org/abs/2402.17762)|COLM2024|Carnegie Mellon University|
 |[Vision Transformers Need Registers](https://arxiv.org/abs/2309.16588)|ICLR2024|FAIR|
 |[Mitigating Quantization Errors Due to Activation Spikes in GLU-Based LLMs](https://arxiv.org/abs/2405.14428)|||
-
+|[Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing](https://arxiv.org/abs/2306.12929)|||
+|[Revealing the Dark Secrets of BERT](https://arxiv.org/abs/1908.08593)|||
 
 
 # Attention-Sink Applications in Model Compression
