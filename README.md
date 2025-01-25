@@ -25,16 +25,21 @@
 |[RazorAttention: Efficient KV Cache Compression Through Retrieval Heads](https://arxiv.org/pdf/2407.15891)||1Huawei Technologies Co., Ltd|
 |[MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression](https://arxiv.org/abs/2406.14909)||Tsinghua University|
 |[Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters](https://arxiv.org/abs/2406.12335)|EMNLP2024|Nara Institute of Science and Technology|
-|[IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact](https://arxiv.org/abs/2403.01241)|ACL2024|Tsinghua University|
+
 |[DFRot: Achieving Outlier-Free and Massive Activation-Free for Rotated LLMs with Refined Rotation](https://arxiv.org/abs/2412.00648)|ICLR submission|Zhejiang University|
-|[SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models](https://arxiv.org/abs/2405.06219)|COLM2024|Shanghai AI Laboratory|
-|[KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization](https://arxiv.org/abs/2401.18079)|NeurIPS2024|University of California, Berkeley|
+
 |[PrefixQuant: Static Quantization Beats Dynamic through Prefixed Outliers in LLMs](https://arxiv.org/abs/2410.05265)|ICLR submission|The University of Hong Kong|
 |[PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling](https://arxiv.org/abs/2406.02069)|ICLR submission|University of Wisconsin|
 |[ZipCache](https://arxiv.org/abs/2405.14256)|||
 |[LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models](https://aclanthology.org/2024.naacl-long.222/)|||
 
-
+# Attention-Sink Applications in KV Cache Quantization
+|Paper|Conference|Author|
+|:---:|:---:|:---:|
+|[KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization](https://arxiv.org/abs/2401.18079)|NeurIPS2024|University of California, Berkeley|
+|[SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models](https://arxiv.org/abs/2405.06219)|COLM2024|Shanghai AI Laboratory|
+|[IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact](https://arxiv.org/abs/2403.01241)|ACL2024|Tsinghua University|
+|[Q-Hitter: A Better Token Oracle for Efficient LLM Inference via Sparse-Quantized KV Cache](https://proceedings.mlsys.org/paper_files/paper/2024/hash/bbb7506579431a85861a05fff048d3e1-Abstract-Conference.html)|MLSys2024|University of Texas at Austin|
 
 # Attention-Sink Applications in Enhancing Model Performance
 |Paper|Conference|Author|
