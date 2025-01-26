@@ -13,6 +13,7 @@
 |[Revealing the Dark Secrets of BERT](https://arxiv.org/abs/1908.08593)|||
 |[Understanding and Overcoming the Challenges of Efficient Transformer Quantization](https://arxiv.org/abs/2109.12948)|||
 [BERT Busters: Outlier Dimensions that Disrupt Transformers](https://arxiv.org/abs/2105.06990)|||
+|[What Does BERT Look at? An Analysis of BERT’s Attention](https://aclanthology.org/W19-4828.pdf)|||
 |[Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters](https://arxiv.org/abs/2406.12335)|EMNLP2024|Nara Institute of Science and Technology|
 |[SinkQ: Accurate 2-bit KV Cache Quantization with Dynamic Sink Tracking](https://openreview.net/forum?id=bJ33TvbJW0)|ICLR submission||
 
