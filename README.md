@@ -3,7 +3,7 @@
 |:---:|:---:|:---:|
 |[Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)|ICLR 2024|MIT|
 |[Unveiling and Harnessing Hidden Attention Sinks: Enhancing Large Language Models without Training through Attention Calibration](https://arxiv.org/abs/2406.15765)|ICML2024|Georgia Institute of Technology|
-|[When Attention Sink Emerges in Language Models: An Empirical View](https://arxiv.org/abs/2406.15765)|ICLR submission|Sea AI Lab|
+|[When Attention Sink Emerges in Language Models: An Empirical View](https://arxiv.org/abs/2410.10781)|ICLR submission|Sea AI Lab|
 |[Spectral Filters, Dark Signals, and Attention Sinks](https://arxiv.org/abs/2402.09221)||FAIR|
 |[Active-Dormant Attention Heads: Mechanistically Demystifying Extreme-Token Phenomena in LLMs](https://arxiv.org/abs/2410.13835)|ICLR submission|UC Berkeley|
 |[Massive Activations in Large Language Models](https://arxiv.org/abs/2402.17762)|COLM2024|Carnegie Mellon University|
