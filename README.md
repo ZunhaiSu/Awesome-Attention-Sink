@@ -29,6 +29,8 @@
 |[PrefixQuant: Static Quantization Beats Dynamic through Prefixed Outliers in LLMs](https://arxiv.org/abs/2410.05265)|ICLR submission|The University of Hong Kong|
 |[ZipCache](https://arxiv.org/abs/2405.14256)|||
 |[LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models](https://aclanthology.org/2024.naacl-long.222/)|||
+|[An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models](https://ccfddl.com/)|||
+
 
 # Attention-Sink Applications in KV Cache Compression
 |Paper|Conference|Author|
