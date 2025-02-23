@@ -1,6 +1,7 @@
 # Attention-Sink Theory  
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
+|[Attention Sinks and Outlier Features: A 'Catch, Tag, and Release' Mechanism for Embeddings](https://arxiv.org/abs/2502.00919)|||
 |[Systematic Outliers in Large Language Models](https://arxiv.org/abs/2502.06415)|||
 |[Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)|ICLR 2024|MIT|
 |[Unveiling and Harnessing Hidden Attention Sinks: Enhancing Large Language Models without Training through Attention Calibration](https://arxiv.org/abs/2406.15765)|ICML2024|Georgia Institute of Technology|
@@ -49,6 +50,7 @@
 # Attention-Sink Applications in Enhancing Model Performance
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
+|[Mirage in the Eyes](Mirage in the Eyes: Hallucination Attack on Multi-modal Large Language Models with Only Attention Sink)|||
 |[Enhanced Structured State Space Models via Grouped FIR Filtering and Attention Sink Mechanisms](https://arxiv.org/abs/2408.00244)||University of Manchester|
 |[SinkLoRA: Enhanced Efficiency and Chat Capabilities for Long-Context Large Language Models](https://arxiv.org/abs/2406.05678)|||
 |[Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs](https://link.springer.com/chapter/10.1007/978-3-031-73010-8_8)|ECCV2024|Zhejiang University|
