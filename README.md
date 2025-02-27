@@ -38,6 +38,7 @@
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
 |[A Survey on Large Language Model Acceleration based on KV Cache Management](https://arxiv.org/abs/2412.19442)|| The Hong Kong Polytechnic University|
+|[Keep the Cost Down: A Review on Methods to Optimize LLM' s KV-Cache Consumption](https://arxiv.org/abs/2407.18003)|||
 |[KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization](https://arxiv.org/abs/2401.18079)|NeurIPS2024|University of California, Berkeley|
 |[SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models](https://arxiv.org/abs/2405.06219)|COLM2024|Shanghai AI Laboratory|
 |[IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact](https://arxiv.org/abs/2403.01241)|ACL2024|Tsinghua University|
