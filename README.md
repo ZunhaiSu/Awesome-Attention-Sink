@@ -12,6 +12,8 @@
 |[Vision Transformers Need Registers](https://arxiv.org/abs/2309.16588)|ICLR2024|FAIR|
 |[Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing](https://arxiv.org/abs/2306.12929)|||
 |[Understanding and Overcoming the Challenges of Efficient Transformer Quantization](https://arxiv.org/abs/2109.12948)|||
+|[HiRED: Attention-Guided Token Dropping for Efficient Inference of High-Resolution Vision-Language Models](https://arxiv.org/abs/2408.10945)|||
+|[Don't Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models](https://arxiv.org/abs/2405.17820)|||
 # Attention-Sink Theory  
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
