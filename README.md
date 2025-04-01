@@ -1,3 +1,17 @@
+# Vision Attention Sink
+|Paper|Conference|Author|
+|:---:|:---:|:---:|
+|[See What You Are Told: Visual Attention Sink in Large Multimodal Models](https://arxiv.org/abs/2503.03321)|||
+|[Visual Attention Never Fades: Selective Progressive Attention ReCalibration for Detailed Image Captioning in Multimodal Large Language Models](https://arxiv.org/abs/2502.01419)|||
+|[Mirage in the Eyes: Hallucination Attack on Multi-modal Large Language Models with Only Attention Sink](https://arxiv.org/abs/2501.15269)|||
+|[Seeing Clearly by Layer Two: Enhancing Attention Heads to Alleviate Hallucination in LVLMs](https://arxiv.org/abs/2411.09968)|||
+|[Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs](https://link.springer.com/chapter/10.1007/978-3-031-73010-8_8)|||
+|[Boosting Multimodal Large Language Models with Visual Tokens Withdrawal for Rapid Inference](https://arxiv.org/abs/2405.05803)|||
+|[Massive Activations in Large Language Models](https://arxiv.org/abs/2402.17762)|||
+|[An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-031-73004-7_2)|||
+|[Vision Transformers Need Registers](https://arxiv.org/abs/2309.16588)|ICLR2024|FAIR|
+|[Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing](https://arxiv.org/abs/2306.12929)|||
+|[Understanding and Overcoming the Challenges of Efficient Transformer Quantization](https://arxiv.org/abs/2109.12948)|||
 # Attention-Sink Theory  
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
