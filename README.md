@@ -19,6 +19,7 @@
 # Attention-Sink Theory  
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
+|[Information Flow Routes: Automatically Interpreting Language Models at Scale](https://arxiv.org/abs/2403.00824)|||
 |[Attention Sinks and Outlier Features: A 'Catch, Tag, and Release' Mechanism for Embeddings](https://arxiv.org/abs/2502.00919)|||
 |[Systematic Outliers in Large Language Models](https://arxiv.org/abs/2502.06415)|||
 |[Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)|ICLR 2024|MIT|
