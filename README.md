@@ -1,11 +1,12 @@
 # Vision Attention Sink
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
-|[Mitigating Object Hallucinations in Large Vision-Language Models with Assembly of Global and Local Attention](https://arxiv.org/abs/2406.12718)|||
-|[See What You Are Told: Visual Attention Sink in Large Multimodal Models](https://arxiv.org/abs/2503.03321)|||
-|[Visual Attention Never Fades: Selective Progressive Attention ReCalibration for Detailed Image Captioning in Multimodal Large Language Models](https://arxiv.org/abs/2502.01419)|||
-|[Mirage in the Eyes: Hallucination Attack on Multi-modal Large Language Models with Only Attention Sink](https://arxiv.org/abs/2501.15269)|||
+|[VASparse: Towards Efficient Visual Hallucination Mitigation for Large Vision-Language Model via Visual-Aware Sparsification](https://arxiv.org/abs/2501.06553)||Peking University|
 |[Seeing Clearly by Layer Two: Enhancing Attention Heads to Alleviate Hallucination in LVLMs](https://arxiv.org/abs/2411.09968)|||
+|[See What You Are Told: Visual Attention Sink in Large Multimodal Models](https://arxiv.org/abs/2503.03321)|||
+|[Mirage in the Eyes: Hallucination Attack on Multi-modal Large Language Models with Only Attention Sink](https://arxiv.org/abs/2501.15269)|||
+|[Mitigating Object Hallucinations in Large Vision-Language Models with Assembly of Global and Local Attention](https://arxiv.org/abs/2406.12718)|||
+|[Visual Attention Never Fades: Selective Progressive Attention ReCalibration for Detailed Image Captioning in Multimodal Large Language Models](https://arxiv.org/abs/2502.01419)|||
 |[Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs](https://link.springer.com/chapter/10.1007/978-3-031-73010-8_8)|||
 |[Boosting Multimodal Large Language Models with Visual Tokens Withdrawal for Rapid Inference](https://arxiv.org/abs/2405.05803)|||
 |[Massive Activations in Large Language Models](https://arxiv.org/abs/2402.17762)|||
@@ -15,7 +16,6 @@
 |[Understanding and Overcoming the Challenges of Efficient Transformer Quantization](https://arxiv.org/abs/2109.12948)|||
 |[HiRED: Attention-Guided Token Dropping for Efficient Inference of High-Resolution Vision-Language Models](https://arxiv.org/abs/2408.10945)|||
 |[Don't Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models](https://arxiv.org/abs/2405.17820)|||
-|[VASparse: Towards Efficient Visual Hallucination Mitigation for Large Vision-Language Model via Visual-Aware Sparsification](https://arxiv.org/abs/2501.06553)||Peking University|
 # Attention-Sink Theory  
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
