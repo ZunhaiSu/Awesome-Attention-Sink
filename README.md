@@ -1,6 +1,7 @@
 # Vision Attention Sink
 |Paper|Conference|Author|
 |:---:|:---:|:---:|
+|[Mitigating Object Hallucinations in Large Vision-Language Models with Assembly of Global and Local Attention](https://arxiv.org/abs/2406.12718)|||
 |[See What You Are Told: Visual Attention Sink in Large Multimodal Models](https://arxiv.org/abs/2503.03321)|||
 |[Visual Attention Never Fades: Selective Progressive Attention ReCalibration for Detailed Image Captioning in Multimodal Large Language Models](https://arxiv.org/abs/2502.01419)|||
 |[Mirage in the Eyes: Hallucination Attack on Multi-modal Large Language Models with Only Attention Sink](https://arxiv.org/abs/2501.15269)|||
