@@ -233,6 +233,7 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 ### Multi-Modal Large Language Models
 | Paper | Year | Exploitation | Understanding | Elimination | Application | Venue | Link |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs** | 2026 | Attention Redistribution, Sink Tokens Repurposing | Outlier Circuits, Implicit Attention Bias | Cross-Layer Positive Attention Dynamics | Reducing Hallucination | ACL | [Link](https://arxiv.org/abs/2602.15556) |
 | **Sinktrack: Attention sink based context anchoring for large language models** | 2026 | Sink Token Preservation | - | - | Long-Context Enhancement, Reducing Hallucination | ICLR | [Link](https://arxiv.org/abs/2602.10718) |
 | **Vlm-sink: Visual attention sink for large multimodal models** | 2026 | Sink Token Preservation | - | - | Multi-Modal Enhancement, Mechanism Interpretability | ICLR | [Link](https://arxiv.org/abs/2601.16725) |
 | **Attention reallocation: Towards zero-cost and controllable hallucination mitigation of mllms** | 2026 | Attention Redistribution | - | - | Reducing Hallucination, MultiModal-Enhancement | IJCV | [Link](https://arxiv.org/abs/2510.07651) |
