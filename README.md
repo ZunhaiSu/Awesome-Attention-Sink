@@ -319,10 +319,10 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 If you find this survey or repository useful for your research, please cite:
 
 ```bibtex
-@article{su2026attentionsink,
+@article{su2026attention,
   title={Attention Sink in Transformers: A Survey on Utilization, Interpretation, and Mitigation},
-  author={Su, Zunhai and ...},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  author={Su, Zunhai and Zhang, Hengyuan and Wu, Wei and Zhang, Yifan and Liu, Yaxiu and Xiao, He and Yang, Qingyao and Sun, Yuxuan and Yang, Rui and Zhang, Chao and others},
+  journal={arXiv preprint arXiv:2604.10098},
   year={2026}
 }
 ```
