@@ -104,6 +104,7 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 ### Large Language Models
 | Paper | Year | Exploitation | Understanding | Elimination | Application | Venue | Link |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **On the Existence and Behavior of Secondary Attention Sinks** | 2026 | - | - | - | Mechanism Interpretability | ICLR | [Link](https://github.com/JeffreyWong20/Secondary-Attention-Sinks) |
 | **The spike, the sparse and the sink: Anatomy of massive activations and attention sinks** | 2026 | - | - | - | Mechanism Interpretability | Arxiv | [Link](https://arxiv.org/abs/2603.05498) |
 | **Attention sinks induce gradient sinks** | 2026 | - | - | - | Mechanism Interpretability | Arxiv | [Link](https://arxiv.org/abs/2603.17771) |
 | **SinkTrack: KV-cache compression via attention sink preservation** | 2026 | Sink Token Preservation | - | - | Long-Context Enhancement, Reducing Hallucination | ICLR | [Link](https://openreview.net/forum?id=Gg1aPETCL6) |
