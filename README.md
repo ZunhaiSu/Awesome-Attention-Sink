@@ -104,6 +104,7 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 ### Large Language Models
 | Paper | Year | Exploitation | Understanding | Elimination | Application | Venue | Link |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **On the Existence and Behavior of Secondary Attention Sinks** | 2026 | - | - | - | Mechanism Interpretability | ICLR | [Link](https://github.com/JeffreyWong20/Secondary-Attention-Sinks) |
 | **The spike, the sparse and the sink: Anatomy of massive activations and attention sinks** | 2026 | - | - | - | Mechanism Interpretability | Arxiv | [Link](https://arxiv.org/abs/2603.05498) |
 | **Attention sinks induce gradient sinks** | 2026 | - | - | - | Mechanism Interpretability | Arxiv | [Link](https://arxiv.org/abs/2603.17771) |
 | **SinkTrack: KV-cache compression via attention sink preservation** | 2026 | Sink Token Preservation | - | - | Long-Context Enhancement, Reducing Hallucination | ICLR | [Link](https://openreview.net/forum?id=Gg1aPETCL6) |
@@ -116,7 +117,6 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 | **Attention Needs to Focus: A Unified Perspective on Attention Allocation** | 2026 | - | Softmax Limitations & No-Op Theory, Structural Bias | Modified Softmax, Learnable Attention Bias | Mechanism Interpretability | Arxiv | [Link](https://www.arxiv.org/abs/2601.00919) |
 | **Hybrid linear attention done right: Efficient distillation and effective architectures for extremely long contexts** | 2026 | - | - | Gated Attention | Model Pre-training | Arxiv | [Link](https://arxiv.org/abs/2601.22156) |
 | **SWAA: Sliding Window Attention Adaptation for Efficient Long-Context LLMs Without Pretraining** | 2025 | Sink Token Preservation | - | - | Long-Context Enhancement | Arxiv | [Link](https://arxiv.org/abs/2512.10411) |
-| **On the Existence and Behaviour of Secondary Attention Sinks** | 2025 | - | - | - | Mechanism Interpretability | Arxiv | [Link](https://arxiv.org/abs/2512.22213) |
 | **TWEO: Transformers Without Extreme Outliers Enables FP8 Training And Quantization For Dummies** | 2025 | - | Outlier Circuits | Pre-training Interventions | Model Pre-training | Arxiv | [Link](https://arxiv.org/abs/2511.23225) |
 | **DoPE: Denoising Rotary Position Embedding** | 2025 | Attention Redistribution | Structural Bias | - | Long-Context Enhancement, Mechanism Interpretability | Arxiv | [Link](https://arxiv.org/abs/2511.09146) |
 | **Value-State Gated Attention for Mitigating Extreme-Token Phenomena in Transformers** | 2025 | - | Softmax Limitations & No-Op Theory, Outlier Circuits | Gated Attention | Model Inference, Model Pre-training, Mechanism Interpretability | Arxiv | [Link](https://arxiv.org/abs/2510.09017) |
