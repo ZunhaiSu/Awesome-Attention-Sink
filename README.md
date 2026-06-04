@@ -270,7 +270,7 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 | **Vggt: Visual geometry grounded transformer** | 2025 | Learnable Prefix Tokens | - | - | Model Pre-training, Multi-Modal Enhancement | CVPR | [Link](https://arxiv.org/abs/2501.15113) |
 | **Leveraging registers in vision transformers for robust adaptation** | 2025 | Sink Tokens Repurposing | - | - | Multi-Modal Enhancement, Safety & Robustness | ICASSP | [Link](https://arxiv.org/abs/2501.01103) |
 | **Massive activations in large language models** | 2024 | - | Outlier Circuits, Implicit Attention Bias | Learnable Attention Bias | Mechanism Interpretability | COLM | [Link](https://arxiv.org/abs/2402.17762) |
-| **Robustness tokens: Towards adversarial robustness of transformers** | 2024 | Sink Tokens Repurposing | - | - | Multi-Modal Enhancement, Safety & Robustness | ECCV | [Link](https://arxiv.org/abs/2410.01529) |
+| **Robustness tokens: Towards adversarial robustness of transformers** | 2024 | Sink Tokens Repurposing | - | - | Multi-Modal Enhancement, Safety & Robustness | ECCV | [Link](https://arxiv.org/abs/2503.10191) |
 | **Vision transformers need registers** | 2024 | Learnable Prefix Tokens | - | - | Multi-Modal Enhancement | ICLR | [Link](https://arxiv.org/abs/2410.05151) |
 | **Quantizable transformers: Removing outliers by helping attention heads do nothing** | 2023 | - | Outlier Circuits, Softmax Limitations & No-Op Theory | Gated Attention, Modified Softmax | Model Inference, Model Pre-training, Mechanism Interpretability | NeurIPS | [Link](https://arxiv.org/abs/2309.17453) |
 
