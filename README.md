@@ -127,6 +127,7 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 | **MiniCache: Efficient KV Cache Compression for Large Language Models** | 2024 | Sink Token Preservation | - | - | Model Inference | Arxiv | [Link](https://arxiv.org/abs/2405.14365) |
 | **Forgetting to Forget: Attention Sink as A Gateway for Backdooring LLM Unlearning** | 2025 | Sink Tokens Repurposing, Structural Bias | - | - | Safety & Robustness, Mechanism Interpretability | Arxiv | [Link](https://arxiv.org/abs/2510.17021) |
 | **PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling** | 2024 | Sink Token Preservation | - | - | Model Inference | Arxiv | [Link](https://arxiv.org/abs/2406.02069) |
+| **SCOPE: Optimizing Key-Value Cache Compression in Long-context Generation** | 2025 | Sink Token Preservation | - | - | Model Inference | ACL | [Link](https://arxiv.org/abs/2412.13649) |
 | **Hybrid Architectures for Language Models: Systematic Analysis and Design Insights** | 2025 | Sink Token Preservation | - | - | Model Inference | Arxiv | [Link](https://arxiv.org/abs/2510.04800) |
 | **Lost in the Middle: An Emergent Property from Information Retrieval Demands in LLMs** | 2025 | - | Structural Bias | - | Mechanism Interpretability | Arxiv | [Link](https://arxiv.org/abs/2510.10276) |
 | **Quest: Query-aware Sparsity for Efficient Long-context LLM Inference** | 2024 | Sink Token Preservation | - | - | Model Inference | Arxiv | [Link](https://arxiv.org/abs/2406.10774) |
