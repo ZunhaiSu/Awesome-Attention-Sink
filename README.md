@@ -81,7 +81,7 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 
 > Each paper is annotated with tags that correspond to three core dimensions of Attention Sink (AS): Fundamental Utilization, Mechanistic Interpretation, and Strategic Mitigation, along with its Application Domain.
 
-👉 **AS Paper List:** [https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
+👉 **[AS Paper List](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)**
 
 If you identify any errors or omissions in the list of Attention-Sink-related papers, please contact zh-su23@mails.tsinghua.edu.cn. We greatly appreciate your contributions and feedback.
 
