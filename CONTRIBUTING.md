@@ -6,6 +6,10 @@ Propose the appropriate existing categories without shortening their names. Labe
 
 Candidate records remain outside `data/papers.json` until reviewed. Record whether screening used the title, abstract, or full text. An author's venue announcement should remain distinct from a verified proceedings record.
 
+For a reviewed addition, record the versioned primary-source URL, checked sections, substantive finding, classification rationale, fine-grained mechanism, and limits in `data/reviews/`. Specify whether the reading was assisted and whether only key sections were checked. Do not infer a circuit from high norms, assign Geometric Anchoring to every spectral study, or confuse output-gate offsets with attention-logit biases. Keep diagnostic or negative interventions distinct from successful mitigation methods. An empty method category is preferable to a forced fit.
+
+Initial and supplemental retrieval snapshots are historical evidence. Preserve them and overlay new outcomes through review decisions. The Feishu importer is a one-time baseline tool, not an update command for the growing catalog.
+
 For catalog changes, update the authoritative data, then run:
 
 ```sh

@@ -75,6 +75,8 @@ def main():
     ap.add_argument('--until', default='2026-10-26')
     ap.add_argument('--cache', type=Path, required=True)
     args = ap.parse_args()
+    if (ROOT / 'data/reviews' / f'source-review-{args.until}.json').exists():
+        raise SystemExit('This discovery snapshot has review decisions. Preserve it and retrieve into a new dated or supplemental snapshot.')
     for value in [args.since, args.until]:
         dt.date.fromisoformat(value)
     date_filter = f'submittedDate:[{args.since.replace("-", "")}0000 TO {args.until.replace("-", "")}2359]'

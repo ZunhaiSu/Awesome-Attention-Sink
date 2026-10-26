@@ -29,7 +29,8 @@
 
 ## 🔥 Latest News
 
-- **[2026-10-26]** Recent-literature discovery is inventoried separately: **53 AS keyword candidates** and **20 related candidates** from June through the cutoff, with **48 lexical false matches excluded**. These are awaiting review, not additions to the 208-record formal catalog. [Scope and screening](docs/SEARCH.md) · [Candidate CSV](exports/candidates.csv).
+- **[2026-10-26]** **24 papers integrated after primary-source section checks**: 23 first submitted in June–October and one earlier omission. The formal catalog now has **232 records**. Each addition includes versioned source sections, classification reasons, fine-grained terms, and limitations. Across expanded discovery, **86 records remain pending** and **56 are excluded or contextual only**. [Evidence and coverage](docs/REVIEW_20261026.md) · [Reviewed additions CSV](exports/reviewed-additions.csv).
+- **[2026-10-26, initial inventory]** The first discovery stage retained **53 AS keyword candidates** and **20 related candidates**, with **48 lexical false matches excluded**. Subsequent source checks and expanded searches are reflected in the current totals above. [Initial scope and screening](docs/SEARCH.md) · [Current pending CSV](exports/candidates.csv).
 - **[2026-10-26]** The Feishu export has been migrated into a versioned catalog of **208 records**. Browse the [paper catalog](docs/CATALOG.md), download the [CSV](exports/papers.csv), or inspect the [data and provenance](docs/MIGRATION.md). Original labels and date precision are preserved.
 - **[2026-06-05]** 📊 **Paper list migrated!** The surveyed paper list has been migrated to an online spreadsheet for easier querying and continuous updates. Access it here: [AS Paper List](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
 - **[2026-06-05]** 📚 **Update!** New version released with **50+ new papers** added. Thanks for all the feedback! In addition, due to the growing number of works on Attention Sink in DiTs, a dedicated **subsection** has been introduced. Further feedback and discussion are always welcome.
@@ -79,17 +80,18 @@ The survey organizes the literature around three complementary research objectiv
 
 ## 📑 Paper List
 
-The formal catalog contains **208 migrated records**. It preserves three independent method dimensions—**Fundamental Utilization**, **Mechanistic Interpretation**, and **Strategic Mitigation**—alongside architecture and application labels. Labels can overlap.
+The formal catalog contains **232 records**: **208 migrated records** and **24 source-section-reviewed additions**. It preserves three independent method dimensions—**Fundamental Utilization**, **Mechanistic Interpretation**, and **Strategic Mitigation**—alongside architecture and application labels. Labels can overlap; a method subtype remains unassigned when none precisely fits.
 
 - [Browse the catalog](docs/CATALOG.md)
 - [Download CSV](exports/papers.csv) or [read canonical JSON](data/papers.json)
 - [Classification names and legacy mappings](data/taxonomy.json)
 - [Source preservation and migration checks](docs/MIGRATION.md)
 - [Recent candidates and search scope](docs/SEARCH.md)
+- [New-paper source evidence, classifications, and limits](docs/REVIEW_20261026.md)
 - [Contribute a paper or correction](CONTRIBUTING.md)
 - [Feishu collection and review table](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
 
-Publication labels are inherited from the supplied export and marked as not independently reverified. Updates to this online resource do not silently change the literature coverage of a manuscript version.
+Publication labels for inherited records remain unverified. New records use checked arXiv metadata and AI-assisted reading of specified primary-source sections; this does not constitute independent replication or verification of author-supplied venue announcements. Related register/outlier evidence is distinguished from direct sink measurements. This resource is not exhaustive. Updates do not silently change the coverage of a manuscript version.
 
 If you identify any errors or omissions in the list of Attention-Sink-related papers, please contact zh-su23@mails.tsinghua.edu.cn. We greatly appreciate your contributions and feedback.
 

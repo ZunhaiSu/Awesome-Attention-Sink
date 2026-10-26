@@ -11880,5 +11880,1562 @@
       "sheet": "Attention Sink Survey Paper List",
       "row": 210
     }
+  },
+  {
+    "id": "as-arxiv-2610.22975",
+    "title": "Sink-Sparse Hybrid Attention for Efficient Inference in T2I/T2V Diffusion Transformers",
+    "authors": [
+      "Bingxin Xing",
+      "Yu Zhang",
+      "Jiatong Ding",
+      "Lei Lu",
+      "Ping Wang"
+    ],
+    "identifiers": {
+      "arxiv": "2610.22975"
+    },
+    "date": {
+      "value": "2026-10-16",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "12 pages, 6 figures",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.22975",
+      "original": "https://arxiv.org/abs/2610.22975",
+      "full_text": "https://arxiv.org/html/2610.22975v1"
+    },
+    "classification": {
+      "architectures": [
+        "Diffusion Transformers"
+      ],
+      "utilization": [
+        "Sink Token Preservation"
+      ],
+      "interpretation": [],
+      "mitigation": [],
+      "applications": [
+        "Efficient Inference",
+        "Multi-Modal Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2610.22975",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "sink_dependent_application",
+      "sections": "§§3.2, 4.2–4.3, 5.5–6",
+      "finding": "Offline calibration builds reusable high-mass block masks; frozen DiTs use a sparse sink branch plus a pooled-KV compensation branch.",
+      "classification_rationale": "The method preserves existing high-mass support for inference acceleration. It neither trains a sink-free model nor adds learned prefix tokens.",
+      "limits": "The source uses sink broadly for recurring high-mass support, not necessarily semantically irrelevant tokens. Masks omit some useful context; compensation matters most at aggressive sparsity.",
+      "fine_grained": [
+        "Static sink-support masks",
+        "Pooled-KV compensation"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2610.16745",
+    "title": "Before Attention Sinks Form: Hidden-State Geometry Reveals and Modulates Their Formation",
+    "authors": [
+      "Fan Yang",
+      "Yue Song"
+    ],
+    "identifiers": {
+      "arxiv": "2610.16745"
+    },
+    "date": {
+      "value": "2026-10-12",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.16745",
+      "original": "https://arxiv.org/abs/2610.16745",
+      "full_text": "https://arxiv.org/html/2610.16745v1"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models",
+        "Mixture-of-Experts Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Other Mechanistic Interpretations"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2610.16745",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3.3, 5–8; Tables 3–4",
+      "finding": "Norm-matched singular-value interventions after a layer alter later position-0 sink behavior while preserving the current layer's attention.",
+      "classification_rationale": "Pre-sink spectral geometry is a mechanistic subtopic, not automatically Geometric Anchoring. Diagnostic causal edits are not presented as a validated mitigation policy.",
+      "limits": "Effects and their signs depend on model and cohort. Some models lack an identifiable pre-sink interval; longer contexts can remove onset variation.",
+      "fine_grained": [
+        "Pre-sink spectral geometry"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2610.15855",
+    "title": "Attention Sinks in VLMs Are Borrowed, Not Seen",
+    "authors": [
+      "Dengjia Zhang",
+      "Alexander Martin",
+      "Pengyu Yan",
+      "Xihan Sun",
+      "Jiaqi Li",
+      "Benjamin Van Durme",
+      "Andrew Yates",
+      "Reno Kriz",
+      "William Walden"
+    ],
+    "identifiers": {
+      "arxiv": "2610.15855"
+    },
+    "date": {
+      "value": "2026-10-11",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.15855",
+      "original": "https://arxiv.org/abs/2610.15855",
+      "full_text": "https://arxiv.org/html/2610.15855v2"
+    },
+    "classification": {
+      "architectures": [
+        "Multi-Modal Large Language Models"
+      ],
+      "utilization": [
+        "Attention Redistribution"
+      ],
+      "interpretation": [
+        "Implicit Attention Bias"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Mechanism Interpretability",
+        "Multi-Modal Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2610.15855",
+      "source_version": "v2"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3.2–3.4, 4–5; Table 2",
+      "finding": "Centered alignment with the text-sink key identifies visual sinks. A key-direction edit cleans the map used for an entropy-triggered crop-and-relook procedure.",
+      "classification_rationale": "The edit calibrates an existing model's attention; it is not training prevention. The shared text-sink key direction supports Implicit Attention Bias.",
+      "limits": "Removed visual attention mostly returns to the text sink rather than the target. Gemma-4 reads its visual sinks; small sink-free models can be harmed. The answering pass is unedited.",
+      "fine_grained": [
+        "Text-sink key alignment",
+        "Training-free map cleaning"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2610.06012",
+    "title": "Spectral Geometry of Attention: From Information Routing to Uncertainty",
+    "authors": [
+      "Giulio Viganò",
+      "Simone Melzi",
+      "Maks Ovsjanikov"
+    ],
+    "identifiers": {
+      "arxiv": "2610.06012"
+    },
+    "date": {
+      "value": "2026-10-05",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "This paper has been accepted as poster at Neurips 2026",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.06012",
+      "original": "https://arxiv.org/abs/2610.06012",
+      "full_text": "https://arxiv.org/html/2610.06012v1"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Other Mechanistic Interpretations"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2610.06012",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3.1.1–3.1.2, 4, 5.1, 6",
+      "finding": "A probability-weighted Token Difference Operator separates sink-biased column mass from centered routing structure and supports an uncertainty estimator.",
+      "classification_rationale": "Operator geometry is retained as its own mechanistic subtopic. Geometric language alone does not justify the narrower Geometric Anchoring category.",
+      "limits": "High sink mass need not imply routing collapse; output dimensionality also depends on values. Uncertainty estimation does not demonstrate sink removal or improved generation accuracy.",
+      "fine_grained": [
+        "Token Difference Operator",
+        "Intrinsic probability geometry"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2610.05488",
+    "title": "Underscoring the Problem: Why Softpick Fails at Initialization",
+    "authors": [
+      "Aryan Sood",
+      "Jaikaran Singh",
+      "Ishaan Bansal"
+    ],
+    "identifiers": {
+      "arxiv": "2610.05488"
+    },
+    "date": {
+      "value": "2026-10-04",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "23 pages, 4 Figures",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05488",
+      "original": "https://arxiv.org/abs/2610.05488",
+      "full_text": "https://arxiv.org/html/2610.05488v1"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Other Mechanistic Interpretations"
+      ],
+      "mitigation": [
+        "Modified Softmax Functions"
+      ],
+      "applications": [
+        "Model Pre-training",
+        "Long-Context Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2610.05488",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "sink_mitigation_followup",
+      "sections": "§§3–5; Table 1",
+      "finding": "Separating Softpick's forward and backward denominators exposes zero-support rows and tests a stop-gradient variant retaining the full forward denominator.",
+      "classification_rationale": "Modified normalization and its training gradient belong to Modified Softmax Functions. Gradient-path failure is retained as a distinct mechanistic subtopic.",
+      "limits": "The comparison is small-scale with one checkpoint per cell. Retrieval gains at 230M do not establish general long-context robustness; both stable operators fail beyond training context.",
+      "fine_grained": [
+        "Softpick denominator decomposition",
+        "Zero-support rows"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2610.03698",
+    "title": "Decoding the Functional Roles of Register and High-Norm Patch Tokens in Vision Transformers",
+    "authors": [
+      "Neel Varma",
+      "Andrew Rufail",
+      "Dipika Khullar",
+      "Vasu Sharma"
+    ],
+    "identifiers": {
+      "arxiv": "2610.03698"
+    },
+    "date": {
+      "value": "2026-10-02",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.03698",
+      "original": "https://arxiv.org/abs/2610.03698",
+      "full_text": "https://arxiv.org/html/2610.03698v1"
+    },
+    "classification": {
+      "architectures": [
+        "Vision Transformers"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Other Mechanistic Interpretations"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2610.03698",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "related_register_outlier",
+      "sections": "§§3, 4.3, 5.1",
+      "finding": "Token-specific SAEs and latent interventions compare register features with high-norm patch features in DINOv2, exposing different representation-stability effects.",
+      "classification_rationale": "Included as related register/outlier functional evidence. The source does not identify a complete sink-routing circuit, so the label remains Other Mechanistic Interpretations.",
+      "limits": "Reported semantic and causal analyses focus on DINOv2 Small layer 8. High norm, SAE semantics, and attention sinks must not be treated as equivalent; qualitative visualizations are exploratory.",
+      "fine_grained": [
+        "Register/outlier SAE comparison"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2610.00423",
+    "title": "The Life Cycle of a Massive Activation: Stochastic Birth, Weight-Decay-Driven Growth, and Competitive Consolidation",
+    "authors": [
+      "S. Aaron McClendon",
+      "Jorge Gallego-Feliciano",
+      "Antonios Saravanos"
+    ],
+    "identifiers": {
+      "arxiv": "2610.00423"
+    },
+    "date": {
+      "value": "2026-09-30",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.00423",
+      "original": "https://arxiv.org/abs/2610.00423",
+      "full_text": "https://arxiv.org/html/2610.00423v2"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Outlier Circuits"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2610.00423",
+      "source_version": "v2"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§4.2–4.7, 5",
+      "finding": "Continuation and perturbation studies separate decay-driven activation-scale turnover, stochastic channel identity, collective RMS effects, and AdamW-supported maintenance of a sink-associated cohort.",
+      "classification_rationale": "Outlier dynamics and joint channel ablations inform Outlier Circuits. Optimizer analyses are not a demonstrated sink-free optimizer proposal.",
+      "limits": "Magnitude-matched controls are strongest in small, weakly isolated models. The mechanism selecting eventual surviving channels remains unresolved.",
+      "fine_grained": [
+        "Stochastic massive-activation lifecycle",
+        "Collective RMS",
+        "Optimizer maintenance"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2609.35630",
+    "title": "Which the Eye Fears: Writing with Read-Blindness Explains Massive Activations in Transformers",
+    "authors": [
+      "Swagatam Mukhopadhyay",
+      "Vishal Vivek Saley",
+      "Vraj Parikh",
+      " Mausam"
+    ],
+    "identifiers": {
+      "arxiv": "2609.35630"
+    },
+    "date": {
+      "value": "2026-09-28",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.35630",
+      "original": "https://arxiv.org/abs/2609.35630",
+      "full_text": "https://arxiv.org/html/2609.35630v1"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Outlier Circuits"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2609.35630",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "related_register_outlier",
+      "sections": "§§3, 4.1–4.2, 6–7",
+      "finding": "Massive coordinates show asymmetric read/write access. Orthogonal or frozen read projections cause blindness to move to other pathways rather than remove massive activations.",
+      "classification_rationale": "Projection, FFN, and optimizer analyses concern outlier mechanisms. Partial suppression under a diagnostic intervention is not coded as a successful sink-removal technique.",
+      "limits": "Massive-activation maintenance is not proof of a universal function of attention sinks. Local loss geometry and next-step optimizer evidence do not by themselves establish global training dynamics.",
+      "fine_grained": [
+        "Read-blindness",
+        "Read/write asymmetry"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2609.34539",
+    "title": "TSGate: Timestep-Aware Gated Attention for Diffusion Transformers",
+    "authors": [
+      "Boyu Zhang",
+      "Yifan Liu",
+      "Shuxia Lin",
+      "Qingjian Ni",
+      "Yinfei Xu",
+      "Xu Yang"
+    ],
+    "identifiers": {
+      "arxiv": "2609.34539"
+    },
+    "date": {
+      "value": "2026-09-28",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.34539",
+      "original": "https://arxiv.org/abs/2609.34539",
+      "full_text": "https://arxiv.org/html/2609.34539v1"
+    },
+    "classification": {
+      "architectures": [
+        "Diffusion Transformers"
+      ],
+      "utilization": [],
+      "interpretation": [],
+      "mitigation": [
+        "Gated Attention Mechanisms"
+      ],
+      "applications": [
+        "Multi-Modal Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2609.34539",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3.1–3.2, 4.1–4.2, 5; Appendix A.4",
+      "finding": "TSGate adds a timestep-conditioned offset to content gate logits before scaling value-aggregated attention features, addressing template sinks and weak early text interaction.",
+      "classification_rationale": "This is trained output-feature gating. Its time bias is not a bias on attention logits, and the gate does not renormalize the current attention matrix.",
+      "limits": "Sink suppression alone does not restore early text guidance or generation quality. Reported gains concern the evaluated prompt formats and DiT recipe.",
+      "fine_grained": [
+        "Timestep-aware output gating"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2609.23585",
+    "title": "Global Ranks Survive, Selected Heads Shift: BOS-Sink Topology under 4-bit Weight-Only Quantization",
+    "authors": [
+      "Kuanlin Chen",
+      "Chen-Wei Kuo",
+      "Cheng-En Ou"
+    ],
+    "identifiers": {
+      "arxiv": "2609.23585"
+    },
+    "date": {
+      "value": "2026-09-20",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "Accepted for publication at IEEE IECON 2026. 6 pages, 3 figures, 7 tables",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.23585",
+      "original": "https://arxiv.org/abs/2609.23585",
+      "full_text": "https://arxiv.org/html/2609.23585v1"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Other Mechanistic Interpretations"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Efficient Inference",
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2609.23585",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§IV-A–IV-E, VI–VII",
+      "finding": "NF4 quantization preserves global BOS-sink head rankings better than discrete top-k sets; calibration-domain shifts and layer-local drift can be substantial.",
+      "classification_rationale": "Included as sink-topology deployment evidence. Measuring or recalibrating sink maps is not sink mitigation, and no subtype is forced onto the study.",
+      "limits": "Three small models, one quantizer and domain pair; topology churn is not shown to impair downstream task quality. Calibration sample sufficiency is an empirical plateau criterion, not a universal threshold.",
+      "fine_grained": [
+        "Sink Topology Consistency",
+        "Quantized calibration transfer"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2609.23314",
+    "title": "ValueDiff: Value-Geometric KV Cache Eviction for Sink-Suppressed LLMs",
+    "authors": [
+      "Junyoung Park",
+      "Jungwook Choi",
+      "Mingu Lee"
+    ],
+    "identifiers": {
+      "arxiv": "2609.23314"
+    },
+    "date": {
+      "value": "2026-09-20",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "10 pages, 3 Figues",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.23314",
+      "original": "https://arxiv.org/abs/2609.23314",
+      "full_text": "https://arxiv.org/html/2609.23314v2"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models",
+        "Mixture-of-Experts Large Language Models",
+        "Hybrid/ Linear Attention"
+      ],
+      "utilization": [],
+      "interpretation": [],
+      "mitigation": [],
+      "applications": [
+        "Efficient Inference",
+        "Long-Context Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2609.23314",
+      "source_version": "v2"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "sink_dependent_application",
+      "sections": "§§3.1–3.2, 4.4; Fig. 2",
+      "finding": "ValueDiff retains geometrically distinctive cached values using distance from their mean, motivated by changing key/value geometry in sink-suppressed models.",
+      "classification_rationale": "Included as sink-dependent inference research. None of the four utilization subtypes precisely describes value-based eviction without sink preservation, so those labels remain unassigned.",
+      "limits": "The method does not train away sinks. Benefits relative to key-based eviction depend on BOS geometry and relative value dispersion; the source reports exceptions.",
+      "fine_grained": [
+        "Value-geometric KV eviction",
+        "Weak-sink deployment"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2609.22005",
+    "title": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention",
+    "authors": [
+      "Richard Zhe Wang"
+    ],
+    "identifiers": {
+      "arxiv": "2609.22005"
+    },
+    "date": {
+      "value": "2026-09-18",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "20 pages (8 pages main text plus appendices), 5 figures, 12 tables",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.22005",
+      "original": "https://arxiv.org/abs/2609.22005",
+      "full_text": "https://arxiv.org/html/2609.22005v2"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Softmax Limitations and No-Op Theory"
+      ],
+      "mitigation": [
+        "Gated Attention Mechanisms",
+        "Modified Softmax Functions",
+        "Learnable Attention Bias"
+      ],
+      "applications": [
+        "Model Pre-training",
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2609.22005",
+      "source_version": "v2"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3.1–3.3, 4.3–4.4, 6",
+      "finding": "Controlled attention variants separate routing abstention from content-dependent value filtering, comparing gates, off-by-one normalization, and learned sink logits.",
+      "classification_rationale": "A fixed null denominator, a learnable per-head null logit, and value gates support distinct mitigation labels. Their benefits overlap partly rather than being identical.",
+      "limits": "Value-only gates can retain position-0 attention sinks. Results vary with scale, so gate placement and sink counts cannot be collapsed into one explanation.",
+      "fine_grained": [
+        "Abstention versus noise filtering",
+        "Phantom null position"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2609.16795",
+    "title": "Layers, Sinks, and Scaling: Adaptive Evidence Selection for Multimodal Large Language Models",
+    "authors": [
+      "Zhenbin Wang",
+      "Lei Zhang",
+      "Lituan Wang",
+      "Wei Huang",
+      "Yan Wang",
+      "Zhenwei Zhang"
+    ],
+    "identifiers": {
+      "arxiv": "2609.16795"
+    },
+    "date": {
+      "value": "2026-09-15",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.16795",
+      "original": "https://arxiv.org/abs/2609.16795",
+      "full_text": "https://arxiv.org/html/2609.16795v1"
+    },
+    "classification": {
+      "architectures": [
+        "Multi-Modal Large Language Models"
+      ],
+      "utilization": [
+        "Attention Redistribution"
+      ],
+      "interpretation": [],
+      "mitigation": [],
+      "applications": [
+        "Multi-Modal Enhancement",
+        "General Capability Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2609.16795",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "sink_dependent_application",
+      "sections": "§§3.2–3.6, 4–5",
+      "finding": "AREA filters sink-contaminated visual relevance, scales crops/evidence using entropy, and uses sink mass to gate intervention in frozen MLLMs.",
+      "classification_rationale": "Sink-aware relevance calibration belongs to Attention Redistribution. It changes evidence presentation rather than transferring attention mass directly or updating weights.",
+      "limits": "Activation-based sink detection and layer groups are backbone-specific. Visual intervention can substitute a crop for the original image; the full policy includes textual refresh and stream-history thresholds.",
+      "fine_grained": [
+        "Sink-filtered evidence readout",
+        "Adaptive evidence allocation"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2609.09085",
+    "title": "It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention",
+    "authors": [
+      "Raito Kiya",
+      "Satoki Ohashi",
+      "Kosuke Sato",
+      "Go Kamoda",
+      "Ryosuke Takahashi",
+      "Yuji Yamamoto",
+      "Daiki Shiono",
+      "Keisuke Sakaguchi",
+      "Goro Kobayashi"
+    ],
+    "identifiers": {
+      "arxiv": "2609.09085"
+    },
+    "date": {
+      "value": "2026-09-08",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "Accepted at EMNLP 2026",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.09085",
+      "original": "https://arxiv.org/abs/2609.09085",
+      "full_text": "https://arxiv.org/html/2609.09085v1"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Other Mechanistic Interpretations"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2609.09085",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§4.1–4.3; §5 and Limitations",
+      "finding": "Forcing self-concentration at a later position creates sinks and massive activations. Repeated-token experiments probe value non-mixing without forced self-attention.",
+      "classification_rationale": "Value non-mixing is preserved as a specific mechanistic explanation; the study does not introduce a trained sink-removal method.",
+      "limits": "Key-side RoPE perturbations have limited effects under the tested intervention; this does not exclude all positional mechanisms. Repeated-token support is weaker and input-dependent in two of five models.",
+      "fine_grained": [
+        "Causal-mask self-concentration",
+        "Value non-mixing"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2609.01004",
+    "title": "SinkPruner: Sink-Free Visual Token Pruning for Multimodal Large Language Models",
+    "authors": [
+      "Shiyu Li",
+      "Zi-Yuan Hu",
+      "Shijia Huang",
+      "Yanyang Li",
+      "Yiwu Zhong",
+      "Liwei Wang"
+    ],
+    "identifiers": {
+      "arxiv": "2609.01004"
+    },
+    "date": {
+      "value": "2026-09-01",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "EMNLP 2026 (findings)",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.01004",
+      "original": "https://arxiv.org/abs/2609.01004",
+      "full_text": "https://arxiv.org/html/2609.01004v1"
+    },
+    "classification": {
+      "architectures": [
+        "Multi-Modal Large Language Models",
+        "Vision Transformers"
+      ],
+      "utilization": [
+        "Attention Redistribution"
+      ],
+      "interpretation": [],
+      "mitigation": [],
+      "applications": [
+        "Efficient Inference",
+        "Multi-Modal Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2609.01004",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3.2–3.3; Appendix H.1–H.2",
+      "finding": "SinkPruner pools high-norm visual outliers into a proxy, selects diverse remaining tokens, then applies text-guided pruning in the frozen MLLM.",
+      "classification_rationale": "This is sink-aware token-selection calibration within Attention Redistribution, not explicit mass-preserving transfer or training-based mitigation.",
+      "limits": "High norm is an operational detector, not a universal sink definition. The method retains a pooled outlier proxy; it does not simply remove every sink-associated state.",
+      "fine_grained": [
+        "Training-free visual sanitization",
+        "Sink-aware token pruning"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2608.11805",
+    "title": "Hybrid Gated Attention",
+    "authors": [
+      "Zekun Zhou",
+      "Ruobing Xie",
+      "Lanrui Wang",
+      "Weixuan Sun"
+    ],
+    "identifiers": {
+      "arxiv": "2608.11805"
+    },
+    "date": {
+      "value": "2026-08-12",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.11805",
+      "original": "https://arxiv.org/abs/2608.11805",
+      "full_text": "https://arxiv.org/html/2608.11805v2"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models",
+        "Mixture-of-Experts Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [],
+      "mitigation": [
+        "Gated Attention Mechanisms",
+        "Learnable Attention Bias"
+      ],
+      "applications": [
+        "Model Pre-training",
+        "General Capability Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2608.11805",
+      "source_version": "v2"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3.1, 3.3–3.4, 4.3–4.5",
+      "finding": "HyGA fuses input-based and post-attention gates with cross-head modulation, and combines them with a learnable null sink for stability.",
+      "classification_rationale": "Content/output gates and a GPT-OSS-style learnable sink are separate architectural components; the latter is a null bias rather than a learnable prefix token.",
+      "limits": "The paper does not establish that gating alone eliminates all sinks. Gate fusion avoids excessive attenuation, and capability gains reflect the combined design.",
+      "fine_grained": [
+        "Hybrid gate fusion",
+        "Cross-head gating",
+        "Learnable null sink"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2607.19139",
+    "title": "Text Template Tokens Are Implicit Semantic Registers in Diffusion Transformers",
+    "authors": [
+      "Maohua Li",
+      "Qirui Li",
+      "Yanke Zhou",
+      "Yiduo Li",
+      "Zhaosheng Chi",
+      "Chao Xu",
+      "Cuifeng Shen",
+      "Yixuan Xu",
+      "Hanlin Tang",
+      "Kan Liu",
+      "Tao Lan",
+      "Lin Qu",
+      "Shao-Qun Zhang"
+    ],
+    "identifiers": {
+      "arxiv": "2607.19139"
+    },
+    "date": {
+      "value": "2026-07-21",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.19139",
+      "original": "https://arxiv.org/abs/2607.19139",
+      "full_text": "https://arxiv.org/html/2607.19139v2"
+    },
+    "classification": {
+      "architectures": [
+        "Diffusion Transformers"
+      ],
+      "utilization": [
+        "Sink Token Repurposing"
+      ],
+      "interpretation": [
+        "Other Mechanistic Interpretations"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Efficient Inference",
+        "Mechanism Interpretability",
+        "Multi-Modal Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2607.19139",
+      "source_version": "v2"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§4.1–4.5; Table 2; §6",
+      "finding": "Template sinks acquire semantics through the image stream inside the DiT despite weakly semantic input embeddings. Causal head analysis motivates training-free head pruning.",
+      "classification_rationale": "The efficiency method reuses sink/register-associated functional structure rather than eliminating it. Implicit semantic registers are retained as a fine-grained mechanistic label.",
+      "limits": "Register function depends on head, depth, and trajectory. A template-sink ranking prunes more load-bearing heads than the proposed semantic-attention ranking; perceptual quality drops faster than object accuracy.",
+      "fine_grained": [
+        "Implicit semantic registers",
+        "Causal head pruning"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2607.01707",
+    "title": "LASER: A Corrective Lens for LVLMs via Visual Attention Preservation and Sink Suppression",
+    "authors": [
+      "Bowen Yuan",
+      "Zijian Wang",
+      "Yadan Luo",
+      "Shijie Wang",
+      "Zi Huang"
+    ],
+    "identifiers": {
+      "arxiv": "2607.01707"
+    },
+    "date": {
+      "value": "2026-07-02",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "The 19th European Conference on Computer Vision (ECCV 2026)",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.01707",
+      "original": "https://arxiv.org/abs/2607.01707",
+      "full_text": "https://arxiv.org/html/2607.01707v1"
+    },
+    "classification": {
+      "architectures": [
+        "Multi-Modal Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [],
+      "mitigation": [
+        "Other Mitigation Techniques"
+      ],
+      "applications": [
+        "Model Tuning",
+        "Multi-Modal Enhancement",
+        "Reducing Hallucination"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2607.01707",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§4.2–4.5, 5.3–5.4, 6",
+      "finding": "LASER trains with GRPO rewards combining sustained non-sink visual attention and suppression of disproportionate visual sink attention, gated by answer correctness.",
+      "classification_rationale": "Sink-dependent reinforcement-learning rewards are a tuning intervention under Other Mitigation Techniques. The method is not a training-free attention edit.",
+      "limits": "High-activation dimensions define candidate sinks in the evaluated backbones. Grounding rewards alone can increase sink attention, so the combined result cannot be attributed to visual persistence alone.",
+      "fine_grained": [
+        "Tuning auxiliary reward",
+        "Visual grounding and sink suppression"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2607.00434",
+    "title": "Information-Regularized Attention for Visual-Centric Reasoning",
+    "authors": [
+      "Guohao Sun",
+      "Xiaofang Wang",
+      "Yash Patel",
+      "Mengchen Liu",
+      "Zhiqiang Tao",
+      "Praveen Krishnan"
+    ],
+    "identifiers": {
+      "arxiv": "2607.00434"
+    },
+    "date": {
+      "value": "2026-07-01",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "Accepted by ECCV 2026",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.00434",
+      "original": "https://arxiv.org/abs/2607.00434",
+      "full_text": "https://arxiv.org/html/2607.00434v1"
+    },
+    "classification": {
+      "architectures": [
+        "Multi-Modal Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [],
+      "mitigation": [
+        "Other Mitigation Techniques"
+      ],
+      "applications": [
+        "Model Tuning",
+        "Multi-Modal Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2607.00434",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3.2–3.4, 4.7; Tables 1, 6",
+      "finding": "IRA uses a learned stochastic value-state representation and uncertainty-weighted KL regularization during full-parameter SFT; the reported sink ratio decreases relative to ordinary SFT.",
+      "classification_rationale": "Fine-tuning auxiliary regularization and value modification fit Other Mitigation Techniques. The evaluated method is neither training-free nor a pre-training intervention.",
+      "limits": "The paper evaluates models up to 8B and uses a particular layer-averaged visual attention threshold. Larger-scale and pre-training applications are proposed rather than established.",
+      "fine_grained": [
+        "Tuning auxiliary loss",
+        "Stochastic visual value regularization"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2606.20743",
+    "title": "Massive Activations Are Architecturally Robust: A Controlled Scratch/Commitment Residual Stream Test",
+    "authors": [
+      "Maruthi Vemula"
+    ],
+    "identifiers": {
+      "arxiv": "2606.20743"
+    },
+    "date": {
+      "value": "2026-06-17",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "7 pages, 2 figures, 2 tables. Code at https://github.com/MaruthiV/ledger-residuals",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.20743",
+      "original": "https://arxiv.org/abs/2606.20743",
+      "full_text": "https://arxiv.org/html/2606.20743v1"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Outlier Circuits"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2606.20743",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "related_register_outlier",
+      "sections": "§§3.1, 5.1–5.4, 6–7",
+      "finding": "Ledger Residuals introduce a protected decode-only stream, but start-token fixed-dimension outliers reappear there; stricter commit sparsity increases their concentration.",
+      "classification_rationale": "This is a negative architectural test of an outlier hypothesis, not evidence that the proposed protected stream successfully mitigates sinks.",
+      "limits": "One seed per configuration at 160M/290M; outlier statistics are not equivalent to direct attention-sink measurement. The study does not distinguish sink, bias, and gradient-regulation functions.",
+      "fine_grained": [
+        "Ledger Residuals",
+        "Negative architectural intervention"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2606.08105",
+    "title": "A Unifying View of Attention Sinks: From Mechanisms to Architectural Interventions",
+    "authors": [
+      "Lukas Fesser*",
+      "Mozes Jacobs*",
+      "Thomas Fel*",
+      "Andy Keller",
+      "Sham Kakade"
+    ],
+    "identifiers": {
+      "arxiv": "2606.08105"
+    },
+    "date": {
+      "value": "2026-06-06",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.08105",
+      "original": "https://arxiv.org/abs/2606.08105",
+      "full_text": "https://arxiv.org/html/2606.08105v2"
+    },
+    "classification": {
+      "architectures": [
+        "Vision Transformers"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Softmax Limitations and No-Op Theory",
+        "Other Mechanistic Interpretations"
+      ],
+      "mitigation": [
+        "Gated Attention Mechanisms",
+        "Pre-training Interventions",
+        "Other Mitigation Techniques"
+      ],
+      "applications": [
+        "Model Pre-training",
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2606.08105",
+      "source_version": "v2"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3–6; Fig. 6; Table 1",
+      "finding": "Value interventions distinguish near-null NOP sinks from nonzero broadcast sinks in pretrained ViTs. Gating and a penalized position-free global pathway reorganize these computations.",
+      "classification_rationale": "NOP supports the softmax/no-op category; broadcast is retained as a fine-grained mechanistic tag. Output gating, the common-mode training penalty, and the global pathway support the three mitigation labels respectively.",
+      "limits": "Registers relocate both regimes. Gating increases broadcast-like sinks in the tested ViT; fewer sinks alone do not imply better representations. The v2 title replaces Two Algorithms, Two Solutions.",
+      "fine_grained": [
+        "Adaptive NOP",
+        "Broadcast",
+        "Penalized global pathway"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2606.02378",
+    "title": "When Do Attention Circuits Form? Developmental Trajectories of Capability and Attention-Sink Emergence Across Three 1B-ClassArchitectures",
+    "authors": [
+      "Yongzhong Xu"
+    ],
+    "identifiers": {
+      "arxiv": "2606.02378"
+    },
+    "date": {
+      "value": "2026-06-01",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "27pages, 3 figures",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.02378",
+      "original": "https://arxiv.org/abs/2606.02378",
+      "full_text": "https://arxiv.org/html/2606.02378v2"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models",
+        "Mixture-of-Experts Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Other Mechanistic Interpretations"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2606.02378",
+      "source_version": "v2"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§5.1, 6, 11.2",
+      "finding": "A developmental checkpoint panel finds model-dependent BOS-attractor trajectories and mid-layer-outward emergence in Pythia, OLMo, and OLMoE.",
+      "classification_rationale": "Training-dynamics observations inform mechanistic interpretation; checkpoint tracking is not itself a pre-training mitigation intervention.",
+      "limits": "Claims depend on the selectivity threshold and checkpoint grid. Data, architecture, and training budgets co-vary; the panel does not isolate a general causal effect of corpus or MoE design.",
+      "fine_grained": [
+        "Developmental sink trajectories"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2606.02288",
+    "title": "Massive Spikes in LLMs are Bias Vectors: Mechanistic Uncovering and Spike-Free Quantization",
+    "authors": [
+      "Yung-Chin Chen",
+      "Chung Peng Lee",
+      "Ze-Wei Liou",
+      "Naveen Verma"
+    ],
+    "identifiers": {
+      "arxiv": "2606.02288"
+    },
+    "date": {
+      "value": "2026-06-01",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.02288",
+      "original": "https://arxiv.org/abs/2606.02288",
+      "full_text": "https://arxiv.org/html/2606.02288v1"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models",
+        "Vision Transformers"
+      ],
+      "utilization": [
+        "Sink Token Preservation"
+      ],
+      "interpretation": [
+        "Softmax Limitations and No-Op Theory",
+        "Outlier Circuits",
+        "Implicit Attention Bias"
+      ],
+      "mitigation": [],
+      "applications": [
+        "Efficient Inference",
+        "Mechanism Interpretability"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2606.02288",
+      "source_version": "v1"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§3.1–3.4, 4.1–4.3, 5",
+      "finding": "Post-normalization spike states act as bias prototypes with sink keys and near-null values. InsertQuant clamps spikes but reinstates calibrated K/V templates and terminal residual effects.",
+      "classification_rationale": "Bias-vector geometry and value drains support the interpretation labels. Restoring the sink's functional K/V effect is preservation, even though activation spikes are removed during PTQ.",
+      "limits": "Spike-free quantization is not equivalent to training a sink-free model. Prototype rigidity and RoPE stability are properties of the tested models, not universal semantic irrelevance of sinks.",
+      "fine_grained": [
+        "Bias Vector Hypothesis",
+        "InsertQuant",
+        "K/V template restoration"
+      ]
+    }
+  },
+  {
+    "id": "as-arxiv-2605.17887",
+    "title": "Attention Sinks and Outliers in Attention Residuals",
+    "authors": [
+      "Haozheng Luo",
+      "Haoran Dai",
+      "Jingyuan Huang",
+      "Shaoyang Zhang",
+      "Xi Chen",
+      "Eric Hanchen Jiang",
+      "Yijiang Li",
+      "Chenghao Qiu",
+      "Chenwei Xu",
+      "Zhenyu Pan",
+      "Haotian Zhang",
+      "Binghui Wang",
+      "Yan Chen"
+    ],
+    "identifiers": {
+      "arxiv": "2605.17887"
+    },
+    "date": {
+      "value": "2026-05-18",
+      "precision": "day"
+    },
+    "publication": {
+      "label": "ArXiv",
+      "verification": "preprint_metadata_checked",
+      "authors_publication_note": "Conference on Neural Information Processing Systems 40 (NeurIPS) 2026",
+      "venue_verification": "not_independently_verified"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.17887",
+      "original": "https://arxiv.org/abs/2605.17887",
+      "full_text": "https://arxiv.org/html/2605.17887v2"
+    },
+    "classification": {
+      "architectures": [
+        "Large Language Models"
+      ],
+      "utilization": [],
+      "interpretation": [
+        "Softmax Limitations and No-Op Theory"
+      ],
+      "mitigation": [
+        "Modified Softmax Functions",
+        "Other Mitigation Techniques"
+      ],
+      "applications": [
+        "Model Pre-training",
+        "Efficient Inference",
+        "Long-Context Enhancement"
+      ]
+    },
+    "verification": {
+      "classification": "source_sections_checked",
+      "review_in_this_update": "key_sections_of_full_text"
+    },
+    "provenance": {
+      "source_id": "source-review-2026-10-26",
+      "arxiv_id": "2605.17887",
+      "source_version": "v2"
+    },
+    "review": {
+      "review_id": "source-review-2026-10-26",
+      "relation": "direct_attention_sink",
+      "sections": "§§4.2–4.3, 6.2–6.4, 7",
+      "finding": "OASIS adds Softmax1 null routes at token and depth levels, then adjusts depth logits using centered token-level null probabilities.",
+      "classification_rationale": "Softmax1 supplies explicit null capacity; token-to-depth coupling is retained as a separate mitigation detail. It changes trained routing rather than reusing existing sink positions.",
+      "limits": "Earlier omission: first submitted in May, revised in September. Null routing attenuates real branch contributions; a depth null route is not automatically an identity residual. Theory is conditional and sink visualizations are partly qualitative.",
+      "fine_grained": [
+        "Dual normalization",
+        "Token-to-depth null coupling"
+      ]
+    }
   }
 ]

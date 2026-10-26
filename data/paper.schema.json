@@ -1,40 +1,58 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Attention Sink migrated literature catalog",
+  "title": "Attention Sink literature catalog with source-preserved and reviewed records",
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["id", "title", "identifiers", "date", "publication", "links", "classification", "legacy_tags", "legacy_new_flag", "verification", "provenance"],
+    "required": ["id", "title", "identifiers", "date", "publication", "links", "classification", "verification", "provenance"],
+    "oneOf": [
+      {"required": ["legacy_tags", "legacy_new_flag"], "properties": {"verification": {"properties": {"classification": {"const": "legacy_imported"}}}, "provenance": {"required": ["source_id", "sheet", "row"]}}},
+      {"required": ["authors", "review"], "properties": {"verification": {"properties": {"classification": {"const": "source_sections_checked"}}}, "provenance": {"required": ["source_id", "arxiv_id", "source_version"]}}}
+    ],
     "additionalProperties": false,
     "properties": {
       "id": {"type": "string", "pattern": "^as-"},
       "title": {"type": "string", "minLength": 1},
+      "authors": {"type": "array", "minItems": 1, "items": {"type": "string"}},
       "identifiers": {"type": "object", "additionalProperties": {"type": "string"}},
       "date": {
         "type": "object", "required": ["value", "precision"], "additionalProperties": false,
         "properties": {
-          "value": {"type": "string", "pattern": "^20[0-9]{2}(-[0-9]{2})?$"},
-          "precision": {"enum": ["year", "month"]}
+          "value": {"type": "string", "pattern": "^20[0-9]{2}(-[0-9]{2}(-[0-9]{2})?)?$"},
+          "precision": {"enum": ["year", "month", "day"]}
         }
       },
       "publication": {
         "type": "object", "required": ["label", "verification"],
-        "properties": {"label": {"type": "string"}, "verification": {"const": "imported_not_rechecked"}}
+        "properties": {"label": {"type": "string"}, "verification": {"enum": ["imported_not_rechecked", "preprint_metadata_checked"]}, "authors_publication_note": {"type": "string"}, "venue_verification": {"const": "not_independently_verified"}}
       },
       "links": {
         "type": "object", "required": ["paper", "original"],
-        "properties": {"paper": {"type": "string", "format": "uri"}, "original": {"type": "string", "format": "uri"}}
+        "properties": {"paper": {"type": "string", "format": "uri"}, "original": {"type": "string", "format": "uri"}, "full_text": {"type": "string", "format": "uri"}}
       },
       "classification": {"$ref": "#/$defs/labels"},
       "legacy_tags": {"$ref": "#/$defs/labels"},
       "legacy_new_flag": {"type": "boolean"},
       "verification": {
         "type": "object", "required": ["classification", "review_in_this_update"],
-        "properties": {"classification": {"const": "legacy_imported"}, "review_in_this_update": {"const": "not_reassessed"}}
+        "properties": {"classification": {"enum": ["legacy_imported", "source_sections_checked"]}, "review_in_this_update": {"enum": ["not_reassessed", "key_sections_of_full_text"]}}
       },
       "provenance": {
-        "type": "object", "required": ["source_id", "sheet", "row"],
-        "properties": {"source_id": {"type": "string"}, "sheet": {"type": "string"}, "row": {"type": "integer", "minimum": 3}}
+        "type": "object", "required": ["source_id"],
+        "properties": {"source_id": {"type": "string"}, "sheet": {"type": "string"}, "row": {"type": "integer", "minimum": 3}, "arxiv_id": {"type": "string"}, "source_version": {"type": "string", "pattern": "^v[1-9][0-9]*$"}}
+      },
+      "review": {
+        "type": "object", "required": ["review_id", "relation", "sections", "finding", "classification_rationale", "limits", "fine_grained"],
+        "additionalProperties": false,
+        "properties": {
+          "review_id": {"type": "string"},
+          "relation": {"enum": ["direct_attention_sink", "sink_dependent_application", "sink_mitigation_followup", "related_register_outlier"]},
+          "sections": {"type": "string", "minLength": 1},
+          "finding": {"type": "string", "minLength": 1},
+          "classification_rationale": {"type": "string", "minLength": 1},
+          "limits": {"type": "string", "minLength": 1},
+          "fine_grained": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+        }
       }
     }
   },

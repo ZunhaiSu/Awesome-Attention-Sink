@@ -113,6 +113,11 @@ def main():
     ap.add_argument('source', type=Path)
     ap.add_argument('--date', required=True)
     args = ap.parse_args()
+    existing_path = ROOT / 'data/papers.json'
+    if existing_path.exists():
+        existing = json.loads(existing_path.read_text())
+        if any(p['verification']['classification'] != 'legacy_imported' for p in existing):
+            raise SystemExit('One-time importer cannot overwrite a catalog with reviewed additions. Use a separate migration staging directory.')
     wb = load_workbook(args.source, data_only=False)
     if len(wb.worksheets) != 1:
         raise ValueError('Inspect a multi-sheet export before importing.')

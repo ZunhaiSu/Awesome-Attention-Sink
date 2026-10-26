@@ -1,5 +1,7 @@
 # Recent-literature inventory, 2026-10-26
 
+This page preserves the **initial discovery stage**, before source-grounded integration. For current totals, see [reviewed additions and remaining gaps](REVIEW_20261026.md). The current CSV ledger overlays subsequent decisions without changing the original snapshots.
+
 ## Scope and counts
 
 The formal migrated catalog contains **208 records**. The discovery window is **2026-06-01–2026-10-26**, based on arXiv's first-submission date (UTC), because the latest month represented in the source date column is May 2026. This is a stated search window, not proof that the original collection covered every earlier month exhaustively.
