@@ -85,7 +85,8 @@ def build():
     path.write_text('\n'.join(lines) + '\n')
     candidate_path = ROOT / 'data/candidates/arxiv-2026-10-26.json'
     if candidate_path.exists():
-        candidates = load(str(candidate_path.relative_to(ROOT)))['records']
+        ledger = load(str(candidate_path.relative_to(ROOT)))
+        candidates = [p for p in ledger['records'] if p['screening_status'] != 'excluded_keyword_collision']
         ids = {p['identifiers'].get('arxiv') for p in papers if p['identifiers'].get('arxiv')}
         assert len({p['arxiv_id'] for p in candidates}) == len(candidates)
         assert not ids.intersection(p['arxiv_id'] for p in candidates)
@@ -95,6 +96,12 @@ def build():
                  [[p['arxiv_id'], p['title'], p['published'], p['updated'], p['version'],
                    '; '.join(p['authors']), p['screening_status'], p['screening_note'], p['url'],
                    p['publication_note']] for p in candidates])
+        csv_file(ROOT / 'exports/retrieval-ledger.csv',
+                 ['arXiv ID', 'Paper', 'First submitted (UTC)', 'Screening status', 'Screening basis', 'Screening note', 'Paper URL'],
+                 [[p['arxiv_id'], p['title'], p['published'], p['screening_status'], p.get('screening_basis', ''), p['screening_note'], p['url']]
+                  for p in ledger['records']])
+        assert ledger['summary']['candidate_records'] == len(candidates)
+        assert len(candidates) + ledger['summary']['excluded_keyword_collisions'] == len(ledger['records'])
     print('Generated public catalog and CSV exports.')
 
 

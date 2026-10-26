@@ -29,6 +29,7 @@
 
 ## 🔥 Latest News
 
+- **[2026-10-26]** Recent-literature discovery is inventoried separately: **53 AS keyword candidates** and **20 related candidates** from June through the cutoff, with **48 lexical false matches excluded**. These are awaiting review, not additions to the 208-record formal catalog. [Scope and screening](docs/SEARCH.md) · [Candidate CSV](exports/candidates.csv).
 - **[2026-10-26]** The Feishu export has been migrated into a versioned catalog of **208 records**. Browse the [paper catalog](docs/CATALOG.md), download the [CSV](exports/papers.csv), or inspect the [data and provenance](docs/MIGRATION.md). Original labels and date precision are preserved.
 - **[2026-06-05]** 📊 **Paper list migrated!** The surveyed paper list has been migrated to an online spreadsheet for easier querying and continuous updates. Access it here: [AS Paper List](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
 - **[2026-06-05]** 📚 **Update!** New version released with **50+ new papers** added. Thanks for all the feedback! In addition, due to the growing number of works on Attention Sink in DiTs, a dedicated **subsection** has been introduced. Further feedback and discussion are always welcome.
@@ -84,6 +85,7 @@ The formal catalog contains **208 migrated records**. It preserves three indepen
 - [Download CSV](exports/papers.csv) or [read canonical JSON](data/papers.json)
 - [Classification names and legacy mappings](data/taxonomy.json)
 - [Source preservation and migration checks](docs/MIGRATION.md)
+- [Recent candidates and search scope](docs/SEARCH.md)
 - [Contribute a paper or correction](CONTRIBUTING.md)
 - [Feishu collection and review table](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
 
