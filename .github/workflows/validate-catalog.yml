@@ -14,4 +14,6 @@ jobs:
           python-version: '3.12'
       - run: python scripts/catalog.py check
       - run: python scripts/catalog.py build
-      - run: git diff --exit-code -- exports docs/CATALOG.md docs/REVIEW_20261026.md
+      - run: python scripts/library.py check
+      - run: python scripts/library.py build
+      - run: git diff --exit-code -- exports docs/CATALOG.md docs/REVIEW_20261026.md docs/LIBRARY.md docs/BROAD_READING.md

@@ -186,6 +186,7 @@ def build():
 def build_review_notes(review):
     s=review['summary']
     lines=['# Source-grounded literature integration — 26 October 2026','',
+           'This page documents the narrower source-review stage. The subsequent user-expanded [broad library](LIBRARY.md) includes citation-linked and attention-concentration resources, with reading depth and relation evidence shown separately. Its wider collection does not alter the evidence behind these 24 classifications.','',
            f"The formal catalog now contains **{s['formal_total']} papers**: 208 unchanged inherited records and **{s['formal_additions']} additions**. Of the additions, {s['recent_additions_since_june']} were first submitted in June–October and {s['earlier_omissions_added']} repairs an earlier omission.",'',
            '## Reading and classification basis','',review['review_method'],'',
            'The fourteen method categories and nine application names are unchanged. Fine-grained mechanisms are retained separately. Empty method labels are intentional when the existing taxonomy does not precisely fit. Registers, high norms, output gates, null logits, and attention-mass transfer are not interchangeable concepts.','',

@@ -29,6 +29,7 @@
 
 ## 🔥 Latest News
 
+- **[2026-10-26, expanded scope]** The research library now contains **2,258 bibliographic records**, including papers citing StreamingLLM and related attention-concentration, entropy, saturation, and collapse work. **57 citations were checked in primary reference lists**; index-only matches and unread records are explicitly marked. The prior **232-record classification subset** remains available. [Broad library and coverage](docs/LIBRARY.md) · [Complete CSV](exports/library.csv) · [Additional source readings](docs/BROAD_READING.md).
 - **[2026-10-26]** **24 papers integrated after primary-source section checks**: 23 first submitted in June–October and one earlier omission. The formal catalog now has **232 records**. Each addition includes versioned source sections, classification reasons, fine-grained terms, and limitations. Across expanded discovery, **86 records remain pending** and **56 are excluded or contextual only**. [Evidence and coverage](docs/REVIEW_20261026.md) · [Reviewed additions CSV](exports/reviewed-additions.csv).
 - **[2026-10-26, initial inventory]** The first discovery stage retained **53 AS keyword candidates** and **20 related candidates**, with **48 lexical false matches excluded**. Subsequent source checks and expanded searches are reflected in the current totals above. [Initial scope and screening](docs/SEARCH.md) · [Current pending CSV](exports/candidates.csv).
 - **[2026-10-26]** The Feishu export has been migrated into a versioned catalog of **208 records**. Browse the [paper catalog](docs/CATALOG.md), download the [CSV](exports/papers.csv), or inspect the [data and provenance](docs/MIGRATION.md). Original labels and date precision are preserved.
@@ -80,9 +81,12 @@ The survey organizes the literature around three complementary research objectiv
 
 ## 📑 Paper List
 
+The [broad research library](docs/LIBRARY.md) contains **2,258 records**. It includes citation-linked and concentration-related resources even when their titles or abstracts do not say attention sink. Each record separates its relation evidence, reading depth, and method classification. Indexed full-text title matches are discovery signals; they are not counted as verified citations or source readings. Download the [complete library CSV](exports/library.csv).
+
 The formal catalog contains **232 records**: **208 migrated records** and **24 source-section-reviewed additions**. It preserves three independent method dimensions—**Fundamental Utilization**, **Mechanistic Interpretation**, and **Strategic Mitigation**—alongside architecture and application labels. Labels can overlap; a method subtype remains unassigned when none precisely fits.
 
 - [Browse the catalog](docs/CATALOG.md)
+- [Browse the expanded library and its evidence definitions](docs/LIBRARY.md)
 - [Download CSV](exports/papers.csv) or [read canonical JSON](data/papers.json)
 - [Classification names and legacy mappings](data/taxonomy.json)
 - [Source preservation and migration checks](docs/MIGRATION.md)
@@ -91,7 +95,7 @@ The formal catalog contains **232 records**: **208 migrated records** and **24 s
 - [Contribute a paper or correction](CONTRIBUTING.md)
 - [Feishu collection and review table](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
 
-Publication labels for inherited records remain unverified. New records use checked arXiv metadata and AI-assisted reading of specified primary-source sections; this does not constitute independent replication or verification of author-supplied venue announcements. Related register/outlier evidence is distinguished from direct sink measurements. This resource is not exhaustive. Updates do not silently change the coverage of a manuscript version.
+Publication labels for inherited records remain unverified. Source-section-reviewed records use checked arXiv metadata and AI-assisted reading of specified primary-source sections; this does not constitute independent replication or verification of author-supplied venue announcements. Broad library records may remain unread and unclassified. Related register/outlier evidence is distinguished from direct sink measurements. This resource is not exhaustive. Updates do not silently change the coverage of a manuscript version.
 
 If you identify any errors or omissions in the list of Attention-Sink-related papers, please contact zh-su23@mails.tsinghua.edu.cn. We greatly appreciate your contributions and feedback.
 

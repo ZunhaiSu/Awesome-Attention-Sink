@@ -10,6 +10,8 @@ For a reviewed addition, record the versioned primary-source URL, checked sectio
 
 Initial and supplemental retrieval snapshots are historical evidence. Preserve them and overlay new outcomes through review decisions. The Feishu importer is a one-time baseline tool, not an update command for the growing catalog.
 
+The expanded library also accepts citation-linked and attention-concentration resources. Store the precise relation evidence and reading status in `data/library/`; an index-only lead may be included with unassigned method labels. A citation or spectral-collapse metric alone does not establish a persistent attention sink. Preserve the original category names when a source supports a classification. Run `python scripts/library.py build` and `python scripts/library.py check` for these updates. The prior queue and exclusions describe the earlier, narrower screening stage, not universal exclusion from the expanded library.
+
 For catalog changes, update the authoritative data, then run:
 
 ```sh
