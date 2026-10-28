@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "core_axes": {
+    "utilization": {
+      "name": "Fundamental Utilization",
+      "categories": [
+        "Sink Token Preservation",
+        "Attention Redistribution",
+        "Learnable Prefix Tokens",
+        "Sink Token Repurposing"
+      ]
+    },
+    "interpretation": {
+      "name": "Mechanistic Interpretation",
+      "categories": [
+        "Softmax Limitations and No-Op Theory",
+        "Outlier Circuits",
+        "Implicit Attention Bias",
+        "Geometric Anchoring",
+        "Other Mechanistic Interpretations"
+      ]
+    },
+    "mitigation": {
+      "name": "Strategic Mitigation",
+      "categories": [
+        "Gated Attention Mechanisms",
+        "Modified Softmax Functions",
+        "Learnable Attention Bias",
+        "Pre-training Interventions",
+        "Other Mitigation Techniques"
+      ]
+    }
+  },
+  "applications": [
+    "Model Pre-training",
+    "Model Tuning",
+    "Efficient Inference",
+    "Mechanism Interpretability",
+    "Reducing Hallucination",
+    "Safety & Robustness",
+    "General Capability Enhancement",
+    "Long-Context Enhancement",
+    "Multi-Modal Enhancement"
+  ],
+  "architectures": [
+    "3D Transformers",
+    "Autoregressive Video Diffusion Model",
+    "Classical Language Models",
+    "DLM (Diffusion language model)",
+    "Diffusion Transformers",
+    "Hybrid/ Linear Attention",
+    "Large Language Models",
+    "Mixture-of-Experts Large Language Models",
+    "Multi-Modal Large Language Models",
+    "Omni-modal LLMs",
+    "VLA (Vision-Language-Action)",
+    "Vision Transformers"
+  ],
+  "aliases": [
+    {
+      "axis": "applications",
+      "source_label": "1 Model Pre-training",
+      "canonical_label": "Model Pre-training"
+    },
+    {
+      "axis": "applications",
+      "source_label": "2 Model Tuning",
+      "canonical_label": "Model Tuning"
+    },
+    {
+      "axis": "applications",
+      "source_label": "3 Efficient Inference",
+      "canonical_label": "Efficient Inference"
+    },
+    {
+      "axis": "applications",
+      "source_label": "4 Mechansim Interpretability",
+      "canonical_label": "Mechanism Interpretability"
+    },
+    {
+      "axis": "applications",
+      "source_label": "5 Reducing Hallucination",
+      "canonical_label": "Reducing Hallucination"
+    },
+    {
+      "axis": "applications",
+      "source_label": "6 Safety & Robustness",
+      "canonical_label": "Safety & Robustness"
+    },
+    {
+      "axis": "applications",
+      "source_label": "7 General Capability Enhancement",
+      "canonical_label": "General Capability Enhancement"
+    },
+    {
+      "axis": "applications",
+      "source_label": "8 Long-Context Enhancement",
+      "canonical_label": "Long-Context Enhancement"
+    },
+    {
+      "axis": "applications",
+      "source_label": "9 Multi-modal Enhancement",
+      "canonical_label": "Multi-Modal Enhancement"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.3.1 LM(e.g. BERT)",
+      "canonical_label": "Classical Language Models"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.3.2 LLM",
+      "canonical_label": "Large Language Models"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.3.3 MoE",
+      "canonical_label": "Mixture-of-Experts Large Language Models"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.3.4 MLLM",
+      "canonical_label": "Multi-Modal Large Language Models"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.4 ViT",
+      "canonical_label": "Vision Transformers"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.5 DiT (Diffusion Transformers)",
+      "canonical_label": "Diffusion Transformers"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.6 Others: 3D Transformers",
+      "canonical_label": "3D Transformers"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.6 Others: Autoregressive Video Diffusion Model",
+      "canonical_label": "Autoregressive Video Diffusion Model"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.6 Others: DLM (Diffusion language model)",
+      "canonical_label": "DLM (Diffusion language model)"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.6 Others: Hybrid/ Linear Attention",
+      "canonical_label": "Hybrid/ Linear Attention"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.6 Others: Omni-modal LLMs",
+      "canonical_label": "Omni-modal LLMs"
+    },
+    {
+      "axis": "architectures",
+      "source_label": "2.6 Others: VLA (Vision-Language-Action)",
+      "canonical_label": "VLA (Vision-Language-Action)"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.1 No-Op Theory",
+      "canonical_label": "Softmax Limitations and No-Op Theory"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.1 Softmax Limitations",
+      "canonical_label": "Softmax Limitations and No-Op Theory"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.2 Outliers Circuits",
+      "canonical_label": "Outlier Circuits"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.3 Implicit Attention Bias",
+      "canonical_label": "Implicit Attention Bias"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.4 Geometric Anchoring",
+      "canonical_label": "Geometric Anchoring"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others:  Entropic Optimal Transport (EOT) Prior Theory",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Active-Dormant Attention Theory",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Anti-Overmixing Theory",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Catch-Tag-Release Theory",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Mix-Compress-Refine Theory",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Native MoE Theory",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Outlier-Driven Rescaling Theory",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: P0 Sink Circuit Theory",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Secondary Sink Formation",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Spectral-Energy Association Theory",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Structural Bias: Norm",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Structural Bias: Position/ Positional Embedding",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "interpretation",
+      "source_label": "4.5 Others: Waiver Phenomenon",
+      "canonical_label": "Other Mechanistic Interpretations"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.1 Gated Attention Mechanisms",
+      "canonical_label": "Gated Attention Mechanisms"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.2 Modified Softmax Functions",
+      "canonical_label": "Modified Softmax Functions"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.3 Learnable Attention Bias",
+      "canonical_label": "Learnable Attention Bias"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.4 Pre-Training Prevention: Auxiliary Loss",
+      "canonical_label": "Pre-training Interventions"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.4 Pre-Training Prevention: Optimizer",
+      "canonical_label": "Pre-training Interventions"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.5 Others: Architectural Isolation",
+      "canonical_label": "Other Mitigation Techniques"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.5 Others: Modified Norm Layer",
+      "canonical_label": "Other Mitigation Techniques"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.5 Others: Residual Gated Rescaling",
+      "canonical_label": "Other Mitigation Techniques"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.5 Others: Tuning Auxiliary Loss",
+      "canonical_label": "Other Mitigation Techniques"
+    },
+    {
+      "axis": "mitigation",
+      "source_label": "5.5 Others: Value Modification",
+      "canonical_label": "Other Mitigation Techniques"
+    },
+    {
+      "axis": "utilization",
+      "source_label": "3.1 Sink Token Preservation",
+      "canonical_label": "Sink Token Preservation"
+    },
+    {
+      "axis": "utilization",
+      "source_label": "3.2 Attention Redistribution",
+      "canonical_label": "Attention Redistribution"
+    },
+    {
+      "axis": "utilization",
+      "source_label": "3.3 Learnable Prefix Tokens",
+      "canonical_label": "Learnable Prefix Tokens"
+    },
+    {
+      "axis": "utilization",
+      "source_label": "3.4 Sink Token Repurposing",
+      "canonical_label": "Sink Token Repurposing"
+    }
+  ],
+  "rules": [
+    "Labels may overlap. Empty imported labels mean unassigned, not evidence of absence.",
+    "Legacy fine-grained labels are retained verbatim beside canonical categories.",
+    "Taxonomy mapping does not reassess the source authors’ scholarly classification."
+  ]
+}

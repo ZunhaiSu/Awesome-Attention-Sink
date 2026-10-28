@@ -1,0 +1,33 @@
+{
+  "library_records": 2258,
+  "classified_catalog_records": 247,
+  "unclassified_library_records": 2011,
+  "classification_status_counts": {
+    "unassigned": 2011,
+    "source_sections_checked": 39,
+    "legacy_imported": 208
+  },
+  "scope_decision_counts": {
+    "awaiting_source_review": 2004,
+    "classified_catalog": 247,
+    "reviewed_context": 7
+  },
+  "evidence_counts": {
+    "attention_concentration_keywords": 198,
+    "seed_title_fulltext_index": 1889,
+    "citation_in_primary_reference_list": 57,
+    "prior_sink_keyword_discovery": 38,
+    "prior_classified_catalog": 232,
+    "prior_related_discovery": 49,
+    "source_reviewed_catalog": 15,
+    "seed_citation_index": 54
+  },
+  "reading_status_counts": {
+    "metadata_only": 206,
+    "index_metadata_only": 1841,
+    "reference_list_checked": 55,
+    "key_sections_checked": 39,
+    "key_sections_checked_context": 7,
+    "legacy_imported_not_reassessed": 110
+  }
+}

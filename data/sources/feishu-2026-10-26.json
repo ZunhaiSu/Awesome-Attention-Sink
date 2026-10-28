@@ -1,0 +1,3777 @@
+{
+  "source_id": "feishu-2026-10-26",
+  "source_filename": "AS Paper List.xlsx",
+  "sha256": "86bdb63d4faff4edc6c0812dce8b9207a23a01ced8c5f3ac09d2b3e9208cc7f8",
+  "captured_on": "2026-10-26",
+  "sheet": "Attention Sink Survey Paper List",
+  "headers": [
+    "Label",
+    "DATE",
+    "Paper",
+    "Link",
+    "Pub",
+    "Models",
+    "Utilization",
+    "Understanding",
+    "Mitigation",
+    "Application"
+  ],
+  "first_row": [
+    "This is the surveyed paper list of the first Attention Sink Survey (https://arxiv.org/abs/2604.10098). If there are any errors or omissions of Attention-Sink-related papers, please contact zh-su23@mails.tsinghua.edu.cn. Thanks in advance for your help.",
+    null,
+    null,
+    null,
+    null,
+    "Section 2",
+    "Section 3",
+    "Section 4",
+    "Section 5",
+    "Section 6"
+  ],
+  "rows": [
+    {
+      "row": 3,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "Registers Matter for Pixel-Space Diffusion Transformers",
+        "Link": "https://arxiv.org/abs/2605.16147",
+        "Pub": "ArXiv",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.16147"
+      }
+    },
+    {
+      "row": 4,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "A Single Layer to Explain Them All: Understanding Massive Activations in Large Language Models",
+        "Link": "https://arxiv.org/pdf/2605.08504v2",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits,4.5 Others: Structural Bias: Norm",
+        "Mitigation": "5.5 Others: Modified Norm Layer",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/pdf/2605.08504v2"
+      }
+    },
+    {
+      "row": 5,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "Attention Sinks in Diffusion Transformers: A Causal Analysis",
+        "Link": "https://arxiv.org/abs/2605.09313v2",
+        "Pub": "ICML 2026",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.09313v2"
+      }
+    },
+    {
+      "row": 6,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "Not Blind but Silenced: Rebalancing Vision and Language via Adversarial Counter-Commonsense Equilibrium",
+        "Link": "https://arxiv.org/abs/2605.10676v1",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.10676v1"
+      }
+    },
+    {
+      "row": 7,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "Vocabulary Hijacking in LVLMs: Unveiling Critical Attention Heads by Excluding Inert Tokens to Mitigate Hallucination",
+        "Link": "https://arxiv.org/abs/2605.10622v1",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.10622v1"
+      }
+    },
+    {
+      "row": 8,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "Probing Cross-modal Information Hubs in Audio-Visual LLMs",
+        "Link": "https://arxiv.org/abs/2605.10815v2",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.10815v2"
+      }
+    },
+    {
+      "row": 9,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "Taming Outlier Tokens in Diffusion Transformers",
+        "Link": "https://arxiv.org/abs/2605.05206",
+        "Pub": "ArXiv",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "1 Model Pre-training,6 Safety & Robustness"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.05206"
+      }
+    },
+    {
+      "row": 10,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "SLASH the Sink: Sharpening Structural Attention Inside LLMs",
+        "Link": "https://arxiv.org/abs/2605.10503v1",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability,7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.10503v1"
+      }
+    },
+    {
+      "row": 11,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "The Structural Origin of Attention Sink: Variance Discrepancy, Super Neurons, and Dimension Disparity",
+        "Link": "https://arxiv.org/abs/2605.06611",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations,4.2 Outliers Circuits,4.5 Others: Structural Bias: Norm",
+        "Mitigation": "5.5 Others: Modified Norm Layer",
+        "Application": "1 Model Pre-training,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.06611"
+      }
+    },
+    {
+      "row": 12,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "Attention Sinks in Massively Multilingual Neural Machine Translation:Discovery, Analysis, and Mitigation",
+        "Link": "https://arxiv.org/abs/2605.01229",
+        "Pub": "ArXiv",
+        "Models": "2.3.1 LM(e.g. BERT)",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.01229"
+      }
+    },
+    {
+      "row": 13,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "DeepSeek-V4",
+        "Link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM,2.3.3 MoE",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.3 Learnable Attention Bias",
+        "Application": "1 Model Pre-training"
+      },
+      "hyperlinks": {
+        "Link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+      }
+    },
+    {
+      "row": 14,
+      "values": {
+        "Label": "New",
+        "DATE": 2605,
+        "Paper": "Sink vs. diagonal patterns as mechanisms for attention switch and oversmoothing prevention",
+        "Link": "https://arxiv.org/abs/2605.08453",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 No-Op Theory,4.5 Others: Anti-Overmixing Theory",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2605.08453"
+      }
+    },
+    {
+      "row": 15,
+      "values": {
+        "Label": "New",
+        "DATE": 2604,
+        "Paper": "A Mechanistic Account of Attention Sinks in GPT-2: One Circuit, Broader Implications for Mitigation",
+        "Link": "https://arxiv.org/abs/2604.14722",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits,4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2604.14722"
+      }
+    },
+    {
+      "row": 16,
+      "values": {
+        "Label": "New",
+        "DATE": 2604,
+        "Paper": "When Sinks Help or Hurt: Unified Framework for Attention Sink in Large Vision-Language Models",
+        "Link": "https://arxiv.org/abs/2604.03316",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2604.03316"
+      }
+    },
+    {
+      "row": 17,
+      "values": {
+        "Label": "New",
+        "DATE": 2604,
+        "Paper": "SinkRouter: Sink-Aware Routing for Efficient Long-Context Decoding in Large Language and Multimodal Models",
+        "Link": "https://arxiv.org/abs/2604.16883",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2604.16883"
+      }
+    },
+    {
+      "row": 18,
+      "values": {
+        "Label": "New",
+        "DATE": 2604,
+        "Paper": "SepSeq: A Training-Free Framework for Long Numerical Sequence Processing in LLMs",
+        "Link": "https://arxiv.org/abs/2604.07737",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2604.07737"
+      }
+    },
+    {
+      "row": 19,
+      "values": {
+        "Label": "New",
+        "DATE": 2604,
+        "Paper": "Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs",
+        "Link": "https://arxiv.org/abs/2604.20937",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2604.20937"
+      }
+    },
+    {
+      "row": 20,
+      "values": {
+        "Label": "New",
+        "DATE": 2604,
+        "Paper": "Depth Registers Unlock W4A4 on SwiGLU: A Reader/Generator Decomposition",
+        "Link": "https://arxiv.org/abs/2604.18128",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "4.5 Others: Structural Bias: Norm",
+        "Mitigation": "5.4 Pre-Training Prevention: Auxiliary Loss",
+        "Application": "1 Model Pre-training"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2604.18128"
+      }
+    },
+    {
+      "row": 21,
+      "values": {
+        "Label": "New",
+        "DATE": 2604,
+        "Paper": "PAOSC: Plug-and-play Attention Optimization for Semantic Consistency in LLMs",
+        "Link": "https://dl.acm.org/doi/abs/10.1145/3774904.3792911",
+        "Pub": "WWW 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://dl.acm.org/doi/abs/10.1145/3774904.3792911"
+      }
+    },
+    {
+      "row": 22,
+      "values": {
+        "Label": "New",
+        "DATE": 2604,
+        "Paper": "Attention Sinks as Internal Signals for Hallucination Detection in Large Language Models",
+        "Link": "https://arxiv.org/abs/2604.10697",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "6 Safety & Robustness"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2604.10697"
+      }
+    },
+    {
+      "row": 23,
+      "values": {
+        "Label": null,
+        "DATE": 2603,
+        "Paper": "The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks",
+        "Link": "https://arxiv.org/abs/2603.05498",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Structural Bias: Norm",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.05498"
+      }
+    },
+    {
+      "row": 24,
+      "values": {
+        "Label": null,
+        "DATE": 2603,
+        "Paper": "Attention Sinks Induce Gradient Sinks",
+        "Link": "https://arxiv.org/abs/2603.17771",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "5.4 Pre-Training Prevention: Auxiliary Loss,5.5 Others: Value Modification",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.17771"
+      }
+    },
+    {
+      "row": 25,
+      "values": {
+        "Label": "New",
+        "DATE": 2603,
+        "Paper": "Attention Sinks Are Provably Necessary in Softmax Transformers: Evidence from Trigger-Conditional Tasks",
+        "Link": "https://arxiv.org/abs/2603.11487",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.11487"
+      }
+    },
+    {
+      "row": 26,
+      "values": {
+        "Label": "New",
+        "DATE": 2603,
+        "Paper": "On the Nature of Attention Sink that Shapes Decoding Strategy in Omni-LLMs",
+        "Link": "https://arxiv.org/abs/2603.14337",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: Omni-modal LLMs",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "4.3 Implicit Attention Bias",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.14337"
+      }
+    },
+    {
+      "row": 27,
+      "values": {
+        "Label": "New",
+        "DATE": 2603,
+        "Paper": "SAGE: Sink-Aware Grounded Decoding for Multimodal Hallucination Mitigation",
+        "Link": "https://arxiv.org/abs/2603.27898",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.27898"
+      }
+    },
+    {
+      "row": 28,
+      "values": {
+        "Label": "New",
+        "DATE": 2603,
+        "Paper": "Summarize Before You Speak with ARACH: A Training-Free Inference-Time Plug-In for Enhancing LLMs via Global Attention Reallocation",
+        "Link": "https://arxiv.org/abs/2603.11067",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.11067"
+      }
+    },
+    {
+      "row": 29,
+      "values": {
+        "Label": "New",
+        "DATE": 2603,
+        "Paper": "How Attention Sinks Emerge in Large Language Models: An Interpretability Perspective",
+        "Link": "https://arxiv.org/abs/2603.06591",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Structural Bias: Position/ Positional Embedding,4.5 Others: P0 Sink Circuit Theory",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.06591"
+      }
+    },
+    {
+      "row": 30,
+      "values": {
+        "Label": "New",
+        "DATE": 2603,
+        "Paper": "PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference",
+        "Link": "https://arxiv.org/abs/2603.25730",
+        "Pub": "ArXiv",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.25730"
+      }
+    },
+    {
+      "row": 31,
+      "values": {
+        "Label": "New",
+        "DATE": 2603,
+        "Paper": "KARMA: Knowledge-Action Regularized Multimodal Alignment for Personalized Search at Taobao",
+        "Link": "https://arxiv.org/abs/2603.22779",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.5 Others: Tuning Auxiliary Loss",
+        "Application": "2 Model Tuning"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.22779"
+      }
+    },
+    {
+      "row": 32,
+      "values": {
+        "Label": "New",
+        "DATE": 2603,
+        "Paper": "OmniForcing: Unleashing Real-time Joint Audio-Visual Generation",
+        "Link": "https://arxiv.org/abs/2603.11647",
+        "Pub": "ArXiv",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2603.11647"
+      }
+    },
+    {
+      "row": 33,
+      "values": {
+        "Label": null,
+        "DATE": 2602,
+        "Paper": "SinkTrack: Attention Sink based Context Anchoring for Large Language Models",
+        "Link": "https://arxiv.org/abs/2604.10027",
+        "Pub": "ICLR 2026",
+        "Models": "2.3.2 LLM,2.3.4 MLLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement,5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2604.10027"
+      }
+    },
+    {
+      "row": 34,
+      "values": {
+        "Label": null,
+        "DATE": 2602,
+        "Paper": "Attention Sink Forges Native MoE in Attention Layers: Sink-Aware Training to Address Head Collapse",
+        "Link": "https://arxiv.org/abs/2602.01203",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Native MoE Theory",
+        "Mitigation": "5.4 Pre-Training Prevention: Auxiliary Loss",
+        "Application": "4 Mechansim Interpretability,6 Safety & Robustness"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.01203"
+      }
+    },
+    {
+      "row": 35,
+      "values": {
+        "Label": null,
+        "DATE": 2602,
+        "Paper": "Surgery: Mitigating Harmful Fine-Tuning for Large Language Models via Attention Sink",
+        "Link": "https://arxiv.org/abs/2602.05228",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "5.5 Others: Tuning Auxiliary Loss",
+        "Application": "2 Model Tuning"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.05228"
+      }
+    },
+    {
+      "row": 36,
+      "values": {
+        "Label": null,
+        "DATE": 2602,
+        "Paper": "ViT-5: Vision Transformers for The Mid-2020s",
+        "Link": "https://www.arxiv.org/abs/2602.08071",
+        "Pub": "ArXiv",
+        "Models": "2.4 ViT",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://www.arxiv.org/abs/2602.08071"
+      }
+    },
+    {
+      "row": 37,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs",
+        "Link": "https://arxiv.org/abs/2602.15556",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.15556"
+      }
+    },
+    {
+      "row": 38,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "Affine-Scaled Attention: Towards Flexible and Stable Transformer Attention",
+        "Link": "https://arxiv.org/abs/2602.23057",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "1 Model Pre-training"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.23057"
+      }
+    },
+    {
+      "row": 39,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "InnerQ: Hardware-aware Tuning-free Quantization of KV Cache for Large Language Models",
+        "Link": "https://arxiv.org/abs/2602.23200",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.23200"
+      }
+    },
+    {
+      "row": 40,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "Sink-Aware Pruning for Diffusion Language Models",
+        "Link": "https://arxiv.org/abs/2602.17664",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: DLM (Diffusion language model)",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.17664"
+      }
+    },
+    {
+      "row": 41,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "Train Short, Inference Long: Training-free Horizon Extension for Autoregressive Video Generation",
+        "Link": "https://arxiv.org/abs/2602.14027",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: Autoregressive Video Diffusion Model ",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.14027"
+      }
+    },
+    {
+      "row": 42,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "LongStream: Long-Sequence Streaming Autoregressive Visual Geometry",
+        "Link": "https://arxiv.org/abs/2602.13172",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: 3D Transformers",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.13172"
+      }
+    },
+    {
+      "row": 43,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "Krause Synchronization Transformers",
+        "Link": "https://arxiv.org/abs/2602.11534",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM,2.4 ViT",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "3 Efficient Inference,7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.11534"
+      }
+    },
+    {
+      "row": 44,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "Transformers Are Born Biased: Structural Inductive Biases at Random Initialization and Their Practical Consequences",
+        "Link": "https://arxiv.org/abs/2602.05927",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Structural Bias: Norm,4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.05927"
+      }
+    },
+    {
+      "row": 45,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "MLV-Edit: Towards Consistent and Highly Efficient Editing for Minute-Level Videos",
+        "Link": "https://arxiv.org/abs/2602.02123",
+        "Pub": "ArXiv",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.02123"
+      }
+    },
+    {
+      "row": 46,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "KVSmooth: Mitigating Hallucination in Multi-modal Large Language Models through Key-Value Smoothing",
+        "Link": "https://arxiv.org/abs/2602.04268",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.04268"
+      }
+    },
+    {
+      "row": 47,
+      "values": {
+        "Label": "New",
+        "DATE": 2602,
+        "Paper": "Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing",
+        "Link": "https://arxiv.org/abs/2602.02159",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: DLM (Diffusion language model)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2602.02159"
+      }
+    },
+    {
+      "row": 48,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "Attention Needs to Focus: A Unified Perspective on Attention Allocation",
+        "Link": "https://www.arxiv.org/abs/2601.00919",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "3 Efficient Inference,7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://www.arxiv.org/abs/2601.00919"
+      }
+    },
+    {
+      "row": 49,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "Attention Reallocation: Towards Zero-cost and Controllable Hallucination Mitigation of MLLMs",
+        "Link": "https://arxiv.org/abs/2503.08342",
+        "Pub": "IJCV 2026",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2503.08342"
+      }
+    },
+    {
+      "row": 50,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "MiMo-V2-Flash Technical Report",
+        "Link": "https://arxiv.org/abs/2601.02780",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM,2.3.3 MoE",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.3 Learnable Attention Bias",
+        "Application": "1 Model Pre-training,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2601.02780"
+      }
+    },
+    {
+      "row": 51,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "A Unified View of Attention and Residual Sinks: Outlier-Driven Rescaling is Essential for Transformer Training",
+        "Link": "https://arxiv.org/abs/2601.22966",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Outlier-Driven Rescaling Theory",
+        "Mitigation": "5.5 Others: Modified Norm Layer,5.5 Others: Residual Gated Rescaling",
+        "Application": "1 Model Pre-training"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2601.22966"
+      }
+    },
+    {
+      "row": 52,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "One Token Is Enough: Improving Diffusion Language Models with a Sink Token",
+        "Link": "https://arxiv.org/abs/2601.19657",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: DLM (Diffusion language model)",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "N/A",
+        "Application": "7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2601.19657"
+      }
+    },
+    {
+      "row": 53,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "MotionStream: Real-Time Video Generation with Interactive Motion Controls",
+        "Link": "https://arxiv.org/abs/2511.01266",
+        "Pub": "ICLR 2026",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2511.01266"
+      }
+    },
+    {
+      "row": 54,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "Attention Sinks and Compression Valleys in LLMs are Two Sides of the Same Coin",
+        "Link": "https://arxiv.org/abs/2510.06477",
+        "Pub": "ICLR 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits,4.5 Others: Mix-Compress-Refine Theory",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.06477"
+      }
+    },
+    {
+      "row": 55,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "vAttention: Verified Sparse Attention via Sampling",
+        "Link": "https://arxiv.org/abs/2510.05688",
+        "Pub": "ICLR 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.05688"
+      }
+    },
+    {
+      "row": 56,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "To Sink or Not to Sink: Visual Information Pathways in Large Vision-Language Models",
+        "Link": "https://arxiv.org/abs/2510.08510",
+        "Pub": "ICLR 2026",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.08510"
+      }
+    },
+    {
+      "row": 57,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "Rolling Forcing: Autoregressive Long Video Diffusion in Real Time",
+        "Link": "https://arxiv.org/abs/2509.25161",
+        "Pub": "ICLR 2026",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2509.25161"
+      }
+    },
+    {
+      "row": 58,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "Unveiling Super Experts in Mixture-of-Experts Large Language Models",
+        "Link": "https://arxiv.org/abs/2507.23279",
+        "Pub": "ICLR 2026",
+        "Models": "2.3.3 MoE,2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2507.23279"
+      }
+    },
+    {
+      "row": 59,
+      "values": {
+        "Label": null,
+        "DATE": 2601,
+        "Paper": "ZeroTuning: Unlocking the Initial Token's Power to Enhance Large Language Models Without Training",
+        "Link": "https://arxiv.org/abs/2505.11739",
+        "Pub": "ICLR 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "4.3 Implicit Attention Bias",
+        "Mitigation": "N/A",
+        "Application": "7 General Capability Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2505.11739"
+      }
+    },
+    {
+      "row": 60,
+      "values": {
+        "Label": "New",
+        "DATE": 2601,
+        "Paper": "Revealing the Attention Floating Mechanism in Masked Diffusion Models",
+        "Link": "https://arxiv.org/abs/2601.07894",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: DLM (Diffusion language model)",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2601.07894"
+      }
+    },
+    {
+      "row": 61,
+      "values": {
+        "Label": "New",
+        "DATE": 2601,
+        "Paper": "You Need Better Attention Priors",
+        "Link": "https://arxiv.org/abs/2601.15380",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others:  Entropic Optimal Transport (EOT) Prior Theory",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2601.15380"
+      }
+    },
+    {
+      "row": 62,
+      "values": {
+        "Label": "New",
+        "DATE": 2601,
+        "Paper": "FreeText: Training-Free Text Rendering in Diffusion Transformers via Attention Localization and Spectral Glyph Injection",
+        "Link": "https://arxiv.org/abs/2601.00535",
+        "Pub": "ICML 2026",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2601.00535"
+      }
+    },
+    {
+      "row": 63,
+      "values": {
+        "Label": "New",
+        "DATE": 2601,
+        "Paper": "Garbage Attention in Large Language Models: BOS Sink Heads and Sink-aware Pruning",
+        "Link": "https://arxiv.org/abs/2601.06787",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2601.06787"
+      }
+    },
+    {
+      "row": 64,
+      "values": {
+        "Label": "New",
+        "DATE": 2601,
+        "Paper": "Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling",
+        "Link": "https://arxiv.org/abs/2601.12145",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2601.12145"
+      }
+    },
+    {
+      "row": 65,
+      "values": {
+        "Label": null,
+        "DATE": 2512,
+        "Paper": "On the Existence and Behaviour of Secondary Attention Sinks",
+        "Link": "https://arxiv.org/abs/2512.22213",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Secondary Sink Formation",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2512.22213"
+      }
+    },
+    {
+      "row": 66,
+      "values": {
+        "Label": null,
+        "DATE": 2512,
+        "Paper": "SWAA: Sliding Window Attention Adaptation for Efficient Long-Context LLMs Without Pretraining",
+        "Link": "https://arxiv.org/abs/2512.10411",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2512.10411"
+      }
+    },
+    {
+      "row": 67,
+      "values": {
+        "Label": null,
+        "DATE": 2512,
+        "Paper": "Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression",
+        "Link": "https://arxiv.org/abs/2512.05081",
+        "Pub": "ICML 2026",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2512.05081"
+      }
+    },
+    {
+      "row": 68,
+      "values": {
+        "Label": null,
+        "DATE": 2512,
+        "Paper": "Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation",
+        "Link": "https://arxiv.org/abs/2512.04678",
+        "Pub": "ArXiv",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2512.04678"
+      }
+    },
+    {
+      "row": 69,
+      "values": {
+        "Label": null,
+        "DATE": 2511,
+        "Paper": "DoPE: Denoising Rotary Position Embedding",
+        "Link": "https://arxiv.org/abs/2511.09146",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2511.09146"
+      }
+    },
+    {
+      "row": 70,
+      "values": {
+        "Label": null,
+        "DATE": 2511,
+        "Paper": "TWEO: Transformers Without Extreme Outliers Enables FP8 Training And Quantization For Dummies",
+        "Link": "https://arxiv.org/abs/2511.23225",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "5.4 Pre-Training Prevention: Auxiliary Loss",
+        "Application": "1 Model Pre-training"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2511.23225"
+      }
+    },
+    {
+      "row": 71,
+      "values": {
+        "Label": null,
+        "DATE": 2511,
+        "Paper": "Block Cascading: Training Free Acceleration of Block-Causal Video Models",
+        "Link": "https://arxiv.org/abs/2511.20426",
+        "Pub": "ArXiv",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2511.20426"
+      }
+    },
+    {
+      "row": 72,
+      "values": {
+        "Label": null,
+        "DATE": 2511,
+        "Paper": "OmniSparse: Training-Aware Fine-Grained Sparse Attention for Long-Video MLLMs",
+        "Link": "https://arxiv.org/abs/2511.12201",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "4.4 Geometric Anchoring",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2511.12201"
+      }
+    },
+    {
+      "row": 73,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "Mitigating Attention Sinks and Massive Activations in Audio-Visual Speech Recognition with LLM",
+        "Link": "https://arxiv.org/abs/2510.22603",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "5.5 Others: Tuning Auxiliary Loss",
+        "Application": "7 General Capability Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.22603"
+      }
+    },
+    {
+      "row": 74,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "Lost in the Middle: An Emergent Property from Information Retrieval Demands in LLMs",
+        "Link": "https://arxiv.org/abs/2510.10276",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.10276"
+      }
+    },
+    {
+      "row": 75,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "BitMar: Low-Bit Multimodal Fusion with Episodic Memory for Edge Devices",
+        "Link": "https://arxiv.org/abs/2510.10560",
+        "Pub": "EMNLP 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.10560"
+      }
+    },
+    {
+      "row": 76,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "CacheClip: Accelerating RAG with Effective KV Cache Reuse",
+        "Link": "https://arxiv.org/abs/2510.10129",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.10129"
+      }
+    },
+    {
+      "row": 77,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "Forgetting to Forget: Attention Sink as A Gateway for Backdooring LLM Unlearning",
+        "Link": "https://arxiv.org/abs/2510.17021",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "6 Safety & Robustness,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.17021"
+      }
+    },
+    {
+      "row": 78,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "Artificial Hippocampus Networks for Efficient Long-Context Modeling",
+        "Link": "https://arxiv.org/abs/2510.07318",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.07318"
+      }
+    },
+    {
+      "row": 79,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "OBCache: Optimal Brain KV Cache Pruning for Efficient Long-Context LLM Inference",
+        "Link": "https://arxiv.org/abs/2510.07651",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.07651"
+      }
+    },
+    {
+      "row": 80,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "SALS: Sparse Attention in Latent Space for KV cache Compression",
+        "Link": "https://arxiv.org/abs/2510.24273",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.24273"
+      }
+    },
+    {
+      "row": 81,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "Attention Sinks in Diffusion Language Models",
+        "Link": "https://arxiv.org/abs/2510.15731",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: DLM (Diffusion language model)",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.15731"
+      }
+    },
+    {
+      "row": 82,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "SparseVILA: Decoupling Visual Sparsity for Efficient VLM Inference",
+        "Link": "https://arxiv.org/abs/2510.17777",
+        "Pub": "CVPR 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.17777"
+      }
+    },
+    {
+      "row": 83,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "Value-State Gated Attention for Mitigating Extreme-Token Phenomena in Transformers",
+        "Link": "https://arxiv.org/abs/2510.09017",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations,4.1 No-Op Theory,4.2 Outliers Circuits",
+        "Mitigation": "5.1 Gated Attention Mechanisms",
+        "Application": "3 Efficient Inference,1 Model Pre-training,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.09017"
+      }
+    },
+    {
+      "row": 84,
+      "values": {
+        "Label": "New",
+        "DATE": 2510,
+        "Paper": "Capturing Gaze Shifts for Guidance: Cross-Modal Fusion Enhancement for VLM Hallucination Mitigation",
+        "Link": "https://arxiv.org/abs/2510.22067",
+        "Pub": "ICML 2026",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.22067"
+      }
+    },
+    {
+      "row": 85,
+      "values": {
+        "Label": null,
+        "DATE": 2510,
+        "Paper": "VisiPruner: Decoding Discontinuous Cross-Modal Dynamics for Efficient Multimodal LLMs",
+        "Link": "https://arxiv.org/abs/2510.17205",
+        "Pub": "EMNLP 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2510.17205"
+      }
+    },
+    {
+      "row": 86,
+      "values": {
+        "Label": null,
+        "DATE": 2509,
+        "Paper": "LongCat-Flash Technical Report",
+        "Link": "https://arxiv.org/abs/2509.01322",
+        "Pub": "ArXiv",
+        "Models": "2.3.3 MoE",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.4 Pre-Training Prevention: Auxiliary Loss",
+        "Application": "1 Model Pre-training"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2509.01322"
+      }
+    },
+    {
+      "row": 87,
+      "values": {
+        "Label": null,
+        "DATE": 2509,
+        "Paper": "RetoVLA: Reusing Register Tokens for Spatial Reasoning in Vision-Language-Action Models",
+        "Link": "https://arxiv.org/abs/2509.21243",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: VLA (Vision-Language-Action)",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2509.21243"
+      }
+    },
+    {
+      "row": 88,
+      "values": {
+        "Label": null,
+        "DATE": 2509,
+        "Paper": "OjaKV: Context-Aware Online Low-Rank KV Cache Compression with Oja's Rule",
+        "Link": "https://arxiv.org/abs/2509.21623",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2509.21623"
+      }
+    },
+    {
+      "row": 89,
+      "values": {
+        "Label": "New",
+        "DATE": 2509,
+        "Paper": "LongLive: Real-time Interactive Long Video Generation",
+        "Link": "https://arxiv.org/abs/2509.22622",
+        "Pub": "ArXiv",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2509.22622"
+      }
+    },
+    {
+      "row": 90,
+      "values": {
+        "Label": null,
+        "DATE": 2508,
+        "Paper": "KVSink: Understanding and Enhancing the Preservation of Attention Sinks in KV Cache Quantization for LLMs",
+        "Link": "https://arxiv.org/abs/2508.04257",
+        "Pub": "COLM 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.1 Softmax Limitations,4.1 No-Op Theory,4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2508.04257"
+      }
+    },
+    {
+      "row": 91,
+      "values": {
+        "Label": null,
+        "DATE": 2508,
+        "Paper": "gpt-oss-120b & gpt-oss-20b Model Card",
+        "Link": "https://arxiv.org/abs/2508.10925",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM,2.3.3 MoE",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.3 Learnable Attention Bias",
+        "Application": "1 Model Pre-training"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2508.10925"
+      }
+    },
+    {
+      "row": 92,
+      "values": {
+        "Label": null,
+        "DATE": 2508,
+        "Paper": "What are you sinking? A geometric approach on attention sink",
+        "Link": "https://arxiv.org/abs/2508.02546",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.3.1 LM(e.g. BERT),2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.4 Geometric Anchoring",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2508.02546"
+      }
+    },
+    {
+      "row": 93,
+      "values": {
+        "Label": null,
+        "DATE": 2508,
+        "Paper": "DINOv3",
+        "Link": "https://arxiv.org/abs/2508.10104",
+        "Pub": "ArXiv",
+        "Models": "2.4 ViT",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "1 Model Pre-training,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2508.10104"
+      }
+    },
+    {
+      "row": 94,
+      "values": {
+        "Label": null,
+        "DATE": 2508,
+        "Paper": "CTR-Sink: Attention Sink for Language Models in Click-Through Rate Prediction",
+        "Link": "https://arxiv.org/abs/2508.03668",
+        "Pub": "ArXiv",
+        "Models": "2.3.1 LM(e.g. BERT),2.3.2 LLM",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "4.4 Geometric Anchoring",
+        "Mitigation": "N/A",
+        "Application": "7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2508.03668"
+      }
+    },
+    {
+      "row": 95,
+      "values": {
+        "Label": null,
+        "DATE": 2508,
+        "Paper": "Integral Transformer: Denoising Attention, Not Too Much Not Too Little",
+        "Link": "https://arxiv.org/abs/2508.18387",
+        "Pub": "EMNLP 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2508.18387"
+      }
+    },
+    {
+      "row": 96,
+      "values": {
+        "Label": null,
+        "DATE": 2508,
+        "Paper": "H2EAL: Hybrid-Bonding Architecture with Hybrid Sparse Attention for Efficient Long-Context LLM Inference",
+        "Link": "https://arxiv.org/abs/2508.16653",
+        "Pub": "ICCAD 2025",
+        "Models": "2.3.2 LLM,2.3.3 MoE",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2508.16653"
+      }
+    },
+    {
+      "row": 97,
+      "values": {
+        "Label": null,
+        "DATE": 2508,
+        "Paper": "POSITION BIAS MITIGATES POSITION BIAS: Mitigate Position Bias Through Inter-Position Knowledge Distillation",
+        "Link": "https://arxiv.org/abs/2508.15709",
+        "Pub": "EMNLP 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2508.15709"
+      }
+    },
+    {
+      "row": 98,
+      "values": {
+        "Label": null,
+        "DATE": 2507,
+        "Paper": "Artifacts and Attention Sinks: Structured Approximations for Efficient Vision Transformers",
+        "Link": "https://arxiv.org/abs/2507.16018",
+        "Pub": "ArXiv",
+        "Models": "2.4 ViT",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2507.16018"
+      }
+    },
+    {
+      "row": 99,
+      "values": {
+        "Label": null,
+        "DATE": 2507,
+        "Paper": "FOCUS: Fused Observation of Channels for Unveiling Spectra",
+        "Link": "https://arxiv.org/abs/2507.14787",
+        "Pub": "ArXiv",
+        "Models": "2.4 ViT",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2507.14787"
+      }
+    },
+    {
+      "row": 100,
+      "values": {
+        "Label": null,
+        "DATE": 2507,
+        "Paper": "TriangleMix: Accelerating Prefilling via Decoding-time Contribution Sparsity",
+        "Link": "https://arxiv.org/abs/2507.21526",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2507.21526"
+      }
+    },
+    {
+      "row": 101,
+      "values": {
+        "Label": null,
+        "DATE": 2507,
+        "Paper": "OrthoRank: Token Selection via Sink Token Orthogonality for Efficient LLM inference",
+        "Link": "https://arxiv.org/abs/2507.03865",
+        "Pub": "ICML 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.4 Geometric Anchoring",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2507.03865"
+      }
+    },
+    {
+      "row": 102,
+      "values": {
+        "Label": null,
+        "DATE": 2507,
+        "Paper": "EARN: Efficient Inference Acceleration for LLM-based Generative Recommendation by Register Tokens",
+        "Link": "https://arxiv.org/abs/2507.00715",
+        "Pub": "KDD 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2507.00715"
+      }
+    },
+    {
+      "row": 103,
+      "values": {
+        "Label": null,
+        "DATE": 2507,
+        "Paper": "DeltaLLM: A Training-Free Framework Exploiting Temporal Sparsity for Efficient Edge LLM Inference",
+        "Link": "https://arxiv.org/abs/2507.19608",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2507.19608"
+      }
+    },
+    {
+      "row": 104,
+      "values": {
+        "Label": null,
+        "DATE": 2506,
+        "Paper": "Outlier-Safe Pre-Training for Robust 4-Bit Quantization of Large Language Models",
+        "Link": "https://arxiv.org/abs/2506.19697",
+        "Pub": "ACL 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "5.4 Pre-Training Prevention: Optimizer",
+        "Application": "1 Model Pre-training"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2506.19697"
+      }
+    },
+    {
+      "row": 105,
+      "values": {
+        "Label": null,
+        "DATE": 2506,
+        "Paper": "Vision Transformers Don't Need Trained Registers",
+        "Link": "https://arxiv.org/abs/2506.08010",
+        "Pub": "CVPR 2025",
+        "Models": "2.4 ViT",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2506.08010"
+      }
+    },
+    {
+      "row": 106,
+      "values": {
+        "Label": null,
+        "DATE": 2506,
+        "Paper": "Two Heads Are Better than One: Simulating Large Transformers with Small Ones",
+        "Link": "https://arxiv.org/abs/2506.12220",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2506.12220"
+      }
+    },
+    {
+      "row": 107,
+      "values": {
+        "Label": null,
+        "DATE": 2506,
+        "Paper": "Learn from the Past: Fast Sparse Indexing for Large Language Model Decoding",
+        "Link": "https://arxiv.org/abs/2506.15704",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2506.15704"
+      }
+    },
+    {
+      "row": 108,
+      "values": {
+        "Label": null,
+        "DATE": 2506,
+        "Paper": "PEVLM: Parallel Encoding for Vision-Language Models",
+        "Link": "https://arxiv.org/abs/2506.19651",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2506.19651"
+      }
+    },
+    {
+      "row": 109,
+      "values": {
+        "Label": null,
+        "DATE": 2505,
+        "Paper": "Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free",
+        "Link": "https://arxiv.org/abs/2505.06708",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.3.2 LLM,2.3.3 MoE",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations,4.1 No-Op Theory",
+        "Mitigation": "5.1 Gated Attention Mechanisms",
+        "Application": "3 Efficient Inference,1 Model Pre-training,8 Long-Context Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2505.06708"
+      }
+    },
+    {
+      "row": 110,
+      "values": {
+        "Label": null,
+        "DATE": 2505,
+        "Paper": "Register and [CLS] tokens yield a decoupling of local and global features in large ViTs",
+        "Link": "https://arxiv.org/abs/2505.05892",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.4 ViT",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2505.05892"
+      }
+    },
+    {
+      "row": 111,
+      "values": {
+        "Label": null,
+        "DATE": 2505,
+        "Paper": "Vision Transformers with Self-Distilled Registers",
+        "Link": "https://arxiv.org/abs/2505.21501",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.4 ViT",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2505.21501"
+      }
+    },
+    {
+      "row": 112,
+      "values": {
+        "Label": null,
+        "DATE": 2505,
+        "Paper": "How Do Large Vision-Language Models See Text in Image? Unveiling the Distinctive Role of OCR Heads",
+        "Link": "https://arxiv.org/abs/2505.15865",
+        "Pub": "EMNLP 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2505.15865"
+      }
+    },
+    {
+      "row": 113,
+      "values": {
+        "Label": null,
+        "DATE": 2505,
+        "Paper": "Delta Attention: Fast and Accurate Sparse Attention Inference by Delta Correction",
+        "Link": "https://arxiv.org/abs/2505.11254",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2505.11254"
+      }
+    },
+    {
+      "row": 114,
+      "values": {
+        "Label": null,
+        "DATE": 2504,
+        "Paper": "Softpick: No Attention Sink, No Massive Activations with Rectified Softmax",
+        "Link": "https://arxiv.org/abs/2504.20966",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations,4.1 No-Op Theory,4.2 Outliers Circuits",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "3 Efficient Inference,1 Model Pre-training,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2504.20966"
+      }
+    },
+    {
+      "row": 115,
+      "values": {
+        "Label": null,
+        "DATE": 2504,
+        "Paper": "Why do LLMs attend to the first token?",
+        "Link": "https://arxiv.org/abs/2504.02732",
+        "Pub": "COLM 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Anti-Overmixing Theory",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2504.02732"
+      }
+    },
+    {
+      "row": 116,
+      "values": {
+        "Label": null,
+        "DATE": 2504,
+        "Paper": "EDIT: Enhancing Vision Transformers by Mitigating Attention Sink through an Encoder-Decoder Architecture",
+        "Link": "https://arxiv.org/abs/2504.06738",
+        "Pub": "ArXiv",
+        "Models": "2.4 ViT",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.5 Others: Architectural Isolation",
+        "Application": "9 Multi-modal Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2504.06738"
+      }
+    },
+    {
+      "row": 117,
+      "values": {
+        "Label": null,
+        "DATE": 2504,
+        "Paper": "KeyDiff: Key Similarity-Based KV Cache Eviction for Long-Context LLM Inference in Resource-Constrained Environments",
+        "Link": "https://arxiv.org/abs/2504.15364",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "4.4 Geometric Anchoring",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2504.15364"
+      }
+    },
+    {
+      "row": 118,
+      "values": {
+        "Label": null,
+        "DATE": 2504,
+        "Paper": "Don't Deceive Me: Mitigating Gaslighting through Attention Reallocation in LMMs",
+        "Link": "https://arxiv.org/abs/2504.09456",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2504.09456"
+      }
+    },
+    {
+      "row": 119,
+      "values": {
+        "Label": null,
+        "DATE": 2503,
+        "Paper": "EdgeInfinite: A Memory-Efficient Infinite-Context Transformer for Edge Devices",
+        "Link": "https://arxiv.org/abs/2503.22196",
+        "Pub": "ACL 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2503.22196"
+      }
+    },
+    {
+      "row": 120,
+      "values": {
+        "Label": null,
+        "DATE": 2503,
+        "Paper": "VGGT: Visual Geometry Grounded Transformer",
+        "Link": "https://arxiv.org/abs/2503.11651",
+        "Pub": "CVPR 2025",
+        "Models": "2.6 Others: 3D Transformers",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "1 Model Pre-training,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2503.11651"
+      }
+    },
+    {
+      "row": 121,
+      "values": {
+        "Label": null,
+        "DATE": 2503,
+        "Paper": "Interpreting the Repeated Token Phenomenon in Large Language Models",
+        "Link": "https://arxiv.org/abs/2503.08908",
+        "Pub": "ICML 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability,6 Safety & Robustness"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2503.08908"
+      }
+    },
+    {
+      "row": 122,
+      "values": {
+        "Label": null,
+        "DATE": 2503,
+        "Paper": "Efficient Many-Shot In-Context Learning with Dynamic Block-Sparse Attention",
+        "Link": "https://arxiv.org/abs/2503.08640",
+        "Pub": "ACL 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2503.08640"
+      }
+    },
+    {
+      "row": 123,
+      "values": {
+        "Label": null,
+        "DATE": 2503,
+        "Paper": "See What You Are Told: Visual Attention Sink in Large Multimodal Models",
+        "Link": "https://arxiv.org/abs/2503.03321",
+        "Pub": "ICLR 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2503.03321"
+      }
+    },
+    {
+      "row": 124,
+      "values": {
+        "Label": null,
+        "DATE": 2502,
+        "Paper": "On the Emergence of Position Bias in Transformers",
+        "Link": "https://arxiv.org/abs/2502.01951",
+        "Pub": "ICML 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2502.01951"
+      }
+    },
+    {
+      "row": 125,
+      "values": {
+        "Label": null,
+        "DATE": 2502,
+        "Paper": "Systematic Outliers in Large Language Models",
+        "Link": "https://arxiv.org/abs/2502.06415",
+        "Pub": "ICLR 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits,4.3 Implicit Attention Bias",
+        "Mitigation": "5.3 Learnable Attention Bias",
+        "Application": "1 Model Pre-training,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2502.06415"
+      }
+    },
+    {
+      "row": 126,
+      "values": {
+        "Label": null,
+        "DATE": 2502,
+        "Paper": "Sliding Window Attention Training for Efficient Large Language Models",
+        "Link": "https://arxiv.org/abs/2502.18845",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2502.18845"
+      }
+    },
+    {
+      "row": 127,
+      "values": {
+        "Label": "New",
+        "DATE": 2502,
+        "Paper": "Massive Values in Self-Attention Modules are the Key to Contextual Knowledge Understanding",
+        "Link": "https://arxiv.org/abs/2502.01563",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2502.01563"
+      }
+    },
+    {
+      "row": 128,
+      "values": {
+        "Label": null,
+        "DATE": 2502,
+        "Paper": "Attention Sinks: A 'Catch, Tag, Release' Mechanism for Embeddings",
+        "Link": "https://arxiv.org/abs/2502.00919",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits,4.5 Others: Catch-Tag-Release Theory",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2502.00919"
+      }
+    },
+    {
+      "row": 129,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "Weight-based Analysis of Detokenization in Language Models: Understanding the First Stage of Inference Without Inference",
+        "Link": "https://arxiv.org/abs/2501.15754",
+        "Pub": "NAACL 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2501.15754"
+      }
+    },
+    {
+      "row": 130,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "RotateKV: Accurate and Robust 2-Bit KV Cache Quantization for LLMs via Outlier-Aware Adaptive Rotations",
+        "Link": "https://arxiv.org/abs/2501.16383",
+        "Pub": "IJCAI 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2501.16383"
+      }
+    },
+    {
+      "row": 131,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models",
+        "Link": "https://arxiv.org/abs/2501.15021",
+        "Pub": "ICME 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2501.15021"
+      }
+    },
+    {
+      "row": 132,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "Leveraging Registers in Vision Transformers for Robust Adaptation",
+        "Link": "https://arxiv.org/abs/2501.04784",
+        "Pub": "ICASSP 2025",
+        "Models": "2.4 ViT",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement,6 Safety & Robustness"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2501.04784"
+      }
+    },
+    {
+      "row": 133,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "Task-KV: Task-aware KV Cache Optimization via Semantic Differentiation of Attention Heads",
+        "Link": "https://arxiv.org/abs/2501.15113",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2501.15113"
+      }
+    },
+    {
+      "row": 134,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "LLMs Know What to Drop: Self-Attention Guided KV Cache Eviction for Efficient Long-Context Inference",
+        "Link": "https://arxiv.org/abs/2503.08879",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2503.08879"
+      }
+    },
+    {
+      "row": 135,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "UniGist: Towards General and Hardware-aligned Sequence-level Long Context Compression",
+        "Link": "https://arxiv.org/abs/2509.15763",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2509.15763"
+      }
+    },
+    {
+      "row": 136,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "Cache Me If You Must: Adaptive Key-Value Quantization for Large Language Models",
+        "Link": "https://arxiv.org/abs/2501.19392",
+        "Pub": "ICML 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2501.19392"
+      }
+    },
+    {
+      "row": 137,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "VASparse: Towards Efficient Visual Hallucination Mitigation via Visual-Aware Token Sparsification",
+        "Link": "https://arxiv.org/abs/2501.06553",
+        "Pub": "CVPR 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2501.06553"
+      }
+    },
+    {
+      "row": 138,
+      "values": {
+        "Label": "New",
+        "DATE": 2501,
+        "Paper": "Softplus Attention with Re-weighting Boosts Length Extrapolation in Large Language Models",
+        "Link": "https://arxiv.org/abs/2501.13428",
+        "Pub": "ICML 2026",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "7 General Capability Enhancement,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2501.13428"
+      }
+    },
+    {
+      "row": 139,
+      "values": {
+        "Label": null,
+        "DATE": 2501,
+        "Paper": "Mirage in the eyes: Hallucination attack on multi-modal large language models with only attention sink",
+        "Link": "https://arxiv.org/abs/2501.15269",
+        "Pub": "USENIX Security 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "6 Safety & Robustness,5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2501.15269"
+      }
+    },
+    {
+      "row": 140,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Qwen3-Next",
+        "Link": "https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM,2.3.3 MoE,2.6 Others: Hybrid/ Linear Attention",
+        "Utilization": "N/A",
+        "Understanding": "N/A",
+        "Mitigation": "5.1 Gated Attention Mechanisms",
+        "Application": "1 Model Pre-training"
+      },
+      "hyperlinks": {
+        "Link": "https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list"
+      }
+    },
+    {
+      "row": 141,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "The Singular Anchor: First Token Dominance in Large Language Model Attention Sinks",
+        "Link": "https://openreview.net/forum?id=AJgzo9JhtM",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.4 Geometric Anchoring",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://openreview.net/forum?id=AJgzo9JhtM"
+      }
+    },
+    {
+      "row": 142,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Attention Entropy is a Key Factor: An Analysis of Parallel Context Encoding with Full-attention-based Pre-trained Language Models",
+        "Link": "https://arxiv.org/abs/2412.16545",
+        "Pub": "ACL 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2412.16545"
+      }
+    },
+    {
+      "row": 143,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "SGD-KV: Summarization Guided KV Cache Compression",
+        "Link": "https://openreview.net/pdf?id=XM31M3uSUU",
+        "Pub": "NeurIPS 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://openreview.net/pdf?id=XM31M3uSUU"
+      }
+    },
+    {
+      "row": 144,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Subkv: Quantizing Long Context KV Cache for Sub-Billion Parameter Language Models on Edge Devices",
+        "Link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3422",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3422"
+      }
+    },
+    {
+      "row": 145,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Evolving Sparsity: Leveraging Token Importance Dynamics for Efficient LLM Decoding with Sparse Attention",
+        "Link": "https://openreview.net/forum?id=YPjcyMzhE2",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://openreview.net/forum?id=YPjcyMzhE2"
+      }
+    },
+    {
+      "row": 146,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Anchor Attention, Small Cache: Code Generation With Large Language Models",
+        "Link": "https://arxiv.org/abs/2411.06680",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.4 Geometric Anchoring",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2411.06680"
+      }
+    },
+    {
+      "row": 147,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Look Both Ways and No Sink: Converting LLMs into Text Encoders without Training",
+        "Link": "https://aclanthology.org/2025.acl-long.1113.pdf",
+        "Pub": "ACL 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://aclanthology.org/2025.acl-long.1113.pdf"
+      }
+    },
+    {
+      "row": 148,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "LeanK: Learnable K Cache Channel Pruning for Efficient Decoding",
+        "Link": "https://arxiv.org/abs/2508.02215",
+        "Pub": "EMNLP 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2508.02215"
+      }
+    },
+    {
+      "row": 149,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Diffusion Transformers use Sink Registers",
+        "Link": "https://openreview.net/forum?id=Fc7s3UrQr1",
+        "Pub": "AAAI 2026",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://openreview.net/forum?id=Fc7s3UrQr1"
+      }
+    },
+    {
+      "row": 150,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "What drives attention sinks? A study of massive activations and rotational positional encoding in large vision–language models",
+        "Link": "https://github.com/zhangbaijin/Massive-activations-VLMs",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits,4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "9 Multi-modal Enhancement,5 Reducing Hallucination,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://github.com/zhangbaijin/Massive-activations-VLMs"
+      }
+    },
+    {
+      "row": 151,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Shallow Focus, Deep Fixes: Enhancing Shallow Layers Vision Attention Sinks to Alleviate Hallucination in LVLMs",
+        "Link": "https://aclanthology.org/2025.emnlp-main.174/",
+        "Pub": "EMNLP 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution,3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://aclanthology.org/2025.emnlp-main.174/"
+      }
+    },
+    {
+      "row": 152,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Vocabulary Fixation Reveals Visual Attention Sink for Hallucination Mitigation in LVLMs",
+        "Link": "https://openreview.net/forum?id=8o7iV9l27T",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://openreview.net/forum?id=8o7iV9l27T"
+      }
+    },
+    {
+      "row": 153,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "TALE: Token-Adaptive Low-Rank KVCache Approximation with Reconstruction Elimination",
+        "Link": "https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.39/133612",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.39/133612"
+      }
+    },
+    {
+      "row": 154,
+      "values": {
+        "Label": null,
+        "DATE": 2500,
+        "Paper": "Variance Sensitivity Induces Attention Entropy Collapse in Transformers",
+        "Link": "https://aclanthology.org/2025.emnlp-main.421v2.pdf",
+        "Pub": "EMNLP 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "1 Model Pre-training,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://aclanthology.org/2025.emnlp-main.421v2.pdf"
+      }
+    },
+    {
+      "row": 155,
+      "values": {
+        "Label": null,
+        "DATE": 2412,
+        "Paper": "DFRot: Achieving Outlier-Free and Massive Activation-Free for Rotated LLMs with Refined Rotation",
+        "Link": "https://arxiv.org/abs/2412.00648",
+        "Pub": "COLM 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "5.4 Pre-Training Prevention: Auxiliary Loss",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2412.00648"
+      }
+    },
+    {
+      "row": 156,
+      "values": {
+        "Label": "New",
+        "DATE": 2412,
+        "Paper": "SCOPE: Optimizing Key-Value Cache Compression in Long-context Generation",
+        "Link": "https://arxiv.org/abs/2412.13649",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2412.13649"
+      }
+    },
+    {
+      "row": 157,
+      "values": {
+        "Label": null,
+        "DATE": 2411,
+        "Paper": "Text Embedding is Not All You Need: Attention Control for Text-to-Image Semantic Alignment with Text Self-Attention Maps",
+        "Link": "https://arxiv.org/abs/2411.15236",
+        "Pub": "CVPR 2025",
+        "Models": "2.5 DiT (Diffusion Transformers)",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "5.5 Others: Tuning Auxiliary Loss",
+        "Application": "9 Multi-modal Enhancement,5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2411.15236"
+      }
+    },
+    {
+      "row": 158,
+      "values": {
+        "Label": null,
+        "DATE": 2411,
+        "Paper": "Hymba: A Hybrid-head Architecture for Small Language Models",
+        "Link": "https://arxiv.org/abs/2411.13676",
+        "Pub": "ICLR 2025",
+        "Models": "2.6 Others: Hybrid/ Linear Attention",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2411.13676"
+      }
+    },
+    {
+      "row": 159,
+      "values": {
+        "Label": null,
+        "DATE": 2411,
+        "Paper": "Star Attention: Efficient LLM Inference over Long Sequences",
+        "Link": "https://arxiv.org/abs/2411.17116",
+        "Pub": "ICML 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2411.17116"
+      }
+    },
+    {
+      "row": 160,
+      "values": {
+        "Label": null,
+        "DATE": 2411,
+        "Paper": "Seeing Clearly by Layer Two: Enhancing Attention Heads to Alleviate Hallucination in LVLMs",
+        "Link": "https://arxiv.org/abs/2411.09968",
+        "Pub": "ArXiv",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.2 Attention Redistribution,3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "5 Reducing Hallucination"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2411.09968"
+      }
+    },
+    {
+      "row": 161,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "When Attention Sink Emerges in Language Models: An Empirical View",
+        "Link": "https://arxiv.org/abs/2410.10781",
+        "Pub": "ICLR 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations,4.3 Implicit Attention Bias",
+        "Mitigation": "5.2 Modified Softmax Functions,5.3 Learnable Attention Bias",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.10781"
+      }
+    },
+    {
+      "row": 162,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "Does RoBERTa Perform Better than BERT in Continual Learning: An Attention Sink Perspective",
+        "Link": "https://arxiv.org/abs/2410.05648",
+        "Pub": "COLM 2024",
+        "Models": "2.3.1 LM(e.g. BERT)",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "2 Model Tuning,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.05648"
+      }
+    },
+    {
+      "row": 163,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "EPIC: Efficient Position-Independent Caching for Serving Large Language Models",
+        "Link": "https://arxiv.org/abs/2410.15332",
+        "Pub": "ICML 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.15332"
+      }
+    },
+    {
+      "row": 164,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "Active-Dormant Attention Heads: Mechanistically Demystifying Extreme-Token Phenomena in LLMs",
+        "Link": "https://arxiv.org/abs/2410.13835",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 No-Op Theory,4.2 Outliers Circuits,4.5 Others: Active-Dormant Attention Theory",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.13835"
+      }
+    },
+    {
+      "row": 165,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "BUZZ: Beehive-structured Sparse KV Cache with Segmented Heavy Hitters for Efficient LLM Inference",
+        "Link": "https://arxiv.org/abs/2410.23079",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.23079"
+      }
+    },
+    {
+      "row": 166,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads",
+        "Link": "https://arxiv.org/abs/2410.10819",
+        "Pub": "ICLR 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.10819"
+      }
+    },
+    {
+      "row": 167,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "PrefixQuant: Eliminating Outliers by Prefixed Tokens for Large Language Models Quantization",
+        "Link": "https://arxiv.org/abs/2410.05265",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.05265"
+      }
+    },
+    {
+      "row": 168,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "A Little Goes a Long Way: Efficient Long Context Training and Inference with Partial Contexts",
+        "Link": "https://arxiv.org/abs/2410.01485",
+        "Pub": "ICLR 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,1 Model Pre-training,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.01485"
+      }
+    },
+    {
+      "row": 169,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "MagicPIG: LSH Sampling for Efficient LLM Generation",
+        "Link": "https://arxiv.org/abs/2410.16179",
+        "Pub": "ICLR 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.4 Geometric Anchoring",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,8 Long-Context Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.16179"
+      }
+    },
+    {
+      "row": 170,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "ReLIC: A Recipe for 64k Steps of In-Context Reinforcement Learning for Embodied AIl",
+        "Link": "https://arxiv.org/abs/2410.02751",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.02751"
+      }
+    },
+    {
+      "row": 171,
+      "values": {
+        "Label": null,
+        "DATE": 2410,
+        "Paper": "FROM ATTENTION TO ACTIVATION: UNRAVELING THE ENIGMAS OF LARGE LANGUAGE MODELS",
+        "Link": "https://arxiv.org/abs/2410.17174 ",
+        "Pub": "ICLR 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations,4.2 Outliers Circuits",
+        "Mitigation": "5.2 Modified Softmax Functions,5.4 Pre-Training Prevention: Optimizer",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2410.17174"
+      }
+    },
+    {
+      "row": 172,
+      "values": {
+        "Label": "New",
+        "DATE": 2408,
+        "Paper": "Enhanced Structured State Space Models via Grouped FIR Filtering and Attention Sink Mechanisms",
+        "Link": "https://arxiv.org/abs/2408.00244",
+        "Pub": "ArXiv",
+        "Models": "2.6 Others: Hybrid/ Linear Attention",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "1 Model Pre-training,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2408.00244"
+      }
+    },
+    {
+      "row": 173,
+      "values": {
+        "Label": null,
+        "DATE": 2407,
+        "Paper": "SEED-Story: Multimodal Long Story Generation with Large Language Model",
+        "Link": "https://arxiv.org/abs/2407.08683",
+        "Pub": "CVPR 2025",
+        "Models": "2.3.4 MLLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2407.08683"
+      }
+    },
+    {
+      "row": 174,
+      "values": {
+        "Label": null,
+        "DATE": 2407,
+        "Paper": "A2SF: Accumulative Attention Scoring with Forgetting Factor for Token Pruning in Transformer Decoder",
+        "Link": "https://arxiv.org/abs/2407.20485",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2407.20485"
+      }
+    },
+    {
+      "row": 175,
+      "values": {
+        "Label": null,
+        "DATE": 2407,
+        "Paper": "Unveiling and Controlling Anomalous Attention Distribution in Transformers",
+        "Link": "https://arxiv.org/abs/2407.01601",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Waiver Phenomenon",
+        "Mitigation": "5.5 Others: Value Modification",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2407.01601"
+      }
+    },
+    {
+      "row": 176,
+      "values": {
+        "Label": null,
+        "DATE": 2407,
+        "Paper": "MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention",
+        "Link": "https://arxiv.org/abs/2407.02490",
+        "Pub": "NeurIPS 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2407.02490"
+      }
+    },
+    {
+      "row": 177,
+      "values": {
+        "Label": null,
+        "DATE": 2406,
+        "Paper": "Transformers need glasses! Information over-squashing in language tasks",
+        "Link": "https://arxiv.org/abs/2406.04267",
+        "Pub": "NeurIPS 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Anti-Overmixing Theory",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2406.04267"
+      }
+    },
+    {
+      "row": 178,
+      "values": {
+        "Label": null,
+        "DATE": 2406,
+        "Paper": "Prefixing Attention Sinks can Mitigate Activation Outliers for Large Language Model Quantization",
+        "Link": "https://arxiv.org/abs/2406.12016",
+        "Pub": "EMNLP 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2406.12016"
+      }
+    },
+    {
+      "row": 179,
+      "values": {
+        "Label": null,
+        "DATE": 2406,
+        "Paper": "SinkLoRA: Enhanced Efficiency and Chat Capabilities for Long-Context Large Language Models",
+        "Link": "https://arxiv.org/abs/2406.05678",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2406.05678"
+      }
+    },
+    {
+      "row": 180,
+      "values": {
+        "Label": null,
+        "DATE": 2406,
+        "Paper": "PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling",
+        "Link": "https://arxiv.org/abs/2406.02069",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2406.02069"
+      }
+    },
+    {
+      "row": 181,
+      "values": {
+        "Label": null,
+        "DATE": 2406,
+        "Paper": "Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters",
+        "Link": "https://arxiv.org/abs/2406.12335",
+        "Pub": "EMNLP 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2406.12335"
+      }
+    },
+    {
+      "row": 182,
+      "values": {
+        "Label": null,
+        "DATE": 2406,
+        "Paper": "Unveiling and Harnessing Hidden Attention Sinks: Enhancing Large Language Models without Training through Attention Calibration",
+        "Link": "https://arxiv.org/abs/2406.15765",
+        "Pub": "ICML 2025",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.2 Attention Redistribution",
+        "Understanding": "4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2406.15765"
+      }
+    },
+    {
+      "row": 183,
+      "values": {
+        "Label": null,
+        "DATE": 2405,
+        "Paper": "Exploring Context Window of Large Language Models via Decomposed Positional Vectors",
+        "Link": "https://arxiv.org/abs/2405.18009",
+        "Pub": "NeurIPS 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.4 Geometric Anchoring",
+        "Mitigation": "N/A",
+        "Application": "8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2405.18009"
+      }
+    },
+    {
+      "row": 184,
+      "values": {
+        "Label": null,
+        "DATE": 2405,
+        "Paper": "Mamba-R: Vision Mamba ALSO Needs Registers",
+        "Link": "https://arxiv.org/abs/2405.14858",
+        "Pub": "CVPR 2025",
+        "Models": "2.6 Others: Hybrid/ Linear Attention",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "1 Model Pre-training,9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2405.14858"
+      }
+    },
+    {
+      "row": 185,
+      "values": {
+        "Label": null,
+        "DATE": 2405,
+        "Paper": "SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models",
+        "Link": "https://arxiv.org/abs/2405.06219",
+        "Pub": "COLM 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2405.06219"
+      }
+    },
+    {
+      "row": 186,
+      "values": {
+        "Label": null,
+        "DATE": 2403,
+        "Paper": "IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact",
+        "Link": "https://arxiv.org/abs/2403.01241",
+        "Pub": "ACL 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2403.01241"
+      }
+    },
+    {
+      "row": 187,
+      "values": {
+        "Label": null,
+        "DATE": 2402,
+        "Paper": "Spectral Filters, Dark Signals, and Attention Sinks",
+        "Link": "https://arxiv.org/abs/2402.09221",
+        "Pub": "ACL 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Spectral-Energy Association Theory",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2402.09221"
+      }
+    },
+    {
+      "row": 188,
+      "values": {
+        "Label": null,
+        "DATE": 2402,
+        "Paper": "Massive Activations in Large Language Models",
+        "Link": "https://arxiv.org/abs/2402.17762",
+        "Pub": "COLM 2024",
+        "Models": "2.4 ViT,2.3.3 MoE,2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits,4.3 Implicit Attention Bias",
+        "Mitigation": "5.3 Learnable Attention Bias",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2402.17762"
+      }
+    },
+    {
+      "row": 189,
+      "values": {
+        "Label": null,
+        "DATE": 2402,
+        "Paper": "Is It a Free Lunch for Removing Outliers during Pretraining?",
+        "Link": "https://arxiv.org/abs/2402.12102",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "5.2 Modified Softmax Functions",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2402.12102"
+      }
+    },
+    {
+      "row": 190,
+      "values": {
+        "Label": null,
+        "DATE": 2402,
+        "Paper": "InfLLM: Training-Free Long-Context Extrapolation for LLMs with an Efficient Context Memory",
+        "Link": "https://arxiv.org/abs/2402.04617",
+        "Pub": "NeurIPS 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2402.04617"
+      }
+    },
+    {
+      "row": 191,
+      "values": {
+        "Label": null,
+        "DATE": 2401,
+        "Paper": "With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation",
+        "Link": "https://arxiv.org/abs/2401.11504",
+        "Pub": "COLM 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2401.11504"
+      }
+    },
+    {
+      "row": 192,
+      "values": {
+        "Label": null,
+        "DATE": 2401,
+        "Paper": "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization",
+        "Link": "https://arxiv.org/abs/2401.18079",
+        "Pub": "NeurIPS 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2401.18079"
+      }
+    },
+    {
+      "row": 193,
+      "values": {
+        "Label": null,
+        "DATE": 2401,
+        "Paper": "Zero-Shot RTL Code Generation with Attention Sink Augmented Large Language Models",
+        "Link": "https://arxiv.org/abs/2401.08683",
+        "Pub": "ArXiv",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "7 General Capability Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2401.08683"
+      }
+    },
+    {
+      "row": 194,
+      "values": {
+        "Label": null,
+        "DATE": 2401,
+        "Paper": "Universal Neurons in GPT2 Language Models",
+        "Link": "https://arxiv.org/abs/2401.12181",
+        "Pub": "TMLR 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2401.12181"
+      }
+    },
+    {
+      "row": 195,
+      "values": {
+        "Label": null,
+        "DATE": 2400,
+        "Paper": "Robustness Tokens: Towards Adversarial Robustness of Transformers",
+        "Link": "https://arxiv.org/abs/2503.10191",
+        "Pub": "ECCV 2024",
+        "Models": "2.4 ViT",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement,6 Safety & Robustness"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2503.10191"
+      }
+    },
+    {
+      "row": 196,
+      "values": {
+        "Label": null,
+        "DATE": 2400,
+        "Paper": "Q-Hitter: A Better Token Oracle for Efficient LLM Inference via Sparse-Quantized KV Cache",
+        "Link": "https://proceedings.mlsys.org/paper_files/paper/2024/hash/bbb7506579431a85861a05fff048d3e1-Abstract-Conference.html",
+        "Pub": "MLSys 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://proceedings.mlsys.org/paper_files/paper/2024/hash/bbb7506579431a85861a05fff048d3e1-Abstract-Conference.html"
+      }
+    },
+    {
+      "row": 197,
+      "values": {
+        "Label": null,
+        "DATE": 2400,
+        "Paper": "StreamingDialogue: Prolonged Dialogue Learning via Long Context Compression with Minimal Losses",
+        "Link": "https://arxiv.org/abs/2403.08312",
+        "Pub": "NeurIPS 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.4 Sink Token Repurposing",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,8 Long-Context Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2403.08312"
+      }
+    },
+    {
+      "row": 198,
+      "values": {
+        "Label": null,
+        "DATE": 2400,
+        "Paper": "What Rotary Position Embedding Can Tell Us: Identifying Query and Key Weights Corresponding to Basic Syntactic or High-level Semantic Information",
+        "Link": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/61f425da6e0a201b8fe1454601abfba5-Abstract-Conference.html",
+        "Pub": "NeurIPS 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.1 No-Op Theory,4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability,2 Model Tuning"
+      },
+      "hyperlinks": {
+        "Link": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/61f425da6e0a201b8fe1454601abfba5-Abstract-Conference.html"
+      }
+    },
+    {
+      "row": 199,
+      "values": {
+        "Label": null,
+        "DATE": 2310,
+        "Paper": "Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs",
+        "Link": "https://arxiv.org/abs/2310.01801",
+        "Pub": "ICLR 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2310.01801"
+      }
+    },
+    {
+      "row": 200,
+      "values": {
+        "Label": null,
+        "DATE": 2309,
+        "Paper": "Vision Transformers Need Registers",
+        "Link": "https://arxiv.org/abs/2309.16588",
+        "Pub": "ICLR 2024",
+        "Models": "2.4 ViT",
+        "Utilization": "3.3 Learnable Prefix Tokens",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "9 Multi-modal Enhancement"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2309.16588"
+      }
+    },
+    {
+      "row": 201,
+      "values": {
+        "Label": null,
+        "DATE": 2309,
+        "Paper": "Efficient Streaming Language Models with Attention Sinks",
+        "Link": "https://arxiv.org/abs/2309.17453",
+        "Pub": "ICLR 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation,3.3 Learnable Prefix Tokens",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,8 Long-Context Enhancement,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2309.17453"
+      }
+    },
+    {
+      "row": 202,
+      "values": {
+        "Label": null,
+        "DATE": 2308,
+        "Paper": "LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models",
+        "Link": "https://arxiv.org/abs/2308.16137",
+        "Pub": "NAACL 2024",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.1 Softmax Limitations",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2308.16137"
+      }
+    },
+    {
+      "row": 203,
+      "values": {
+        "Label": null,
+        "DATE": 2306,
+        "Paper": "Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing",
+        "Link": "https://arxiv.org/abs/2306.12929",
+        "Pub": "NeurIPS 2023",
+        "Models": "2.3.1 LM(e.g. BERT),2.4 ViT",
+        "Utilization": "N/A",
+        "Understanding": "4.1 Softmax Limitations,4.1 No-Op Theory,4.2 Outliers Circuits",
+        "Mitigation": "5.1 Gated Attention Mechanisms,5.2 Modified Softmax Functions",
+        "Application": "1 Model Pre-training,3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2306.12929"
+      }
+    },
+    {
+      "row": 204,
+      "values": {
+        "Label": null,
+        "DATE": 2306,
+        "Paper": "H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models",
+        "Link": "https://arxiv.org/abs/2306.14048",
+        "Pub": "NeurIPS 2023",
+        "Models": "2.3.2 LLM",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "N/A",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2306.14048"
+      }
+    },
+    {
+      "row": 205,
+      "values": {
+        "Label": null,
+        "DATE": 2305,
+        "Paper": "The emergence of clusters in self-attention dynamics",
+        "Link": "https://arxiv.org/abs/2305.05465",
+        "Pub": "NeurIPS 2023",
+        "Models": "2.3.2 LLM",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Anti-Overmixing Theory",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2305.05465"
+      }
+    },
+    {
+      "row": 206,
+      "values": {
+        "Label": null,
+        "DATE": 2205,
+        "Paper": "Outliers Dimensions that Disrupt Transformers Are Driven by Frequency",
+        "Link": "https://arxiv.org/abs/2205.11380",
+        "Pub": "EMNLP 2022",
+        "Models": "2.3.1 LM(e.g. BERT)",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2205.11380"
+      }
+    },
+    {
+      "row": 207,
+      "values": {
+        "Label": null,
+        "DATE": 2109,
+        "Paper": "Understanding and Overcoming the Challenges of Efficient Transformer Quantization",
+        "Link": "https://arxiv.org/abs/2109.12948",
+        "Pub": "EMNLP 2021",
+        "Models": "2.3.1 LM(e.g. BERT)",
+        "Utilization": "3.1 Sink Token Preservation",
+        "Understanding": "4.2 Outliers Circuits",
+        "Mitigation": "N/A",
+        "Application": "3 Efficient Inference,4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2109.12948"
+      }
+    },
+    {
+      "row": 208,
+      "values": {
+        "Label": null,
+        "DATE": 2105,
+        "Paper": "BERT Busters: Outlier Dimensions that Disrupt Transformers",
+        "Link": "https://arxiv.org/abs/2105.06990",
+        "Pub": "ACL 2021",
+        "Models": "2.3.1 LM(e.g. BERT)",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits,4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2105.06990"
+      }
+    },
+    {
+      "row": 209,
+      "values": {
+        "Label": null,
+        "DATE": 2011,
+        "Paper": "Positional Artefacts Propagate Through Masked Language Model Embeddings",
+        "Link": "https://arxiv.org/abs/2011.04393",
+        "Pub": "ACL 2021",
+        "Models": "2.3.1 LM(e.g. BERT)",
+        "Utilization": "N/A",
+        "Understanding": "4.2 Outliers Circuits,4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/2011.04393"
+      }
+    },
+    {
+      "row": 210,
+      "values": {
+        "Label": null,
+        "DATE": 1906,
+        "Paper": "What Does BERT Look At? An Analysis of BERT's Attention",
+        "Link": "https://arxiv.org/abs/1906.04341",
+        "Pub": "ACL 2019",
+        "Models": "2.3.1 LM(e.g. BERT)",
+        "Utilization": "N/A",
+        "Understanding": "4.5 Others: Structural Bias: Position/ Positional Embedding",
+        "Mitigation": "N/A",
+        "Application": "4 Mechansim Interpretability"
+      },
+      "hyperlinks": {
+        "Link": "https://arxiv.org/abs/1906.04341"
+      }
+    }
+  ]
+}

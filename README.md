@@ -29,6 +29,11 @@
 
 ## 🔥 Latest News
 
+- **[2026-10-28]** **15 papers classified after source-section review**, bringing the formal catalog to **247 records**: 208 inherited and 39 source-reviewed. Six other papers receive explicit context decisions without forced sink-method labels. The broad library remains at **2,258 records**; collection size is not a count of fully read papers. The original taxonomy and all previous classifications are unchanged. [Classification evidence and boundaries](docs/REVIEW_20261028.md) · [Current catalog](docs/CATALOG.md).
+- **[2026-10-26, expanded scope]** The research library now contains **2,258 bibliographic records**, including papers citing StreamingLLM and related attention-concentration, entropy, saturation, and collapse work. **57 citations were checked in primary reference lists**; index-only matches and unread records are explicitly marked. The prior **232-record classification subset** remains available. [Broad library and coverage](docs/LIBRARY.md) · [Complete CSV](exports/library.csv) · [Additional source readings](docs/BROAD_READING.md).
+- **[2026-10-26]** **24 papers integrated after primary-source section checks**: 23 first submitted in June–October and one earlier omission. The formal catalog now has **232 records**. Each addition includes versioned source sections, classification reasons, fine-grained terms, and limitations. Across expanded discovery, **86 records remain pending** and **56 are excluded or contextual only**. [Evidence and coverage](docs/REVIEW_20261026.md) · [Reviewed additions CSV](exports/reviewed-additions.csv).
+- **[2026-10-26, initial inventory]** The first discovery stage retained **53 AS keyword candidates** and **20 related candidates**, with **48 lexical false matches excluded**. Subsequent source checks and expanded searches are reflected in the current totals above. [Initial scope and screening](docs/SEARCH.md) · [Current pending CSV](exports/candidates.csv).
+- **[2026-10-26]** The Feishu export has been migrated into a versioned catalog of **208 records**. Browse the [paper catalog](docs/CATALOG.md), download the [CSV](exports/papers.csv), or inspect the [data and provenance](docs/MIGRATION.md). Original labels and date precision are preserved.
 - **[2026-06-05]** 📊 **Paper list migrated!** The surveyed paper list has been migrated to an online spreadsheet for easier querying and continuous updates. Access it here: [AS Paper List](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
 - **[2026-06-05]** 📚 **Update!** New version released with **50+ new papers** added. Thanks for all the feedback! In addition, due to the growing number of works on Attention Sink in DiTs, a dedicated **subsection** has been introduced. Further feedback and discussion are always welcome.
 - **[2026-04-14]** ✨ We thank all related works for their contributions to AS-related research. We are currently fine-tuning the paper for journal submission. For any inquiries or to include your work in the paper list, please contact us at [zh-su23@mails.tsinghua.edu.cn](mailto:zh-su23@mails.tsinghua.edu.cn).
@@ -39,7 +44,7 @@
 
 ## 📖 Overview
 
-This repository organizes papers on **Attention Sink (AS)** — where Transformers disproportionately focus on uninformative tokens, causing interpretability issues, training/inference inefficiencies, and hallucinations.
+This repository organizes research on **Attention Sink (AS)**: recurring attention concentration on a small set of positions. The survey examines how models use these positions, what computations they support, and how architectural or training changes can alter dependence on them.
 
 <div align="center">
   <img src="Figures/paper_overview.png" alt="Survey Framework" width="95%">
@@ -49,7 +54,7 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 
 <br>
 
-**We have systematically reviewed the development of AS research**, identifying a clear trajectory across three stages. Our survey further grounds this framework by examining how each stage manifests across different Transformer architectures.
+The survey organizes the literature around three complementary research objectives and examines them across Transformer architectures. A study may address several objectives. The figures summarize the survey; they are not recomputed statistics of the live catalog.
 
 <div align="center">
   <img src="Figures/num_research.png" alt="Research Trends" width="80%">
@@ -59,29 +64,40 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 
 <br>
 
-### Three Research Stages
+### Three Research Objectives
 
-**① Fundamental Utilization** (2023–present)
+**① Fundamental Utilization**
 > Empirical exploitation of AS and management of its immediate effects.
 > *Approaches include:* Sink Token Preservation, Attention Redistribution, Learnable Prefix Tokens, Sink Token Repurposing.
 
-**② Mechanistic Interpretation** (2024–present)
+**② Mechanistic Interpretation**
 > Investigation of underlying causes and architectural factors.
-> *Theories include:* Softmax Limitations & No-Op Theory, Outlier Circuits, Implicit Attention Bias, Geometric Anchoring and others.
+> *Theories include:* Softmax Limitations and No-Op Theory, Outlier Circuits, Implicit Attention Bias, Geometric Anchoring, Other Mechanistic Interpretations.
 
-**③ Strategic Mitigation** (2025–present)
+**③ Strategic Mitigation**
 > Direct structural mitigation for training stability and deployment robustness.
-> *Strategies include:* Gated Attention Mechanisms, Modified Softmax Functions, Learnable Attention Bias, Pre-training Interventions and others.
+> *Strategies include:* Gated Attention Mechanisms, Modified Softmax Functions, Learnable Attention Bias, Pre-training Interventions, Other Mitigation Techniques.
 
 ---
 
 ## 📑 Paper List
 
-**To facilitate efficient querying and continuous updates, we have transitioned to an online spreadsheet:**
+The [broad research library](docs/LIBRARY.md) contains **2,258 records**. It includes citation-linked and concentration-related resources even when their titles or abstracts do not say attention sink. Each record separates its relation evidence, reading depth, and method classification. Indexed full-text title matches are discovery signals; they are not counted as verified citations or source readings. Download the [complete library CSV](exports/library.csv).
 
-> Each paper is annotated with tags that correspond to three core dimensions of Attention Sink (AS): Fundamental Utilization, Mechanistic Interpretation, and Strategic Mitigation, along with its Application Domain.
+The formal catalog contains **247 records**: **208 migrated records** and **39 source-section-reviewed additions**. It preserves three independent method dimensions—**Fundamental Utilization**, **Mechanistic Interpretation**, and **Strategic Mitigation**—alongside architecture and application labels. Labels can overlap; a method subtype remains unassigned when none precisely fits. The remaining **2,011 broad-library records** have no formal taxonomy assignment; seven have reviewed context decisions, and 2,004 await substantive source review.
 
-👉 **[AS Paper List](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)**
+- [Browse the catalog](docs/CATALOG.md)
+- [Browse the expanded library and its evidence definitions](docs/LIBRARY.md)
+- [Download CSV](exports/papers.csv) or [read canonical JSON](data/papers.json)
+- [Classification names and legacy mappings](data/taxonomy.json)
+- [Source preservation and migration checks](docs/MIGRATION.md)
+- [Recent candidates and search scope](docs/SEARCH.md)
+- [Latest source evidence, classifications, and limits](docs/REVIEW_20261028.md)
+- [First source-review batch](docs/REVIEW_20261026.md)
+- [Contribute a paper or correction](CONTRIBUTING.md)
+- [Feishu collection and review table](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
+
+Publication labels for inherited records remain unverified. Source-section-reviewed records use checked arXiv metadata and AI-assisted reading of specified primary-source sections; this does not constitute independent replication or verification of author-supplied venue announcements. Broad library records may remain unread and unclassified. Related register/outlier evidence is distinguished from direct sink measurements. This resource is not exhaustive. Updates do not silently change the coverage of a manuscript version.
 
 If you identify any errors or omissions in the list of Attention-Sink-related papers, please contact zh-su23@mails.tsinghua.edu.cn. We greatly appreciate your contributions and feedback.
 
