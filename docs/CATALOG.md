@@ -1,12 +1,12 @@
 # Surveyed paper catalog
 
-232 formal records: 208 inherited records and 24 source-section-reviewed additions.
+247 formal records: 208 inherited records and 39 source-section-reviewed additions.
 Inherited classification and publication labels were not reassessed. New labels are AI-assisted editorial assignments based on specified primary-source sections, not independent experimental verification.
 Dates retain source precision. The source `New` marker is historical.
 
 [CSV download](../exports/papers.csv) · [Canonical data](../data/papers.json) · [Migration notes](MIGRATION.md)
 
-[New-paper evidence and limits](REVIEW_20261026.md). Empty categories mean unassigned; no subtype is forced onto a study.
+[Latest classification evidence](REVIEW_20261028.md) · [First source-review batch](REVIEW_20261026.md). Empty categories mean unassigned; no subtype is forced onto a study.
 
 | Paper | Date | Models | Fundamental Utilization | Mechanistic Interpretation | Strategic Mitigation | Application | Classification basis |
 |---|---|---|---|---|---|---|---|
@@ -242,3 +242,18 @@ Dates retain source precision. The source `New` marker is historical.
 | [When Do Attention Circuits Form? Developmental Trajectories of Capability and Attention-Sink Emergence Across Three 1B-ClassArchitectures](https://arxiv.org/abs/2606.02378) | 2026-06-01 | Large Language Models; Mixture-of-Experts Large Language Models | — | Other Mechanistic Interpretations | — | Mechanism Interpretability | source_sections_checked |
 | [Massive Spikes in LLMs are Bias Vectors: Mechanistic Uncovering and Spike-Free Quantization](https://arxiv.org/abs/2606.02288) | 2026-06-01 | Large Language Models; Vision Transformers | Sink Token Preservation | Softmax Limitations and No-Op Theory; Outlier Circuits; Implicit Attention Bias | — | Efficient Inference; Mechanism Interpretability | source_sections_checked |
 | [Attention Sinks and Outliers in Attention Residuals](https://arxiv.org/abs/2605.17887) | 2026-05-18 | Large Language Models | — | Softmax Limitations and No-Op Theory | Modified Softmax Functions; Other Mitigation Techniques | Model Pre-training; Efficient Inference; Long-Context Enhancement | source_sections_checked |
+| [Exploring Attention Sinks in Text-to-Image Transformers from Diffusion and Autoregressive Models](https://arxiv.org/abs/2610.13337) | 2026-10-09 | Diffusion Transformers | Learnable Prefix Tokens | Other Mechanistic Interpretations | — | Mechanism Interpretability; Multi-Modal Enhancement | source_sections_checked |
+| [SAGE: Sink-Aware Guided Emphasis for Visual Grounding in Vision-Language Decoders](https://arxiv.org/abs/2610.11469) | 2026-10-08 | Multi-Modal Large Language Models | Attention Redistribution | Other Mechanistic Interpretations | — | Reducing Hallucination; Multi-Modal Enhancement; Mechanism Interpretability | source_sections_checked |
+| [Massive Activation Gating Channel in Large Language Models](https://arxiv.org/abs/2610.07661) | 2026-10-06 | Large Language Models | — | Outlier Circuits | — | Mechanism Interpretability | source_sections_checked |
+| [Mind the Spike: Mechanisms and Brittleness of Visual Massive Activations in Large Vision-Language Models](https://arxiv.org/abs/2609.32808) | 2026-09-26 | Multi-Modal Large Language Models | — | Outlier Circuits | — | Mechanism Interpretability; Safety & Robustness; Multi-Modal Enhancement | source_sections_checked |
+| [Do New Attention Mechanisms Actually Fix Attention Sinks at Million-Token Context?](https://arxiv.org/abs/2609.08574) | 2026-09-08 | Hybrid/ Linear Attention | — | Softmax Limitations and No-Op Theory; Other Mechanistic Interpretations | — | Mechanism Interpretability; Long-Context Enhancement | source_sections_checked |
+| [Text Capability Loss in Vision-Language Adaptation: An Attention-Sink Diagnosis](https://arxiv.org/abs/2609.00746) | 2026-09-01 | Large Language Models; Multi-Modal Large Language Models; Mixture-of-Experts Large Language Models | Sink Token Repurposing | Other Mechanistic Interpretations | — | Model Tuning; Mechanism Interpretability; Multi-Modal Enhancement | source_sections_checked |
+| [Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus](https://arxiv.org/abs/2608.12149) | 2026-08-12 | Hybrid/ Linear Attention; Large Language Models; Mixture-of-Experts Large Language Models | Sink Token Repurposing | Outlier Circuits | — | Mechanism Interpretability; Long-Context Enhancement | source_sections_checked |
+| [Test-Time Registers as Global Priors for Tokenized Image Generation](https://arxiv.org/abs/2607.16824) | 2026-07-18 | Vision Transformers | Attention Redistribution; Sink Token Repurposing | — | — | Multi-Modal Enhancement | source_sections_checked |
+| [Awakening Diffusion Transformers: Eliciting Stronger Generation and Understanding via Massive Activation Modulation](https://arxiv.org/abs/2607.02968) | 2026-07-03 | Diffusion Transformers | — | Outlier Circuits | — | Mechanism Interpretability; Multi-Modal Enhancement | source_sections_checked |
+| [P-Cast Precision in FP8 Attention: Sink-Induced Collapse and the Optimality of S=2^8](https://arxiv.org/abs/2606.06521) | 2026-06-02 | Large Language Models | Sink Token Repurposing | — | — | Efficient Inference | source_sections_checked |
+| [When Graph Tokens Sink: A Mechanistic Analysis of Graph Language Models](https://arxiv.org/abs/2606.03712) | 2026-06-02 | Large Language Models | — | Other Mechanistic Interpretations | — | Mechanism Interpretability | source_sections_checked |
+| [Addressing Exacerbated Attention Sink for Source-Free Cross-Domain Few-Shot Learning](https://arxiv.org/abs/2605.25799) | 2026-05-25 | Vision Transformers | — | Other Mechanistic Interpretations | Other Mitigation Techniques | Model Tuning; Multi-Modal Enhancement | source_sections_checked |
+| [ASAP: Attention Sink Anchored Pruning](https://arxiv.org/abs/2605.22372) | 2026-05-21 | Vision Transformers; Multi-Modal Large Language Models | Sink Token Repurposing | — | — | Efficient Inference; Multi-Modal Enhancement; Reducing Hallucination | source_sections_checked |
+| [Surgical Repair of Collapsed Attention Heads in ALiBi Transformers](https://arxiv.org/abs/2603.09616) | 2026-03-10 | Large Language Models | — | — | Other Mitigation Techniques | Model Tuning; Mechanism Interpretability | source_sections_checked |
+| [Rolling Sink: Bridging Limited-Horizon Training and Open-Ended Testing in Autoregressive Video Diffusion](https://arxiv.org/abs/2602.07775) | 2026-02-08 | Autoregressive Video Diffusion Model | Sink Token Preservation | — | — | Efficient Inference; Long-Context Enhancement; Multi-Modal Enhancement | source_sections_checked |

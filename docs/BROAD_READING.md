@@ -2,6 +2,8 @@
 
 AI-assisted reading of the named primary-source sections. Empirical results are reported by the papers and were not independently reproduced.
 
+These are the four original 26 October reading notes. Current scope and classification decisions are in the [28 October review](REVIEW_20261028.md); BLOOM head repair is now classified, while the other three remain contextual.
+
 ## [One QK Channel, Many Sources: Tracing Low-Precision Attention Collapse](https://arxiv.org/html/2608.02091v2)
 
 **Checked sections:** §§3.1–3.3, 4.2, 5.1–5.4, 6.

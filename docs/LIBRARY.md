@@ -1,8 +1,8 @@
 # Broad attention-sink and attention-concentration library
 
-**2,258 bibliographic records**, including the unchanged 232-record classified subset and 2,026 additional records. The user-expanded scope includes papers citing StreamingLLM and related attention-concentration work. A title/abstract does not need to contain the exact phrase attention sink.
+**2,258 bibliographic records**, including **247 classified catalog records** and 2,011 records without formal taxonomy assignments. The original 208 rows and previous 24 additions are unchanged. The expanded scope includes papers citing StreamingLLM and related attention-concentration work; exact sink keywords are not required.
 
-[Download the complete library CSV](../exports/library.csv) · [Source snapshot and exact queries](../data/library/broad-2026-10-26.json) · [Additional source readings](BROAD_READING.md) · [Original classification subset](CATALOG.md)
+[Download the complete library CSV](../exports/library.csv) · [Source snapshot and exact queries](../data/library/broad-2026-10-26.json) · [Latest classification evidence](REVIEW_20261028.md) · [Classified catalog](CATALOG.md)
 
 ## Inclusion evidence
 
@@ -18,7 +18,9 @@ All pages returned by the documented queries were retrieved. The source queries 
 
 The 60 newest arXiv-linked discovery records were checked for the seed reference: 57 bibliographies confirmed it; 3 HTML versions were unavailable. This convenience batch is not a representative sample. The remaining index hits are not claimed to have been read or citation-verified.
 
-Twenty-eight records have specified key-section checks (24 from the prior update and 4 new concentration readings), and one has a contextual key-section reading. The original 208 classifications remain inherited. Reading a reference list alone does not verify a method classification.
+39 records have specified method/mechanism key-section checks and formal classifications; 7 have contextual key-section readings without forced sink-method labels. The original 208 classifications remain inherited. Reading a reference list alone does not verify a method classification.
+
+The 28 October priority batch classified 15 papers already in the broad library and made six explicit context decisions. Four existing concentration readings were reassessed, so 21 decisions are not described as 21 newly read papers. A separate 27–28 October arXiv query returned zero records; this bounded result does not establish absence of relevant new work. Exact query and response hash are in the [batch audit](../data/reviews/source-review-2026-10-28.json).
 
 Coverage remains limited by index updates, unavailable full texts, vocabulary, and unresolved publication versions. A citation can be background-only; it does not by itself establish direct sink research. Low-rank/smoothed attention and low per-query entropy also require different interpretations.
 
@@ -116,14 +118,14 @@ The complete collection is in the CSV above. Dates below preserve their source b
 | [C$^2$LUE: Clinically Aligned Patient-Level Ultrasound Diagnosis via Evidence-Aware Multi-Instance Learning](https://arxiv.org/abs/2610.14143) | 2026-10-09 | metadata_only | attention_concentration_keywords |
 | [SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices](https://arxiv.org/abs/2610.13740) | 2026-10-09 | index_metadata_only | seed_title_fulltext_index; prior_sink_keyword_discovery |
 | [Not All Dimensions Are Equal: Outlier-Aware Attention Linearization with Grouped Quadratic Kernels](https://arxiv.org/abs/2610.13674) | 2026-10-09 | index_metadata_only | seed_title_fulltext_index |
-| [Exploring Attention Sinks in Text-to-Image Transformers from Diffusion and Autoregressive Models](https://arxiv.org/abs/2610.13337) | 2026-10-09 | index_metadata_only | seed_title_fulltext_index; prior_sink_keyword_discovery |
+| [Exploring Attention Sinks in Text-to-Image Transformers from Diffusion and Autoregressive Models](https://arxiv.org/abs/2610.13337) | 2026-10-09 | key_sections_checked | source_reviewed_catalog; seed_title_fulltext_index; prior_sink_keyword_discovery |
 | [Decoding Register Tokens Preserves Global Scene Details](https://arxiv.org/abs/2610.13299) | 2026-10-09 | metadata_only | prior_related_discovery |
 | [PeekKV: The First Content Token Already Knows Which Heads Matter](https://arxiv.org/abs/2610.23939) | 2026-10-08 | index_metadata_only | seed_title_fulltext_index |
 | [Kronecker Product Attention: Memory-Efficient KV Compression via Structured Factorization](https://arxiv.org/abs/2610.12657) | 2026-10-08 | index_metadata_only | seed_title_fulltext_index |
 | [VFold: Symmetry-Aware Cross-Layer Value Cache Compression](https://arxiv.org/abs/2610.12338) | 2026-10-08 | index_metadata_only | seed_title_fulltext_index |
 | [Rehearse Everything, Remember Nothing: Attic-KV Rehearses What Will Be Read](https://arxiv.org/abs/2610.12133) | 2026-10-08 | index_metadata_only | seed_title_fulltext_index |
 | [GRPODropout: Less is More for Online Reinforcement Learning Rollouts](https://arxiv.org/abs/2610.11854) | 2026-10-08 | metadata_only | attention_concentration_keywords |
-| [SAGE: Sink-Aware Guided Emphasis for Visual Grounding in Vision-Language Decoders](https://arxiv.org/abs/2610.11469) | 2026-10-08 | index_metadata_only | seed_title_fulltext_index; attention_concentration_keywords; prior_sink_keyword_discovery |
+| [SAGE: Sink-Aware Guided Emphasis for Visual Grounding in Vision-Language Decoders](https://arxiv.org/abs/2610.11469) | 2026-10-08 | key_sections_checked | source_reviewed_catalog; seed_title_fulltext_index; attention_concentration_keywords; prior_sink_keyword_discovery |
 | [QUILT: Rethinking Sparse-Attention Prefill through Shared Query Execution](https://arxiv.org/abs/2610.11134) | 2026-10-08 | index_metadata_only | seed_title_fulltext_index |
 | [Lapras: Latent Reasoning for Time Series Language Models](https://arxiv.org/abs/2610.11111) | 2026-10-08 | index_metadata_only | seed_title_fulltext_index |
 | [LaMAR: Latent Multi-agent Collaboration via KV-Cache Communication for Automated Program Repair](https://doi.org/10.1145/3832783.3837423) | 2026-10-07 | index_metadata_only | seed_title_fulltext_index |
