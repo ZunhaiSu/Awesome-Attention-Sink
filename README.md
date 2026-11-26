@@ -77,6 +77,10 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 
 ## 📑 Paper List
 
+**[Browse the online Attention Sink Literature Library](https://zunhaisu.github.io/Awesome-Attention-Sink/)**
+
+The default table follows Appendix A.1 of the updated long version, with 270 distinct papers in 299 architecture entries. Search by paper or author, or filter by architecture and the survey's research categories.
+
 **To facilitate efficient querying and continuous updates, we have transitioned to an online spreadsheet:**
 
 > Each paper is annotated with tags that correspond to three core dimensions of Attention Sink (AS): Fundamental Utilization, Mechanistic Interpretation, and Strategic Mitigation, along with its Application Domain.
