@@ -34,7 +34,7 @@
 - **[2026-10-26]** **24 papers integrated after primary-source section checks**: 23 first submitted in June–October and one earlier omission. The formal catalog now has **232 records**. Each addition includes versioned source sections, classification reasons, fine-grained terms, and limitations. Across expanded discovery, **86 records remain pending** and **56 are excluded or contextual only**. [Evidence and coverage](docs/REVIEW_20261026.md) · [Reviewed additions CSV](exports/reviewed-additions.csv).
 - **[2026-10-26, initial inventory]** The first discovery stage retained **53 AS keyword candidates** and **20 related candidates**, with **48 lexical false matches excluded**. Subsequent source checks and expanded searches are reflected in the current totals above. [Initial scope and screening](docs/SEARCH.md) · [Current pending CSV](exports/candidates.csv).
 - **[2026-10-26]** The Feishu export has been migrated into a versioned catalog of **208 records**. Browse the [paper catalog](docs/CATALOG.md), download the [CSV](exports/papers.csv), or inspect the [data and provenance](docs/MIGRATION.md). Original labels and date precision are preserved.
-- **[2026-06-05]** 📊 **Paper list migrated!** The surveyed paper list has been migrated to an online spreadsheet for easier querying and continuous updates. Access it here: [AS Paper List](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
+- **[2026-06-05]** 📊 The surveyed paper list moved to an online spreadsheet. The [online literature library](https://zunhaisu.github.io/Awesome-Attention-Sink/) hosts the current list.
 - **[2026-06-05]** 📚 **Update!** New version released with **50+ new papers** added. Thanks for all the feedback! In addition, due to the growing number of works on Attention Sink in DiTs, a dedicated **subsection** has been introduced. Further feedback and discussion are always welcome.
 - **[2026-04-14]** ✨ We thank all related works for their contributions to AS-related research. We are currently fine-tuning the paper for journal submission. For any inquiries or to include your work in the paper list, please contact us at [zh-su23@mails.tsinghua.edu.cn](mailto:zh-su23@mails.tsinghua.edu.cn).
 - **[2026-04-14]** 🎉 Our survey paper *"Attention Sink in Transformers: A Survey on Utilization, Interpretation, and Mitigation"* is now available on arXiv! [[Link](https://arxiv.org/abs/2604.10098)]
@@ -82,6 +82,10 @@ The survey organizes the literature around three complementary research objectiv
 
 ## 📑 Paper List
 
+**[Browse the online Attention Sink Literature Library](https://zunhaisu.github.io/Awesome-Attention-Sink/)**
+
+The default table follows Appendix A.1 of the updated long version, with 270 distinct papers in 299 architecture entries.
+
 The [broad research library](docs/LIBRARY.md) contains **2,258 records**. It includes citation-linked and concentration-related resources even when their titles or abstracts do not say attention sink. Each record separates its relation evidence, reading depth, and method classification. Indexed full-text title matches are discovery signals; they are not counted as verified citations or source readings. Download the [complete library CSV](exports/library.csv).
 
 The formal catalog contains **247 records**: **208 migrated records** and **39 source-section-reviewed additions**. It preserves three independent method dimensions—**Fundamental Utilization**, **Mechanistic Interpretation**, and **Strategic Mitigation**—alongside architecture and application labels. Labels can overlap; a method subtype remains unassigned when none precisely fits. The remaining **2,011 broad-library records** have no formal taxonomy assignment; seven have reviewed context decisions, and 2,004 await substantive source review.
@@ -95,7 +99,6 @@ The formal catalog contains **247 records**: **208 migrated records** and **39 s
 - [Latest source evidence, classifications, and limits](docs/REVIEW_20261028.md)
 - [First source-review batch](docs/REVIEW_20261026.md)
 - [Contribute a paper or correction](CONTRIBUTING.md)
-- [Feishu collection and review table](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
 
 Publication labels for inherited records remain unverified. Source-section-reviewed records use checked arXiv metadata and AI-assisted reading of specified primary-source sections; this does not constitute independent replication or verification of author-supplied venue announcements. Broad library records may remain unread and unclassified. Related register/outlier evidence is distinguished from direct sink measurements. This resource is not exhaustive. Updates do not silently change the coverage of a manuscript version.
 
