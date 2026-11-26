@@ -31,7 +31,7 @@
 
 - **[2026-06-05]** 📊 **Paper list migrated!** The surveyed paper list has been migrated to an online spreadsheet for easier querying and continuous updates. Access it here: [AS Paper List](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)
 - **[2026-06-05]** 📚 **Update!** New version released with **50+ new papers** added. Thanks for all the feedback! In addition, due to the growing number of works on Attention Sink in DiTs, a dedicated **subsection** has been introduced. Further feedback and discussion are always welcome.
-- **[2026-04-14]** ✨ We thank all related works for their contributions to AS-related research. We are currently fine-tuning the paper for journal submission. For any inquiries or to include your work in the paper list, please contact us at [zh-su23@mails.tsinghua.edu.cn](mailto:zh-su23@mails.tsinghua.edu.cn).
+- **[2026-04-14]** ✨ We thank all related works for their contributions to AS-related research. We are currently fine-tuning the paper for journal submission. For any inquiries or to include your work in the paper list, please contact us at [zh-su23@tsinghua.org.cn](mailto:zh-su23@tsinghua.org.cn).
 - **[2026-04-14]** 🎉 Our survey paper *"Attention Sink in Transformers: A Survey on Utilization, Interpretation, and Mitigation"* is now available on arXiv! [[Link](https://arxiv.org/abs/2604.10098)]
 - **[2026-04-11]** 🚀 Repository launched to track the latest progress in Attention Sink research.
 
@@ -83,7 +83,7 @@ This repository organizes papers on **Attention Sink (AS)** — where Transforme
 
 👉 **[AS Paper List](https://bcn7isxnv9g2.feishu.cn/wiki/TWcVw0TmIi9F1ZkyZ3ac3z6onYe)**
 
-If you identify any errors or omissions in the list of Attention-Sink-related papers, please contact zh-su23@mails.tsinghua.edu.cn. We greatly appreciate your contributions and feedback.
+If you identify any errors or omissions in the list of Attention-Sink-related papers, please contact zh-su23@tsinghua.org.cn. We greatly appreciate your contributions and feedback.
 
 ## 🌟 Citation
 
@@ -102,4 +102,4 @@ If you find this survey or repository useful for your research, please cite:
 
 Feel free to open an issue or contact us if you have any questions or want to include your work in this list.
 
-Corresponding Author: Zunhai Su (zh-su23@mails.tsinghua.edu.cn)
+Corresponding Author: Zunhai Su (zh-su23@tsinghua.org.cn)
