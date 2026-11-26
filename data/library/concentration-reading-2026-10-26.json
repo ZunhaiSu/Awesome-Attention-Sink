@@ -1,0 +1,50 @@
+{
+  "as_of": "2026-10-26",
+  "review_method": "AI-assisted reading of the named primary-source sections. Empirical results are reported by the papers and were not independently reproduced.",
+  "records": [
+    {
+      "arxiv_id": "2608.02091",
+      "source_url": "https://arxiv.org/html/2608.02091v2",
+      "sections": "§§3.1–3.3, 4.2, 5.1–5.4, 6",
+      "reading_status": "key_sections_checked",
+      "relation": "attention_logit_saturation_and_training_collapse",
+      "finding": "Low-precision errors injected at several sites can produce QK spectral runaway. QK-local interventions and direction-matched controls support a shared failure channel; QK-Guard activates per-head normalization after a monitored logit threshold.",
+      "relevance": "Connects attention saturation, QK geometry, numerical precision, and training stability to the survey's discussion of architectural interventions.",
+      "limits": "The tested failures are controlled low-precision training faults. The study does not establish persistent semantic-independent sink positions in all models, and a large QK norm alone is not a sufficient failure detector.",
+      "taxonomy_note": "Retained as broader concentration/stability evidence. Existing attention-sink method categories are not inferred from QK normalization alone."
+    },
+    {
+      "arxiv_id": "2607.24025",
+      "source_url": "https://arxiv.org/html/2607.24025v2",
+      "sections": "§§II-C, IV-A–IV-C, V-D, VII",
+      "reading_status": "key_sections_checked",
+      "relation": "spectral_attention_collapse",
+      "finding": "SpecFormer softens input singular values, computes Q/K from softened features, and adds a learned spectral residual term for recommendation. Effective-rank measurements characterize its collapse criterion.",
+      "relevance": "Useful related evidence on how embedding spectra and attention-map degeneration interact, including interventions beyond language and vision models.",
+      "limits": "Its attention-collapse definition includes overly smoothed as well as sparse maps. Low rank is not by itself proof of a query-independent sink or low per-query entropy.",
+      "taxonomy_note": "Retained in the broad library with its own collapse definition. Spectral terminology does not automatically imply Geometric Anchoring."
+    },
+    {
+      "arxiv_id": "2603.09616",
+      "source_url": "https://arxiv.org/html/2603.09616v1",
+      "sections": "§§3.1–3.4, 5.5, 6",
+      "reading_status": "key_sections_checked",
+      "relation": "bos_attention_concentration_and_head_repair",
+      "finding": "The paper diagnoses BLOOM heads with BOS mass and attention entropy, then reinitializes selected Q/K/V projections, zeroes their output projections, and trains them while masking gradients of the remaining parameters.",
+      "relevance": "Directly relevant to BOS concentration and post-training repair. A concrete example of model adaptation that reduces a learned attention pathology.",
+      "limits": "Full repair is evaluated only on BLOOM-1b7. Head-recovery thresholds are architecture-dependent, corpus effects remain confounded, and generation evaluation is limited.",
+      "taxonomy_note": "Relevant to Other Mitigation Techniques and Model Tuning; any future formal row should retain that training is required rather than describe it as a training-free edit."
+    },
+    {
+      "arxiv_id": "2602.01439",
+      "source_url": "https://arxiv.org/html/2602.01439v1",
+      "sections": "§§4.1–4.3, 5.2–5.5, 6",
+      "reading_status": "key_sections_checked",
+      "relation": "concentrated_attention_in_transformer_q_functions",
+      "finding": "TQL measures increasingly concentrated attention in larger Transformer Q-functions and trains with attention-entropy losses using adaptive layer-wise and VALUE-token coefficients.",
+      "relevance": "Broadens the concentration discussion to reinforcement-learning value networks and provides evidence on entropy-guided training interventions.",
+      "limits": "The experiments concern small offline-RL critics and do not show that their concentrated tokens implement the same mechanisms as LLM sinks. Entropy regularization, modality embeddings, and policy extraction contribute to the evaluated system.",
+      "taxonomy_note": "Retained as related entropy-control evidence. The learnable entropy coefficient is not an attention-logit bias and is not a learnable sink token."
+    }
+  ]
+}

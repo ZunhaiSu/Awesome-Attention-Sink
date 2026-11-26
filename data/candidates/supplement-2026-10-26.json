@@ -1,0 +1,2069 @@
+{
+  "as_of": "2026-10-26",
+  "queries": [
+    {
+      "name": "expanded_sink_and_mechanisms",
+      "query": "(ti:sink OR ti:sinks OR ti:\"null attention\" OR ti:softmax1 OR ti:\"gated attention\" OR ti:\"spectral geometry of attention\") AND (cat:cs.LG OR cat:cs.CL OR cat:cs.CV OR cat:cs.AI OR cat:stat.ML) AND submittedDate:[202606010000 TO 202610262359]",
+      "pages": [
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Asink+OR+ti%3Asinks+OR+ti%3A%22null+attention%22+OR+ti%3Asoftmax1+OR+ti%3A%22gated+attention%22+OR+ti%3A%22spectral+geometry+of+attention%22%29+AND+%28cat%3Acs.LG+OR+cat%3Acs.CL+OR+cat%3Acs.CV+OR+cat%3Acs.AI+OR+cat%3Astat.ML%29+AND+submittedDate%3A%5B202606010000+TO+202610262359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+          "sha256": "419487cceb05f80ed93e879cd8f4905ccb7c043cd9452a7ed996a8d8baa55b0c",
+          "start": 0,
+          "returned": 27,
+          "total_results": 27
+        }
+      ]
+    },
+    {
+      "name": "earlier_2026_sink",
+      "query": "(ti:\"attention sink\" OR abs:\"attention sink\" OR ti:\"attention sinks\" OR abs:\"attention sinks\") AND submittedDate:[202601010000 TO 202605312359]",
+      "pages": [
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22attention+sink%22+OR+abs%3A%22attention+sink%22+OR+ti%3A%22attention+sinks%22+OR+abs%3A%22attention+sinks%22%29+AND+submittedDate%3A%5B202601010000+TO+202605312359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+          "sha256": "81c1eed981b90ca21325fa8e0046d2d5eadd0e6fc1227629dc7bfc951ee731a5",
+          "start": 0,
+          "returned": 69,
+          "total_results": 69
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "arxiv_id": "2610.22975",
+      "version": "v1",
+      "title": "Sink-Sparse Hybrid Attention for Efficient Inference in T2I/T2V Diffusion Transformers",
+      "published": "2026-10-16",
+      "updated": "2026-10-16",
+      "authors": [
+        "Bingxin Xing",
+        "Yu Zhang",
+        "Jiatong Ding",
+        "Lei Lu",
+        "Ping Wang"
+      ],
+      "url": "https://arxiv.org/abs/2610.22975",
+      "publication_note": "12 pages, 6 figures",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2610.16745",
+      "version": "v1",
+      "title": "Before Attention Sinks Form: Hidden-State Geometry Reveals and Modulates Their Formation",
+      "published": "2026-10-12",
+      "updated": "2026-10-12",
+      "authors": [
+        "Fan Yang",
+        "Yue Song"
+      ],
+      "url": "https://arxiv.org/abs/2610.16745",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2610.15855",
+      "version": "v2",
+      "title": "Attention Sinks in VLMs Are Borrowed, Not Seen",
+      "published": "2026-10-11",
+      "updated": "2026-10-19",
+      "authors": [
+        "Dengjia Zhang",
+        "Alexander Martin",
+        "Pengyu Yan",
+        "Xihan Sun",
+        "Jiaqi Li",
+        "Benjamin Van Durme",
+        "Andrew Yates",
+        "Reno Kriz",
+        "William Walden"
+      ],
+      "url": "https://arxiv.org/abs/2610.15855",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2610.15431",
+      "version": "v1",
+      "title": "Harnessing SPAD Noise: Test-Time Gated Attention for Indoor Depth Estimation",
+      "published": "2026-10-11",
+      "updated": "2026-10-11",
+      "authors": [
+        "Yiquan Gao"
+      ],
+      "url": "https://arxiv.org/abs/2610.15431",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2610.13337",
+      "version": "v1",
+      "title": "Exploring Attention Sinks in Text-to-Image Transformers from Diffusion and Autoregressive Models",
+      "published": "2026-10-09",
+      "updated": "2026-10-09",
+      "authors": [
+        "Binglei Li",
+        "Mengping Yang",
+        "Zhiyu Tan",
+        "Wenxu Qian",
+        "Junping Zhang",
+        "Hao Li"
+      ],
+      "url": "https://arxiv.org/abs/2610.13337",
+      "publication_note": "10 pages",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2610.11469",
+      "version": "v1",
+      "title": "SAGE: Sink-Aware Guided Emphasis for Visual Grounding in Vision-Language Decoders",
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "authors": [
+        "Jeonghyo Song",
+        "YoungJoon Yoo"
+      ],
+      "url": "https://arxiv.org/abs/2610.11469",
+      "publication_note": "Accepted to EMNLP 2026 Findings",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2610.06012",
+      "version": "v1",
+      "title": "Spectral Geometry of Attention: From Information Routing to Uncertainty",
+      "published": "2026-10-05",
+      "updated": "2026-10-05",
+      "authors": [
+        "Giulio Viganò",
+        "Simone Melzi",
+        "Maks Ovsjanikov"
+      ],
+      "url": "https://arxiv.org/abs/2610.06012",
+      "publication_note": "This paper has been accepted as poster at Neurips 2026",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2610.03014",
+      "version": "v1",
+      "title": "Beyond Predefined Sinks: Security-Aware Dependency Analysis for LLM Agents",
+      "published": "2026-10-02",
+      "updated": "2026-10-02",
+      "authors": [
+        "Hang Cui"
+      ],
+      "url": "https://arxiv.org/abs/2610.03014",
+      "publication_note": "29 pages, 3 figures, including supplementary appendices. Preprint",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2609.34539",
+      "version": "v1",
+      "title": "TSGate: Timestep-Aware Gated Attention for Diffusion Transformers",
+      "published": "2026-09-28",
+      "updated": "2026-09-28",
+      "authors": [
+        "Boyu Zhang",
+        "Yifan Liu",
+        "Shuxia Lin",
+        "Qingjian Ni",
+        "Yinfei Xu",
+        "Xu Yang"
+      ],
+      "url": "https://arxiv.org/abs/2609.34539",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2609.23585",
+      "version": "v1",
+      "title": "Global Ranks Survive, Selected Heads Shift: BOS-Sink Topology under 4-bit Weight-Only Quantization",
+      "published": "2026-09-20",
+      "updated": "2026-09-20",
+      "authors": [
+        "Kuanlin Chen",
+        "Chen-Wei Kuo",
+        "Cheng-En Ou"
+      ],
+      "url": "https://arxiv.org/abs/2609.23585",
+      "publication_note": "Accepted for publication at IEEE IECON 2026. 6 pages, 3 figures, 7 tables",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2609.23314",
+      "version": "v2",
+      "title": "ValueDiff: Value-Geometric KV Cache Eviction for Sink-Suppressed LLMs",
+      "published": "2026-09-20",
+      "updated": "2026-10-06",
+      "authors": [
+        "Junyoung Park",
+        "Jungwook Choi",
+        "Mingu Lee"
+      ],
+      "url": "https://arxiv.org/abs/2609.23314",
+      "publication_note": "10 pages, 3 Figues",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2609.16795",
+      "version": "v1",
+      "title": "Layers, Sinks, and Scaling: Adaptive Evidence Selection for Multimodal Large Language Models",
+      "published": "2026-09-15",
+      "updated": "2026-09-15",
+      "authors": [
+        "Zhenbin Wang",
+        "Lei Zhang",
+        "Lituan Wang",
+        "Wei Huang",
+        "Yan Wang",
+        "Zhenwei Zhang"
+      ],
+      "url": "https://arxiv.org/abs/2609.16795",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2609.09085",
+      "version": "v1",
+      "title": "It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention",
+      "published": "2026-09-08",
+      "updated": "2026-09-08",
+      "authors": [
+        "Raito Kiya",
+        "Satoki Ohashi",
+        "Kosuke Sato",
+        "Go Kamoda",
+        "Ryosuke Takahashi",
+        "Yuji Yamamoto",
+        "Daiki Shiono",
+        "Keisuke Sakaguchi",
+        "Goro Kobayashi"
+      ],
+      "url": "https://arxiv.org/abs/2609.09085",
+      "publication_note": "Accepted at EMNLP 2026",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2609.08574",
+      "version": "v2",
+      "title": "Do New Attention Mechanisms Actually Fix Attention Sinks at Million-Token Context?",
+      "published": "2026-09-08",
+      "updated": "2026-09-18",
+      "authors": [
+        "Sara Rizwan",
+        "Samaanah Abdus Salam",
+        "Mohammed Mudassir Uddin"
+      ],
+      "url": "https://arxiv.org/abs/2609.08574",
+      "publication_note": "Experimental study of attention sinks, long-context recall, and million-token context behavior. Code and measurement protocol are available at https://github.com/sararizwan7/Attention-Mechanisms-in-1M-Context-Window",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2609.01004",
+      "version": "v1",
+      "title": "SinkPruner: Sink-Free Visual Token Pruning for Multimodal Large Language Models",
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "authors": [
+        "Shiyu Li",
+        "Zi-Yuan Hu",
+        "Shijia Huang",
+        "Yanyang Li",
+        "Yiwu Zhong",
+        "Liwei Wang"
+      ],
+      "url": "https://arxiv.org/abs/2609.01004",
+      "publication_note": "EMNLP 2026 (findings)",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2609.00746",
+      "version": "v1",
+      "title": "Text Capability Loss in Vision-Language Adaptation: An Attention-Sink Diagnosis",
+      "published": "2026-09-01",
+      "updated": "2026-09-01",
+      "authors": [
+        "Minsik Choi",
+        "Geewook Kim",
+        "Young Geun Kim"
+      ],
+      "url": "https://arxiv.org/abs/2609.00746",
+      "publication_note": "Accepted to EMNLP 2026. 29 pages, 6 figures, 15 tables. Code and data: https://github.com/minsik-choi126/sink-strength. * Equal contribution. † Corresponding author",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2608.30695",
+      "version": "v1",
+      "title": "Liquid Gated Attention",
+      "published": "2026-08-31",
+      "updated": "2026-08-31",
+      "authors": [
+        "Yiheng Jiang",
+        "Yuanbo Xu",
+        "Yongjian Yang"
+      ],
+      "url": "https://arxiv.org/abs/2608.30695",
+      "publication_note": "Code is available at https://anonymous.4open.science/r/Liquid-Gated-Attention-6B55",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2608.11805",
+      "version": "v2",
+      "title": "Hybrid Gated Attention",
+      "published": "2026-08-12",
+      "updated": "2026-10-14",
+      "authors": [
+        "Zekun Zhou",
+        "Ruobing Xie",
+        "Lanrui Wang",
+        "Weixuan Sun"
+      ],
+      "url": "https://arxiv.org/abs/2608.11805",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2607.13897",
+      "version": "v3",
+      "title": "RF Spectrogram Anomaly Detection with Quantum Kitchen Sinks: Architecture, Representation, and Hardware Validation",
+      "published": "2026-07-15",
+      "updated": "2026-07-24",
+      "authors": [
+        "Abdallah Aaraba",
+        "Alexis Vieloszynski",
+        "Remon Polus",
+        "Soumaya Cherkaoui",
+        "Ola Ahmad"
+      ],
+      "url": "https://arxiv.org/abs/2607.13897",
+      "publication_note": "Paper accepted to IEEE quantum week 2026",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2607.02344",
+      "version": "v1",
+      "title": "Self-Gating Attention for Efficient Time Series Forecasting",
+      "published": "2026-07-02",
+      "updated": "2026-07-02",
+      "authors": [
+        "Dezheng Wang",
+        "Tong Chen",
+        "Wei Yuan",
+        "Congyan Chen",
+        "Shihua Li",
+        "Hongzhi Yin"
+      ],
+      "url": "https://arxiv.org/abs/2607.02344",
+      "publication_note": "",
+      "doi": "10.1109/TII.2026.3710167",
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2607.01707",
+      "version": "v1",
+      "title": "LASER: A Corrective Lens for LVLMs via Visual Attention Preservation and Sink Suppression",
+      "published": "2026-07-02",
+      "updated": "2026-07-02",
+      "authors": [
+        "Bowen Yuan",
+        "Zijian Wang",
+        "Yadan Luo",
+        "Shijie Wang",
+        "Zi Huang"
+      ],
+      "url": "https://arxiv.org/abs/2607.01707",
+      "publication_note": "The 19th European Conference on Computer Vision (ECCV 2026)",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2606.29347",
+      "version": "v1",
+      "title": "Adaptive Financial Transformer with Regime-Gated Attention for Stock Return Prediction",
+      "published": "2026-06-28",
+      "updated": "2026-06-28",
+      "authors": [
+        "Dishan Sarkar"
+      ],
+      "url": "https://arxiv.org/abs/2606.29347",
+      "publication_note": "10 pages, 4 figures, 10 tables. PyTorch implementation and code available at: https://github.com/Dishan18/FinancialTransformer",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2606.08105",
+      "version": "v2",
+      "title": "A Unifying View of Attention Sinks: From Mechanisms to Architectural Interventions",
+      "published": "2026-06-06",
+      "updated": "2026-10-05",
+      "authors": [
+        "Lukas Fesser*",
+        "Mozes Jacobs*",
+        "Thomas Fel*",
+        "Andy Keller",
+        "Sham Kakade"
+      ],
+      "url": "https://arxiv.org/abs/2606.08105",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2606.09888",
+      "version": "v1",
+      "title": "SinkRec: Mitigating Semantic State Sink in Long Sequence Recommendation with Memory-Conditioned Gated Delta Networks",
+      "published": "2026-06-03",
+      "updated": "2026-06-03",
+      "authors": [
+        "Zhuang Zhuang",
+        "Zhipeng Wei",
+        "Ji Dai",
+        "Jie Chen",
+        "Fei Pan",
+        "Peng Jiang",
+        "Kun Gai"
+      ],
+      "url": "https://arxiv.org/abs/2606.09888",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2606.06521",
+      "version": "v1",
+      "title": "P-Cast Precision in FP8 Attention: Sink-Induced Collapse and the Optimality of S=2^8",
+      "published": "2026-06-02",
+      "updated": "2026-06-02",
+      "authors": [
+        "Reed Lau"
+      ],
+      "url": "https://arxiv.org/abs/2606.06521",
+      "publication_note": "8 pages, 3 figures, 3 tables, 1 algorithm. Technical note on FP8 E4M3 P-cast precision",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2606.03712",
+      "version": "v1",
+      "title": "When Graph Tokens Sink: A Mechanistic Analysis of Graph Language Models",
+      "published": "2026-06-02",
+      "updated": "2026-06-02",
+      "authors": [
+        "Ding Zhang",
+        "Runtao Zhou",
+        "Wenqing Zheng",
+        "Rizal Fathony",
+        "Bayan Bruss",
+        "Chirag Agarwal"
+      ],
+      "url": "https://arxiv.org/abs/2606.03712",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2606.02378",
+      "version": "v2",
+      "title": "When Do Attention Circuits Form? Developmental Trajectories of Capability and Attention-Sink Emergence Across Three 1B-ClassArchitectures",
+      "published": "2026-06-01",
+      "updated": "2026-06-09",
+      "authors": [
+        "Yongzhong Xu"
+      ],
+      "url": "https://arxiv.org/abs/2606.02378",
+      "publication_note": "27pages, 3 figures",
+      "doi": null,
+      "retrieved_by": [
+        "expanded_sink_and_mechanisms"
+      ],
+      "match_status": "previous_discovery"
+    },
+    {
+      "arxiv_id": "2606.00930",
+      "version": "v2",
+      "title": "A Circuit, Not The Circuit: Non-Unique Causal Localisation of the Mamba-2 State Sink",
+      "published": "2026-05-30",
+      "updated": "2026-08-25",
+      "authors": [
+        "Yuhang Jiang",
+        "Bowen Zhang"
+      ],
+      "url": "https://arxiv.org/abs/2606.00930",
+      "publication_note": "v2: substantially revised. The earlier detection/execution dichotomy is withdrawn and replaced by non-unique causal localisation, following additional controls: probe-set intersection/difference ablations, a size- and depth-matched cosine null with a generalist comparator, a threshold sweep, and a joint/marginal decomposition. 24 pages, 3 figures",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.31557",
+      "version": "v2",
+      "title": "EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision",
+      "published": "2026-05-29",
+      "updated": "2026-06-01",
+      "authors": [
+        "Rosario Forte",
+        "Giuseppe Lando",
+        "Antonino Furnari"
+      ],
+      "url": "https://arxiv.org/abs/2605.31557",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2606.07604",
+      "version": "v1",
+      "title": "Contribution Weights: A Geometrical Analysis of Self-Attention Transformers",
+      "published": "2026-05-29",
+      "updated": "2026-05-29",
+      "authors": [
+        "Harry Jake Cunningham",
+        "Nicola Muca Cirone"
+      ],
+      "url": "https://arxiv.org/abs/2606.07604",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.29657",
+      "version": "v1",
+      "title": "OccamToken: Efficient VLM Inference with Training-Free and Budget-Adaptive Token Pruning",
+      "published": "2026-05-28",
+      "updated": "2026-05-28",
+      "authors": [
+        "Geng Li",
+        "Guohao Chen",
+        "Ting Chen",
+        "Shilin Shan",
+        "Kuangji Zuo",
+        "Bofan Lyu",
+        "Tuo An",
+        "Gen Li",
+        "Jianfei Yang"
+      ],
+      "url": "https://arxiv.org/abs/2605.29657",
+      "publication_note": "26 pages,8 figures",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.25799",
+      "version": "v1",
+      "title": "Addressing Exacerbated Attention Sink for Source-Free Cross-Domain Few-Shot Learning",
+      "published": "2026-05-25",
+      "updated": "2026-05-25",
+      "authors": [
+        "Shuai Yi",
+        "Yixiong Zou",
+        "Yuhua Li",
+        "Ruixuan Li"
+      ],
+      "url": "https://arxiv.org/abs/2605.25799",
+      "publication_note": "Accepted by CVPR 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.24630",
+      "version": "v1",
+      "title": "DexSIM: Real-time Dexterous Simulation with Unified Causal Video Diffusion",
+      "published": "2026-05-23",
+      "updated": "2026-05-23",
+      "authors": [
+        "Adam Lee"
+      ],
+      "url": "https://arxiv.org/abs/2605.24630",
+      "publication_note": "World Model @ ICLR 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.23889",
+      "version": "v1",
+      "title": "HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction",
+      "published": "2026-05-22",
+      "updated": "2026-05-22",
+      "authors": [
+        "Chong Cheng",
+        "Peilin Tao",
+        "Nanjie Yao",
+        "Guanzhi Ding",
+        "Xianda Chen",
+        "Yuansen Du",
+        "Xiaoyang Guo",
+        "Wei Yin",
+        "Weiqiang Ren",
+        "Qian Zhang",
+        "Zhengqing Chen",
+        "Hao Wang"
+      ],
+      "url": "https://arxiv.org/abs/2605.23889",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.22372",
+      "version": "v1",
+      "title": "ASAP: Attention Sink Anchored Pruning",
+      "published": "2026-05-21",
+      "updated": "2026-05-21",
+      "authors": [
+        "Jaehyuk Lee",
+        "Hanyoung Kim",
+        "Yanggee Kim",
+        "Donghun Lee"
+      ],
+      "url": "https://arxiv.org/abs/2605.22372",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.17887",
+      "version": "v2",
+      "title": "Attention Sinks and Outliers in Attention Residuals",
+      "published": "2026-05-18",
+      "updated": "2026-09-24",
+      "authors": [
+        "Haozheng Luo",
+        "Haoran Dai",
+        "Jingyuan Huang",
+        "Shaoyang Zhang",
+        "Xi Chen",
+        "Eric Hanchen Jiang",
+        "Yijiang Li",
+        "Chenghao Qiu",
+        "Chenwei Xu",
+        "Zhenyu Pan",
+        "Haotian Zhang",
+        "Binghui Wang",
+        "Yan Chen"
+      ],
+      "url": "https://arxiv.org/abs/2605.17887",
+      "publication_note": "Conference on Neural Information Processing Systems 40 (NeurIPS) 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2607.20457",
+      "version": "v2",
+      "title": "Dropping the Anchor: Statistical Context Summarization for Distributed Systems via Pulsar Attention",
+      "published": "2026-05-14",
+      "updated": "2026-08-07",
+      "authors": [
+        "Aryan Sood",
+        "Shantanu Acharya",
+        "Gaurav Kumar Nayak"
+      ],
+      "url": "https://arxiv.org/abs/2607.20457",
+      "publication_note": "16 Pages",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.12879",
+      "version": "v1",
+      "title": "ASAP: Amortized Doubly-Stochastic Attention via Sliced Dual Projection",
+      "published": "2026-05-13",
+      "updated": "2026-05-13",
+      "authors": [
+        "Huy Tran",
+        "Max Milkert",
+        "David Hyde"
+      ],
+      "url": "https://arxiv.org/abs/2605.12879",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.18832",
+      "version": "v1",
+      "title": "Precision Tracked Transformer via Kalman Filtering, Kriging and Process Noise",
+      "published": "2026-05-12",
+      "updated": "2026-05-12",
+      "authors": [
+        "Bo Long",
+        "Deepak Agarwal",
+        "Jelena Markovic-Voronov",
+        "Yi Wang",
+        "Liuqing Li"
+      ],
+      "url": "https://arxiv.org/abs/2605.18832",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.10503",
+      "version": "v3",
+      "title": "SLASH the Sink: Sharpening Structural Attention Inside LLMs",
+      "published": "2026-05-11",
+      "updated": "2026-05-18",
+      "authors": [
+        "Yiming Liu",
+        "Bin Lu",
+        "Xinbing Wang",
+        "Chenghu Zhou",
+        "Meng Jin"
+      ],
+      "url": "https://arxiv.org/abs/2605.10503",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2605.09932",
+      "version": "v1",
+      "title": "FocuSFT: Bilevel Optimization for Dilution-Aware Long-Context Fine-Tuning",
+      "published": "2026-05-11",
+      "updated": "2026-05-11",
+      "authors": [
+        "Zehua Pei",
+        "Hui-Ling Zhen",
+        "Xianzhi Yu",
+        "Sinno Jialin Pan",
+        "Mingxuan Yuan",
+        "Bei Yu"
+      ],
+      "url": "https://arxiv.org/abs/2605.09932",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.09313",
+      "version": "v3",
+      "title": "Attention Sinks in Diffusion Transformers: A Causal Analysis",
+      "published": "2026-05-10",
+      "updated": "2026-06-16",
+      "authors": [
+        "Fangzheng Wu",
+        "Brian Summa"
+      ],
+      "url": "https://arxiv.org/abs/2605.09313",
+      "publication_note": "Proceedings of the 43rd International Conference on Machine Learning (ICML) 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2605.08504",
+      "version": "v2",
+      "title": "A Single Layer to Explain Them All:Understanding Massive Activations in Large Language Models",
+      "published": "2026-05-08",
+      "updated": "2026-05-12",
+      "authors": [
+        "Zeru Shi",
+        "Zhenting Wang",
+        "Fan Yang",
+        "Qifan Wang",
+        "Ruixiang Tang"
+      ],
+      "url": "https://arxiv.org/abs/2605.08504",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2605.06611",
+      "version": "v1",
+      "title": "The Structural Origin of Attention Sink: Variance Discrepancy, Super Neurons, and Dimension Disparity",
+      "published": "2026-05-07",
+      "updated": "2026-05-07",
+      "authors": [
+        "Siquan Li",
+        "Kaiqi Jiang",
+        "Jiacheng Sun",
+        "Tianyang Hu"
+      ],
+      "url": "https://arxiv.org/abs/2605.06611",
+      "publication_note": "Accepted to ICML 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2605.04421",
+      "version": "v1",
+      "title": "FLUID: Continuous-Time Hyperconnected Sparse Transformer for Sink-Free Learning",
+      "published": "2026-05-06",
+      "updated": "2026-05-06",
+      "authors": [
+        "Waleed Razzaq",
+        "Yun-Bo Zhao"
+      ],
+      "url": "https://arxiv.org/abs/2605.04421",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.01229",
+      "version": "v1",
+      "title": "Attention Sinks in Massively Multilingual Neural Machine Translation:Discovery, Analysis, and Mitigation",
+      "published": "2026-05-02",
+      "updated": "2026-05-02",
+      "authors": [
+        "Hillary Mutisya",
+        "John Mugane"
+      ],
+      "url": "https://arxiv.org/abs/2605.01229",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2604.24162",
+      "version": "v2",
+      "title": "Defusing the Trigger: Tail-Risk-Informed Attention Rebalancing for LLM Backdoor Mitigation",
+      "published": "2026-04-27",
+      "updated": "2026-07-30",
+      "authors": [
+        "Kaisheng Fan",
+        "Yishu Gao",
+        "Xunzhu Tang",
+        "Tegawendé F. Bissyandé",
+        "Weizhe Zhang"
+      ],
+      "url": "https://arxiv.org/abs/2604.24162",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2604.23950",
+      "version": "v2",
+      "title": "LearnPruner: Rethinking Attention-based Token Pruning in Vision Language Models",
+      "published": "2026-04-27",
+      "updated": "2026-10-08",
+      "authors": [
+        "Rinyoichi Takezoe",
+        "Yaqian Li",
+        "Zihao Bo",
+        "Anzhou Hou",
+        "Mo Guang",
+        "Kaiwen Long"
+      ],
+      "url": "https://arxiv.org/abs/2604.23950",
+      "publication_note": "Accepted to ICLR 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2605.06676",
+      "version": "v1",
+      "title": "LKV: End-to-End Learning of Head-wise Budgets and Token Selection for LLM KV Cache Eviction",
+      "published": "2026-04-22",
+      "updated": "2026-04-22",
+      "authors": [
+        "Enshuai Zhou",
+        "Yifan Hao",
+        "Chao Wang",
+        "Rui Zhang",
+        "Di Huang",
+        "Jiaming Guo",
+        "Xing Hu",
+        "Zidong Du",
+        "Qi Guo",
+        "Yunji Chen"
+      ],
+      "url": "https://arxiv.org/abs/2605.06676",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2604.17324",
+      "version": "v2",
+      "title": "Capacity-Controlled Global Attention for Graph Transformers",
+      "published": "2026-04-19",
+      "updated": "2026-06-07",
+      "authors": [
+        "Yang Liu",
+        "Dongxin Guo",
+        "Tom Zheng",
+        "Siu Ming Yiu",
+        "Liam Ning",
+        "Jikun Wu"
+      ],
+      "url": "https://arxiv.org/abs/2604.17324",
+      "publication_note": "13 pages, 2 figures, 15 tables",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2604.16883",
+      "version": "v1",
+      "title": "SinkRouter: Sink-Aware Routing for Efficient Long-Context Decoding in Large Language and Multimodal Models",
+      "published": "2026-04-18",
+      "updated": "2026-04-18",
+      "authors": [
+        "Junnan Liu",
+        "Xinyan Liu",
+        "Peifeng Gao",
+        "Zhaobo Qi",
+        "Beichen Zhang",
+        "Weigang Zhang",
+        "Antoni Bert Chen"
+      ],
+      "url": "https://arxiv.org/abs/2604.16883",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2604.14722",
+      "version": "v1",
+      "title": "A Mechanistic Account of Attention Sinks in GPT-2: One Circuit, Broader Implications for Mitigation",
+      "published": "2026-04-16",
+      "updated": "2026-04-16",
+      "authors": [
+        "Yuval Ran-Milo",
+        "Hila Ofek",
+        "Shahar Mendel"
+      ],
+      "url": "https://arxiv.org/abs/2604.14722",
+      "publication_note": "9 pages, 8 figures",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2604.10697",
+      "version": "v2",
+      "title": "Attention Sinks as Internal Signals for Hallucination Detection in Large Language Models",
+      "published": "2026-04-12",
+      "updated": "2026-08-01",
+      "authors": [
+        "Jakub Binkowski",
+        "Kamil Adamczewski",
+        "Tomasz Kajdanowicz"
+      ],
+      "url": "https://arxiv.org/abs/2604.10697",
+      "publication_note": "Accepted at ICML 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2604.10098",
+      "version": "v2",
+      "title": "Attention Sink in Transformers: A Survey on Utilization, Interpretation, and Mitigation",
+      "published": "2026-04-11",
+      "updated": "2026-06-05",
+      "authors": [
+        "Zunhai Su",
+        "Hengyuan Zhang",
+        "Wei Wu",
+        "Yifan Zhang",
+        "Yaxiu Liu",
+        "He Xiao",
+        "Qingyao Yang",
+        "Yuxuan Sun",
+        "Rui Yang",
+        "Chao Zhang",
+        "Jing Xiong",
+        "Hui Shen",
+        "Keyu Fan",
+        "Weihao Ye",
+        "Chaofan Tao",
+        "Taiqiang Wu",
+        "Zhongwei Wan",
+        "Tiantian Zhang",
+        "Bowen Yan",
+        "Zhen Li",
+        "Yiming Zhang",
+        "Congkai Xie",
+        "Yulei Qian",
+        "Yuchen Xie",
+        "Yik-Chung Wu",
+        "Hongxia Yang",
+        "Ngai Wong"
+      ],
+      "url": "https://arxiv.org/abs/2604.10098",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2604.10027",
+      "version": "v2",
+      "title": "SinkTrack: Attention Sink based Context Anchoring for Large Language Models",
+      "published": "2026-04-11",
+      "updated": "2026-05-16",
+      "authors": [
+        "Xu Liu",
+        "Guikun Chen",
+        "Wenguan Wang"
+      ],
+      "url": "https://arxiv.org/abs/2604.10027",
+      "publication_note": "ICLR 2026. Code: https://github.com/67L1/SinkTrack",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2604.07737",
+      "version": "v1",
+      "title": "SepSeq: A Training-Free Framework for Long Numerical Sequence Processing in LLMs",
+      "published": "2026-04-09",
+      "updated": "2026-04-09",
+      "authors": [
+        "Jie Sun",
+        "Yu Liu",
+        "Lu Han",
+        "Qiwen Deng",
+        "Xiang Shu",
+        "Yang Xiao",
+        "Xingyu Lu",
+        "Jun Zhou",
+        "Pengfei Liu",
+        "Lintao Ma",
+        "Jiancan Wu",
+        "Xiang Wang"
+      ],
+      "url": "https://arxiv.org/abs/2604.07737",
+      "publication_note": "16 pages, 4 figures, 5 tables",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2604.02973",
+      "version": "v2",
+      "title": "Exploring Motion-Language Alignment for Text-driven Motion Generation",
+      "published": "2026-04-03",
+      "updated": "2026-10-10",
+      "authors": [
+        "Ruxi Gu",
+        "Zilei Wang",
+        "Wei Wang"
+      ],
+      "url": "https://arxiv.org/abs/2604.02973",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2604.01280",
+      "version": "v2",
+      "title": "Look Twice: Training-Free Evidence Highlighting for Knowledge-based Visual Question Answering",
+      "published": "2026-04-01",
+      "updated": "2026-08-06",
+      "authors": [
+        "Marco Morini",
+        "Sara Sarto",
+        "Marcella Cornia",
+        "Lorenzo Baraldi",
+        "Rita Cucchiara"
+      ],
+      "url": "https://arxiv.org/abs/2604.01280",
+      "publication_note": "Project Page: https://aimagelab.github.io/LoT/",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2604.03316",
+      "version": "v4",
+      "title": "When Sinks Help or Hurt: Unified Framework for Attention Sink in Large Vision-Language Models",
+      "published": "2026-04-01",
+      "updated": "2026-07-26",
+      "authors": [
+        "Jiho Choi",
+        "Jaemin Kim",
+        "Sanghwan Kim",
+        "Seunghoon Hong",
+        "Jin-Hwi Park"
+      ],
+      "url": "https://arxiv.org/abs/2604.03316",
+      "publication_note": "Acknowledgments updated",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2603.27898",
+      "version": "v1",
+      "title": "SAGE: Sink-Aware Grounded Decoding for Multimodal Hallucination Mitigation",
+      "published": "2026-03-29",
+      "updated": "2026-03-29",
+      "authors": [
+        "Tripti Shukla",
+        "Zsolt Kira"
+      ],
+      "url": "https://arxiv.org/abs/2603.27898",
+      "publication_note": "25 pages, 6 figures, 7 tables",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2603.22779",
+      "version": "v2",
+      "title": "KARMA: Knowledge-Action Regularized Multimodal Alignment for Personalized Search at Taobao",
+      "published": "2026-03-24",
+      "updated": "2026-03-31",
+      "authors": [
+        "Zhi Sun",
+        "Wenming Zhang",
+        "Yi Wei",
+        "Liren Yu",
+        "Zhixuan Zhang",
+        "Dan Ou",
+        "Haihong Tang"
+      ],
+      "url": "https://arxiv.org/abs/2603.22779",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2603.17771",
+      "version": "v3",
+      "title": "Attention Sinks Induce Gradient Sinks: Massive Activations as Gradient Regulators in Transformers",
+      "published": "2026-03-18",
+      "updated": "2026-10-19",
+      "authors": [
+        "Yihong Chen",
+        "Zhouchen Lin",
+        "Quanming Yao"
+      ],
+      "url": "https://arxiv.org/abs/2603.17771",
+      "publication_note": "30 pages, 15 figures, 9 tables",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2603.14337",
+      "version": "v3",
+      "title": "On the Nature of Attention Sink that Shapes Decoding Strategy in Omni-LLMs",
+      "published": "2026-03-15",
+      "updated": "2026-10-18",
+      "authors": [
+        "Suho Yoo",
+        "Youngjoon Jang",
+        "Joon Son Chung"
+      ],
+      "url": "https://arxiv.org/abs/2603.14337",
+      "publication_note": "NeurIPS 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2603.12513",
+      "version": "v1",
+      "title": "MemRoPE: Training-Free Infinite Video Generation via Evolving Memory Tokens",
+      "published": "2026-03-12",
+      "updated": "2026-03-12",
+      "authors": [
+        "Youngrae Kim",
+        "Qixin Hu",
+        "C. -C. Jay Kuo",
+        "Peter A. Beerel"
+      ],
+      "url": "https://arxiv.org/abs/2603.12513",
+      "publication_note": "9 pages main, 3 pages references, 6 pages appendix. Project page: https://memrope.github.io",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2603.11487",
+      "version": "v5",
+      "title": "Attention Sinks Are Provably Necessary in Softmax Transformers: Evidence from Trigger-Conditional Tasks",
+      "published": "2026-03-12",
+      "updated": "2026-04-17",
+      "authors": [
+        "Yuval Ran-Milo"
+      ],
+      "url": "https://arxiv.org/abs/2603.11487",
+      "publication_note": "21 pages, 8 figures",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2603.11067",
+      "version": "v1",
+      "title": "Summarize Before You Speak with ARACH: A Training-Free Inference-Time Plug-In for Enhancing LLMs via Global Attention Reallocation",
+      "published": "2026-03-10",
+      "updated": "2026-03-10",
+      "authors": [
+        "Jingtao Wang",
+        "Yucong Wang",
+        "Jun Ding",
+        "Rui Cai",
+        "Xun Wang"
+      ],
+      "url": "https://arxiv.org/abs/2603.11067",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2603.06248",
+      "version": "v1",
+      "title": "Gradient Flow Polarizes Softmax Outputs towards Low-Entropy Solutions",
+      "published": "2026-03-06",
+      "updated": "2026-03-06",
+      "authors": [
+        "Aditya Varre",
+        "Mark Rofin",
+        "Nicolas Flammarion"
+      ],
+      "url": "https://arxiv.org/abs/2603.06248",
+      "publication_note": "35 pages, 21 figures",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2603.05498",
+      "version": "v1",
+      "title": "The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks",
+      "published": "2026-03-05",
+      "updated": "2026-03-05",
+      "authors": [
+        "Shangwen Sun",
+        "Alfredo Canziani",
+        "Yann LeCun",
+        "Jiachen Zhu"
+      ],
+      "url": "https://arxiv.org/abs/2603.05498",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.23200",
+      "version": "v2",
+      "title": "InnerQ: Hardware-Aware Tuning-Free Quantization of KV Cache for Large Language Models",
+      "published": "2026-02-26",
+      "updated": "2026-05-20",
+      "authors": [
+        "Sayed Mohammadreza Tayaranian Hosseini",
+        "Amir Ardakani",
+        "Warren J. Gross"
+      ],
+      "url": "https://arxiv.org/abs/2602.23200",
+      "publication_note": "18 pages, 5 figures, 7 tables",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.23057",
+      "version": "v1",
+      "title": "Affine-Scaled Attention: Towards Flexible and Stable Transformer Attention",
+      "published": "2026-02-26",
+      "updated": "2026-02-26",
+      "authors": [
+        "Jeongin Bae",
+        "Baeseong Park",
+        "Gunho Park",
+        "Minsub Kim",
+        "Joonhyung Lee",
+        "Junhee Yoo",
+        "Sunghyeon Woo",
+        "Jiwon Ryu",
+        "Se Jung Kwon",
+        "Dongsoo Lee"
+      ],
+      "url": "https://arxiv.org/abs/2602.23057",
+      "publication_note": "Preprint. 14 pages, 11 figures",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.17664",
+      "version": "v1",
+      "title": "Sink-Aware Pruning for Diffusion Language Models",
+      "published": "2026-02-19",
+      "updated": "2026-02-19",
+      "authors": [
+        "Aidar Myrzakhan",
+        "Tianyi Li",
+        "Bowei Guo",
+        "Shengkun Tang",
+        "Zhiqiang Shen"
+      ],
+      "url": "https://arxiv.org/abs/2602.17664",
+      "publication_note": "Code at: https://github.com/VILA-Lab/Sink-Aware-Pruning",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.15556",
+      "version": "v1",
+      "title": "Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs",
+      "published": "2026-02-17",
+      "updated": "2026-02-17",
+      "authors": [
+        "Guangtao Lyu",
+        "Qi Liu",
+        "Chenghao Xu",
+        "Jiexi Yan",
+        "Muli Yang",
+        "Xueting Li",
+        "Fen Fang",
+        "Cheng Deng"
+      ],
+      "url": "https://arxiv.org/abs/2602.15556",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.14027",
+      "version": "v3",
+      "title": "Train Short, Inference Long: Training-free Horizon Extension for Autoregressive Video Generation",
+      "published": "2026-02-15",
+      "updated": "2026-03-13",
+      "authors": [
+        "Jia Li",
+        "Xiaomeng Fu",
+        "Xurui Peng",
+        "Weifeng Chen",
+        "Youwei Zheng",
+        "Tianyu Zhao",
+        "Jiexi Wang",
+        "Fangmin Chen",
+        "Xing Wang",
+        "Hayden Kwok-Hay So"
+      ],
+      "url": "https://arxiv.org/abs/2602.14027",
+      "publication_note": "19 pages, 15 figures",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.13172",
+      "version": "v2",
+      "title": "LongStream: Long-Sequence Streaming Autoregressive Visual Geometry",
+      "published": "2026-02-13",
+      "updated": "2026-03-13",
+      "authors": [
+        "Chong Cheng",
+        "Xianda Chen",
+        "Tao Xie",
+        "Wei Yin",
+        "Weiqiang Ren",
+        "Qian Zhang",
+        "Xiaoyang Guo",
+        "Hao Wang"
+      ],
+      "url": "https://arxiv.org/abs/2602.13172",
+      "publication_note": "CVPR2026 accepted",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.11534",
+      "version": "v4",
+      "title": "Krause Synchronization Transformers",
+      "published": "2026-02-12",
+      "updated": "2026-05-25",
+      "authors": [
+        "Jingkun Liu",
+        "Yisong Yue",
+        "Max Welling",
+        "Yue Song"
+      ],
+      "url": "https://arxiv.org/abs/2602.11534",
+      "publication_note": "ICML 2026, Project page: https://jingkun-liu.github.io/krause-sync-transformers/",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.10956",
+      "version": "v3",
+      "title": "Stochastic Parroting in Temporal Attention -- Regulating the Diagonal Sink",
+      "published": "2026-02-11",
+      "updated": "2026-03-06",
+      "authors": [
+        "Victoria Hankemeier",
+        "Malte Schilling"
+      ],
+      "url": "https://arxiv.org/abs/2602.10956",
+      "publication_note": "Proc. ESANN 2026, pp. 181-186",
+      "doi": "10.14428/esann/2026.ES2026-150",
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2602.07775",
+      "version": "v7",
+      "title": "Rolling Sink: Bridging Limited-Horizon Training and Open-Ended Testing in Autoregressive Video Diffusion",
+      "published": "2026-02-08",
+      "updated": "2026-08-31",
+      "authors": [
+        "Haodong Li",
+        "Shaoteng Liu",
+        "Zhe Lin",
+        "Manmohan Chandraker"
+      ],
+      "url": "https://arxiv.org/abs/2602.07775",
+      "publication_note": "Project page: https://rolling-sink.github.io/",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2602.05927",
+      "version": "v1",
+      "title": "Transformers Are Born Biased: Structural Inductive Biases at Random Initialization and Their Practical Consequences",
+      "published": "2026-02-05",
+      "updated": "2026-02-05",
+      "authors": [
+        "Siquan Li",
+        "Yao Tong",
+        "Haonan Wang",
+        "Tianyang Hu"
+      ],
+      "url": "https://arxiv.org/abs/2602.05927",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.05228",
+      "version": "v2",
+      "title": "Surgery: Mitigating Harmful Fine-Tuning for Large Language Models via Attention Sink",
+      "published": "2026-02-05",
+      "updated": "2026-02-11",
+      "authors": [
+        "Guozhi Liu",
+        "Weiwei Lin",
+        "Tiansheng Huang",
+        "Ruichao Mo",
+        "Qi Mu",
+        "Xiumin Wang",
+        "Li Shen"
+      ],
+      "url": "https://arxiv.org/abs/2602.05228",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2603.06591",
+      "version": "v2",
+      "title": "What Makes Position Zero Special? A Mechanistic Study of Position Zero Attention Sinks in LLMs",
+      "published": "2026-02-04",
+      "updated": "2026-08-03",
+      "authors": [
+        "Runyu Peng",
+        "Ruixiao Li",
+        "Mingshu Chen",
+        "Yunhua Zhou",
+        "Qipeng Guo",
+        "Xipeng Qiu",
+        "Yucheng Lu",
+        "Chen Zhao"
+      ],
+      "url": "https://arxiv.org/abs/2603.06591",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.04361",
+      "version": "v2",
+      "title": "SparVAR: Exploring Sparsity in Visual AutoRegressive Modeling for Training-Free Acceleration",
+      "published": "2026-02-04",
+      "updated": "2026-03-29",
+      "authors": [
+        "Zekun Li",
+        "Ning Wang",
+        "Tongxin Bai",
+        "Changwang Mei",
+        "Peisong Wang",
+        "Shuang Qiu",
+        "Jian Cheng"
+      ],
+      "url": "https://arxiv.org/abs/2602.04361",
+      "publication_note": "CVPR 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2602.02159",
+      "version": "v1",
+      "title": "Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing",
+      "published": "2026-02-02",
+      "updated": "2026-02-02",
+      "authors": [
+        "Lingkun Long",
+        "Yushi Huang",
+        "Shihao Bai",
+        "Ruihao Gong",
+        "Jun Zhang",
+        "Ao Zhou",
+        "Jianlei Yang"
+      ],
+      "url": "https://arxiv.org/abs/2602.02159",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.02123",
+      "version": "v2",
+      "title": "MLV-Edit: Towards Consistent and Highly Efficient Editing for Minute-Level Videos",
+      "published": "2026-02-02",
+      "updated": "2026-03-03",
+      "authors": [
+        "Yangyi Cao",
+        "Yuanhang Li",
+        "Lan Chen",
+        "Qi Mao"
+      ],
+      "url": "https://arxiv.org/abs/2602.02123",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.01468",
+      "version": "v1",
+      "title": "A Statistical Theory of Gated Attention through the Lens of Hierarchical Mixture of Experts",
+      "published": "2026-02-01",
+      "updated": "2026-02-01",
+      "authors": [
+        "Viet Nguyen",
+        "Tuan Minh Pham",
+        "Thinh Cao",
+        "Tan Dinh",
+        "Huy Nguyen",
+        "Nhat Ho",
+        "Alessandro Rinaldo"
+      ],
+      "url": "https://arxiv.org/abs/2602.01468",
+      "publication_note": "Viet Nguyen, Tuan Minh Pham, and Thinh Cao contributed equally to this work",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2602.01203",
+      "version": "v3",
+      "title": "Attention Sink Forges Native MoE in Attention Layers: Sink-Aware Training to Address Head Collapse",
+      "published": "2026-02-01",
+      "updated": "2026-05-27",
+      "authors": [
+        "Zizhuo Fu",
+        "Wenxuan Zeng",
+        "Runsheng Wang",
+        "Meng Li"
+      ],
+      "url": "https://arxiv.org/abs/2602.01203",
+      "publication_note": "2026 International Conference on Machine Learning (ICML)",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2602.00247",
+      "version": "v1",
+      "title": "CAPA: Contribution-Aware Pruning and FFN Approximation for Efficient Large Vision-Language Models",
+      "published": "2026-01-30",
+      "updated": "2026-01-30",
+      "authors": [
+        "Samyak Jha",
+        "Junho Kim"
+      ],
+      "url": "https://arxiv.org/abs/2602.00247",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2601.22966",
+      "version": "v1",
+      "title": "A Unified View of Attention and Residual Sinks: Outlier-Driven Rescaling is Essential for Transformer Training",
+      "published": "2026-01-30",
+      "updated": "2026-01-30",
+      "authors": [
+        "Zihan Qiu",
+        "Zeyu Huang",
+        "Kaiyue Wen",
+        "Peng Jin",
+        "Bo Zheng",
+        "Yuxin Zhou",
+        "Haofeng Huang",
+        "Zekun Wang",
+        "Xiao Li",
+        "Huaqing Zhang",
+        "Yang Xu",
+        "Haoran Lian",
+        "Siqi Zhang",
+        "Rui Men",
+        "Jianwei Zhang",
+        "Ivan Titov",
+        "Dayiheng Liu",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "url": "https://arxiv.org/abs/2601.22966",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2601.19657",
+      "version": "v4",
+      "title": "One Token Is Enough: Improving Diffusion Language Models with a Sink Token",
+      "published": "2026-01-27",
+      "updated": "2026-02-23",
+      "authors": [
+        "Zihou Zhang",
+        "Zheyong Xie",
+        "Li Zhong",
+        "Haifeng Liu",
+        "Yao Hu",
+        "Shaosheng Cao"
+      ],
+      "url": "https://arxiv.org/abs/2601.19657",
+      "publication_note": "",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2601.16914",
+      "version": "v1",
+      "title": "LoL: Longer than Longer, Scaling Video Generation to Hour",
+      "published": "2026-01-23",
+      "updated": "2026-01-23",
+      "authors": [
+        "Justin Cui",
+        "Jie Wu",
+        "Ming Li",
+        "Tao Yang",
+        "Xiaojie Li",
+        "Rui Wang",
+        "Andrew Bai",
+        "Yuanhao Ban",
+        "Cho-Jui Hsieh"
+      ],
+      "url": "https://arxiv.org/abs/2601.16914",
+      "publication_note": "preprint",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2601.15540",
+      "version": "v2",
+      "title": "PRISM: Deriving a White-Box Transformer as a Signal-Noise Decomposition Operator via Maximum Coding Rate Reduction",
+      "published": "2026-01-21",
+      "updated": "2026-02-03",
+      "authors": [
+        "Dongchen Huang"
+      ],
+      "url": "https://arxiv.org/abs/2601.15540",
+      "publication_note": "12 pages, 6 figures. Derives Transformer as a signal-noise decomposition operator via Maximizing Coding Rate Reduction. Identifies 'Attention Sink' as spectral resonance (Arnold Tongues) and proposes $π$-RoPE for dynamical stability",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2601.15380",
+      "version": "v2",
+      "title": "You Need Better Attention Priors",
+      "published": "2026-01-21",
+      "updated": "2026-08-23",
+      "authors": [
+        "Elon Litman",
+        "Gabe Guo"
+      ],
+      "url": "https://arxiv.org/abs/2601.15380",
+      "publication_note": "Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2601.12145",
+      "version": "v3",
+      "title": "Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling",
+      "published": "2026-01-17",
+      "updated": "2026-07-09",
+      "authors": [
+        "Xingyue Huang",
+        "Xueying Ding",
+        "Mingxuan Ju",
+        "Yozen Liu",
+        "Neil Shah",
+        "Tong Zhao"
+      ],
+      "url": "https://arxiv.org/abs/2601.12145",
+      "publication_note": "ACL 2026",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    },
+    {
+      "arxiv_id": "2601.15305",
+      "version": "v1",
+      "title": "Gated Sparse Attention: Combining Computational Efficiency with Training Stability for Long-Context Language Models",
+      "published": "2026-01-12",
+      "updated": "2026-01-12",
+      "authors": [
+        "Alfred Shen",
+        "Aaron Shen"
+      ],
+      "url": "https://arxiv.org/abs/2601.15305",
+      "publication_note": "15 pages, 1 figure, attention mechanism, sparse attention, gating, long-context",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2601.07613",
+      "version": "v2",
+      "title": "GAP-Net: Calibrating User Intent via Gated Adaptive Progressive Learning for CTR Prediction",
+      "published": "2026-01-12",
+      "updated": "2026-01-14",
+      "authors": [
+        "Shenqiang Ke",
+        "Jianxiong Wei",
+        "Qingsong Hua"
+      ],
+      "url": "https://arxiv.org/abs/2601.07613",
+      "publication_note": "9 pages, 3 figures",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2601.05866",
+      "version": "v4",
+      "title": "FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG",
+      "published": "2026-01-09",
+      "updated": "2026-03-29",
+      "authors": [
+        "Maxime Dassen",
+        "Rebecca Kotula",
+        "Kenton Murray",
+        "Andrew Yates",
+        "Dawn Lawrie",
+        "Efsun Kayi",
+        "James Mayfield",
+        "Kevin Duh"
+      ],
+      "url": "https://arxiv.org/abs/2601.05866",
+      "publication_note": "Accepted at ECIR 2026. 13 pages, 2 figures",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "new_discovery"
+    },
+    {
+      "arxiv_id": "2601.00919",
+      "version": "v2",
+      "title": "Attention Needs to Focus: A Unified Perspective on Attention Allocation",
+      "published": "2026-01-01",
+      "updated": "2026-01-07",
+      "authors": [
+        "Zichuan Fu",
+        "Wentao Song",
+        "Guojing Li",
+        "Yejing Wang",
+        "Xian Wu",
+        "Yimin Deng",
+        "Hanyu Yan",
+        "Yefeng Zheng",
+        "Xiangyu Zhao"
+      ],
+      "url": "https://arxiv.org/abs/2601.00919",
+      "publication_note": "preprint",
+      "doi": null,
+      "retrieved_by": [
+        "earlier_2026_sink"
+      ],
+      "match_status": "baseline"
+    }
+  ],
+  "limits": [
+    "Supplemental keyword retrieval, not exhaustive coverage.",
+    "Earlier omissions use first-submission dates before June and must not be counted as June–October new research.",
+    "Authors publication notes are unverified claims; no acceptance is inferred."
+  ]
+}

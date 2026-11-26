@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-26",
+  "source_id": "feishu-2026-10-26",
+  "source_sha256": "86bdb63d4faff4edc6c0812dce8b9207a23a01ced8c5f3ac09d2b3e9208cc7f8",
+  "source_rows": 208,
+  "migrated_records": 208,
+  "arxiv_records": 192,
+  "other_links": 16,
+  "legacy_new_flags": 50,
+  "year_precision_records": 19,
+  "month_precision_records": 189,
+  "publication_labels_imported_not_reverified": true,
+  "date_range": [
+    "2019-06",
+    "2026-05"
+  ],
+  "axis_counts": {
+    "utilization": 141,
+    "interpretation": 81,
+    "mitigation": 40
+  },
+  "category_counts": {
+    "architectures": {
+      "Diffusion Transformers": 15,
+      "Large Language Models": 131,
+      "Multi-Modal Large Language Models": 30,
+      "Classical Language Models": 10,
+      "Mixture-of-Experts Large Language Models": 9,
+      "Omni-modal LLMs": 1,
+      "Vision Transformers": 14,
+      "DLM (Diffusion language model)": 5,
+      "Autoregressive Video Diffusion Model": 1,
+      "3D Transformers": 2,
+      "VLA (Vision-Language-Action)": 1,
+      "Hybrid/ Linear Attention": 4
+    },
+    "utilization": {
+      "Learnable Prefix Tokens": 23,
+      "Attention Redistribution": 25,
+      "Sink Token Repurposing": 22,
+      "Sink Token Preservation": 74
+    },
+    "interpretation": {
+      "Outlier Circuits": 35,
+      "Other Mechanistic Interpretations": 31,
+      "Softmax Limitations and No-Op Theory": 22,
+      "Implicit Attention Bias": 5,
+      "Geometric Anchoring": 9
+    },
+    "mitigation": {
+      "Other Mitigation Techniques": 10,
+      "Learnable Attention Bias": 6,
+      "Pre-training Interventions": 8,
+      "Modified Softmax Functions": 16,
+      "Gated Attention Mechanisms": 4
+    },
+    "applications": {
+      "Multi-Modal Enhancement": 29,
+      "Mechanism Interpretability": 70,
+      "Reducing Hallucination": 18,
+      "Model Pre-training": 23,
+      "Safety & Robustness": 8,
+      "General Capability Enhancement": 15,
+      "Efficient Inference": 86,
+      "Long-Context Enhancement": 29,
+      "Model Tuning": 4
+    }
+  }
+}
